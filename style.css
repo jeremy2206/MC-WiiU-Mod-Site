@@ -1,0 +1,213 @@
+/* général */
+
+body {
+	font-family: Metropolis,Metropolis-Fallback,sans-serif;
+	background: #222222;
+}
+
+/* sidebar */
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background-color: #303030;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	border-right: 0.1em solid white;
+	border-left: 0.1em solid white;
+}
+
+.sidebar-title {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: Sigmar;
+}
+
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+ul.navbar li {
+	display: block;
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+}
+
+ul.navbar a.active {
+	color: #fff186;
+	font-weight: bold;
+}
+
+ul.navbar a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+ul.navbar a:not(.active):hover {
+	color: #fff186;
+}
+
+.sidebar-footer {
+	margin-bottom: 50px;
+	text-align: center;
+	color: white;
+	border: 0.01em solid black;
+	font-size: 12px;
+}
+
+.sidebar-footer p {
+	margin: 5px;
+}
+
+/* sidebar pour text */
+
+#content {
+	margin-left: 250px; /* Largeur du sidebar */
+	padding: 1em;
+}
+
+/* Titre onglet */
+
+.title {
+	text-align: center;
+	font-size: 8em;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
+	color:white;
+	font-family: Sigmar;
+}
+
+hr {
+	border: 0.125em solid white;
+}
+
+/*  onglet principaux */
+
+.title2 {
+	text-align: center;
+	font-size: 4em;
+	margin-block-start: 1em;
+	margin-block-end: 0.5em;
+	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
+	color:white;
+	font-family: Sigmar;
+}
+
+.buttoncontainertop {
+	display: flex;
+	justify-content: center;
+}
+
+.buttontop {
+	width: 15em;
+	height: 15em;
+	margin: 0 2em;
+	border: 0.3em solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-block-end: 4em;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.spanbuttontop {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	border: 0.1em solid black;
+	text-decoration: none;
+}
+
+/* centrage */
+
+.textcentrage 
+{
+  text-align: center;
+  font-family:Metropolis,Metropolis-Fallback,sans-serif;
+  color:white;
+}
+
+.imgcentrage {
+  display: block;
+  margin: 0 auto;
+  width: 552px;
+  height: 311px;
+  border: 0.3em solid black;
+  border-radius: 10px;
+}
+
+/* bouton téléchargement */
+
+.button-download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 50px;
+	background-color: #007bff;
+	border-radius: 10px;
+	border: 0.1em solid black;
+	cursor: pointer;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.button-download span {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* image logiciel */
+.binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
+.fui-editor {background-image: url('IMG/logiciel/fui-editor.png'); background-size: cover;}
+.mcc-tool-chest {background-image: url('IMG/logiciel/mcc-tool-chest.png'); background-size: cover;}
+.mcedit-2 {background-image: url('IMG/logiciel/mcedit-2.png'); background-size: cover;}
+.minecraft-converter {background-image: url('IMG/logiciel/minecraft-converter.png'); background-size: cover;}
+.universal-minecraft-editor {background-image: url('IMG/logiciel/universal-minecraft-editor.png'); background-size: cover;}
+.pck-studio {background-image: url('IMG/logiciel/pck-studio.png'); background-size: cover;}
+.usb-helper {background-image: url('IMG/logiciel/usb-helper.png'); background-size: cover;}
+.winscp {background-image: url('IMG/logiciel/winscp.png'); background-size: cover;}
+.winrar{background-image: url('IMG/logiciel/winrar.png'); background-size: cover;}
+.wiiu-map-manager{background-image: url('IMG/logiciel/wiiu-map-manager.png'); background-size: cover;}
+.world-painter {background-image: url('IMG/logiciel/world-painter.png'); background-size: cover;}
+.world-machine {background-image: url('IMG/logiciel/world-machine.png'); background-size: cover;}
+
+/* image skin pack */
+.block-skin-pack {background-image: url('IMG/skin-pack/block-skin-pack.png'); background-size: cover;}
+.commu-skin-pack {background-image: url('IMG/skin-pack/commu-skin-pack.png'); background-size: cover;}
+.enderman-skin-pack {background-image: url('IMG/skin-pack/enderman-skin-pack.png'); background-size: cover;}
+.fnaf-skin-pack {background-image: url('IMG/skin-pack/fnaf-skin-pack.png'); background-size: cover;}
+.gameallstar {background-image: url('IMG/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
+.hacker-skin-pack {background-image: url('IMG/skin-pack/hacker-skin-pack.png'); background-size: cover;}
+.jurassic-world-skin-pack {background-image: url('IMG/skin-pack/jurassic-world-skin-pack.png'); background-size: cover;}
+.mega-pack {background-image: url('IMG/skin-pack/mega-pack.png'); background-size: cover;}
+.mob-skin-pack {background-image: url('IMG/skin-pack/mob-skin-pack.png'); background-size: cover;}
+.noob-skin-pack {background-image: url('IMG/skin-pack/noob-skin-pack.png'); background-size: cover;}
+.portrait-skin-pack {background-image: url('IMG/skin-pack/portrait-skin-pack.png'); background-size: cover;}
+.requestpck-nobledez {background-image: url('IMG/skin-pack/requestpck-nobledez.png'); background-size: cover;}
+.steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
