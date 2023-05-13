@@ -73,6 +73,7 @@ ul.navbar a:not(.active):hover {
 	color: white;
 	border: 0.01em solid black;
 	font-size: 12px;
+	border-radius: 10px;
 }
 
 .sidebar-footer p {
@@ -145,20 +146,56 @@ hr {
 
 .textcentrage 
 {
-  text-align: center;
-  font-family:Metropolis,Metropolis-Fallback,sans-serif;
-  color:white;
+	text-align: center;
+	font-family:Metropolis,Metropolis-Fallback,sans-serif;
+	color:white;
 }
 
 .imgcentrage {
-  display: block;
-  margin: 0 auto;
-  width: 552px;
-  height: 311px;
-  border: 0.3em solid black;
-  border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 552px;
+	height: 311px;
+	border: 0.3em solid black;
+	border-radius: 10px;
 }
 
+.divcentrage {
+	display: block;
+	margin: 0 auto;
+	width: 45em;
+	border: 5px solid black;
+	border-radius: 2.5em;	
+	margin-block-start: 5em;
+	margin-block-end: 5em;
+	background-color:#303030;
+}
+/* Onglet Update */
+.title3 {
+	color:white;
+	text-align:center;
+	font-size: 2.5em;
+	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
+}
+
+.title4 {
+	color:white;
+	font-size: 2em;
+	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
+	padding-left:20px;
+}
+
+.title5 {
+	color:white;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
+	padding-left:50px;
+}
+
+.textupdate {
+	color:white;
+	padding-left:80px;
+}
 /* bouton téléchargement */
 
 .button-download {
@@ -176,10 +213,10 @@ hr {
 }
 
 .button-download span {
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /* image logiciel */
