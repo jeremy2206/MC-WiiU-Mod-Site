@@ -185,6 +185,8 @@ hr {
 /* image logiciel */
 .binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
 .fui-editor {background-image: url('IMG/logiciel/fui-editor.png'); background-size: cover;}
+.fontforge {background-image: url('IMG/logiciel/fontforge.png'); background-size: cover;}
+.hxd {background-image: url('IMG/logiciel/hxd.png'); background-size: cover;}
 .mcc-tool-chest {background-image: url('IMG/logiciel/mcc-tool-chest.png'); background-size: cover;}
 .mcedit-2 {background-image: url('IMG/logiciel/mcedit-2.png'); background-size: cover;}
 .minecraft-converter {background-image: url('IMG/logiciel/minecraft-converter.png'); background-size: cover;}
