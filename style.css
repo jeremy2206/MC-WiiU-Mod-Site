@@ -71,13 +71,40 @@ ul.navbar a:not(.active):hover {
 	margin-bottom: 50px;
 	text-align: center;
 	color: white;
-	border: 0.01em solid black;
+	border: 0.1em solid white;
 	font-size: 12px;
 	border-radius: 10px;
+	background-color:black;
 }
 
 .sidebar-footer p {
 	margin: 5px;
+}
+
+.navbar li {
+  position: relative;
+}
+.navbar li::before,
+.navbar li::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  width: 0;
+  height: 0.5px;
+  background-color: white;
+  transition: width 1s cubic-bezier(0.65, 0.05, 0.39, 1.38);
+}
+.navbar li::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar li::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+.navbar li:hover::before,
+.navbar li:hover::after {
+  width: 100%;
 }
 
 /* sidebar pour text */
@@ -164,7 +191,7 @@ hr {
 	display: block;
 	margin: 0 auto;
 	width: 45em;
-	border: 5px solid white;
+	border: 5px solid black;
 	border-radius: 2.5em;	
 	margin-block-start: 5em;
 	margin-block-end: 5em;
