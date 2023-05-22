@@ -249,6 +249,7 @@ hr {
 /* image logiciel */
 .binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
 .blockbench{background-image: url('IMG/logiciel/blockbench.png'); background-size: cover;}
+.cemu{background-image: url('IMG/logiciel/cemu.png'); background-size: cover;}
 .dragon-unpacker {background-image: url('IMG/logiciel/dragon-unpacker.png'); background-size: cover;}
 .fui-editor {background-image: url('IMG/logiciel/fui-editor.png'); background-size: cover;}
 .fontforge {background-image: url('IMG/logiciel/fontforge.png'); background-size: cover;}
@@ -279,3 +280,5 @@ hr {
 .portrait-skin-pack {background-image: url('IMG/skin-pack/portrait-skin-pack.png'); background-size: cover;}
 .requestpck-nobledez {background-image: url('IMG/skin-pack/requestpck-nobledez.png'); background-size: cover;}
 .steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
+
+/* image carte */
