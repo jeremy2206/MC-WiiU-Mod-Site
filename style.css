@@ -197,6 +197,22 @@ hr {
 	margin-block-end: 5em;
 	background-color:#303030;
 }
+
+.buttoncentrage {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid white;
+	border-radius: 2.5em;
+	background-color:#303030;
+	width: 10em;
+	height: 3em;
+	margin-block-end: 2em;
+}
+
+.buttoncentrage a{
+	color:white;
+}
+
 /* Onglet Update */
 .title3 {
 	color:white;
