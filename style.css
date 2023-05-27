@@ -20,8 +20,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 0.4%;
-	border-right: 0.1em solid white;
-	border-left: 0.1em solid white;
+	border-right: 0.1vw solid white;
+	border-left: 0.1vw solid white;
 }
 
 .sidebar-title {
@@ -29,7 +29,7 @@ body {
 	font-size: 1.7vw;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 5%;
 	font-family: Sigmar;
 }
 
@@ -69,7 +69,7 @@ ul.navbar a:not(.active):hover {
 }
 
 .sidebar-footer {
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 	text-align: center;
 	color: white;
 	border: 0.1em solid white;
