@@ -301,7 +301,16 @@ hr {
 /* image carte */
 
 .arcane-practice {background-image: url('IMG/map/arcane-practice.png'); background-size: cover;}
-.gtav {background-image: url('IMG/map/gtav.png'); background-size: cover;}
+.gtav-in-minecraft {background-image: url('IMG/map/gtav-in-minecraft.png'); background-size: cover;}
+.island-pack-adventure {background-image: url('IMG/map/island-pack-adventure.png'); background-size: cover;}
 .jerem-event-2021-map-pack {background-image: url('IMG/map/jerem-event-2021-map-pack.png'); background-size: cover;}
 .jerem-texture-pack {background-image: url('IMG/map/jerem-texture-pack.png'); background-size: cover;}
 .jerem-uhc-map-pack {background-image: url('IMG/map/jerem-uhc-map-pack.png'); background-size: cover;}
+.map-aventure {background-image: url('IMG/map/map-aventure.png'); background-size: cover;}
+.map-jump {background-image: url('IMG/map/map-jump.png'); background-size: cover;}
+.map-tntplus {background-image: url('IMG/map/map-tnt+.png'); background-size: cover;}
+.pack-map-hide-n-seek {background-image: url('IMG/map/pack-map-hide-n-seek.png'); background-size: cover;}
+.pack-map-skywars {background-image: url('IMG/map/pack-map-skywars.png'); background-size: cover;}
+.skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
+.speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
+.zombie-tower-defence {background-image: url('IMG/map/zombie-tower-defence.png'); background-size: cover;}
