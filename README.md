@@ -1,6 +1,6 @@
 # MC WiiU Mod Site
 - Made By Jerem2206 
-- Country Language : FR
+- Country Language : FR/EN
 - Link -> [Here](https://jeremy2206.github.io/MC-WiiU-Mod-Site/)
 ---
 ## What does the website include ?
