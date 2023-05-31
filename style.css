@@ -5,7 +5,25 @@ body {
 	background: #222222;
 }
 
-/* sidebar */
+/* Sélélection de la langue */
+.country-selector {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:50px;
+}
+
+.country-selector img {
+	width:250px;
+	height:150px;
+	border: 0.5em solid black;
+}
+
+.country-selector a {
+	text-decoration: none;
+}
+
+/* barre coté */
 
 #sidebar {
 	position: fixed;
