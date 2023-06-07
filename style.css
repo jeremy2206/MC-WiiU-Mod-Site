@@ -360,3 +360,6 @@ hr {
 .skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
 .speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
 .zombie-tower-defence {background-image: url('IMG/map/zombie-tower-defence.png'); background-size: cover;}
+
+/* image texture pack */
+.easy-plastic-pvp {background-image: url('IMG/texture-pack/easy-plastic-pvp.png'); background-size: cover;}
