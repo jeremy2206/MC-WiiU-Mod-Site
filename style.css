@@ -92,7 +92,7 @@ ul.navbar a:not(.active):hover {
 	color: white;
 	border: 0.1em solid white;
 	font-size: 0.7vw;
-	border-radius: 5px;
+	border-radius: 1.2vh;
 	background-color:black;
 }
 
@@ -167,24 +167,24 @@ hr {
 }
 
 .buttontop {
-	width: 15em;
-	height: 15em;
-	margin: 0 2em;
-	border: 0.3em solid black;
+	width: 25vh;
+	height: 25vh;
+	margin: 0 2vh;
+	border: 0.3vh solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-block-end: 4em;
+	margin-block-end: 4vh;
 	text-decoration: none;
-	border-radius: 10px;
+	border-radius: 1.2vh;
 }
 
 .spanbuttontop {
-	font-size: 1.2em;
+	font-size: 2.5vh;
 	font-weight: bold;
 	text-align: center;
 	background: white;
-	border: 0.1em solid black;
+	border: 0.2vh solid black;
 	text-decoration: none;
 }
 
