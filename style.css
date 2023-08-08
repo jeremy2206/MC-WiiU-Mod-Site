@@ -303,16 +303,43 @@ hr {
 	text-transform: uppercase;
 }
 
+/* Recherche */
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto; /* Centrer horizontalement le contenu */
+}
+
+#searchInput {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* image logiciel */
 .binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
-.blockbench{background-image: url('IMG/logiciel/blockbench.png'); background-size: cover;}
-.cemu{background-image: url('IMG/logiciel/cemu.png'); background-size: cover;}
+.blockbench {background-image: url('IMG/logiciel/blockbench.png'); background-size: cover;}
+.cemu {background-image: url('IMG/logiciel/cemu.png'); background-size: cover;}
 .dragon-unpacker {background-image: url('IMG/logiciel/dragon-unpacker.png'); background-size: cover;}
 .fui-editor {background-image: url('IMG/logiciel/fui-editor.png'); background-size: cover;}
 .fontforge {background-image: url('IMG/logiciel/fontforge.png'); background-size: cover;}
+.html-color-modifier {background-image: url('IMG/logiciel/html-color-modifier.png'); background-size: cover;}
 .hxd {background-image: url('IMG/logiciel/hxd.png'); background-size: cover;}
+.java-to-wiiu-texture-pack-converter {background-image: url('IMG/logiciel/java-to-wiiu-texture-pack-converter.png'); background-size: cover;}
 .mcc-tool-chest {background-image: url('IMG/logiciel/mcc-tool-chest.png'); background-size: cover;}
 .mcedit-2 {background-image: url('IMG/logiciel/mcedit-2.png'); background-size: cover;}
+.mcse-editor {background-image: url('IMG/logiciel/mcse-editor.png'); background-size: cover;}
 .mc-wiiu-id-skin-checker  {background-image: url('IMG/logiciel/mc-wiiu-id-skin-checker.png'); background-size: cover;}
 .minecraft-converter {background-image: url('IMG/logiciel/minecraft-converter.png'); background-size: cover;}
 .nbt-tag-code-maker {background-image: url('IMG/logiciel/nbt-tag-code-maker.png'); background-size: cover;}
@@ -320,8 +347,9 @@ hr {
 .pck-studio {background-image: url('IMG/logiciel/pck-studio.png'); background-size: cover;}
 .usb-helper {background-image: url('IMG/logiciel/usb-helper.png'); background-size: cover;}
 .winscp {background-image: url('IMG/logiciel/winscp.png'); background-size: cover;}
-.winrar{background-image: url('IMG/logiciel/winrar.png'); background-size: cover;}
-.wiiu-map-manager{background-image: url('IMG/logiciel/wiiu-map-manager.png'); background-size: cover;}
+.winrar {background-image: url('IMG/logiciel/winrar.png'); background-size: cover;}
+.wiiu-map-manager {background-image: url('IMG/logiciel/wiiu-map-manager.png'); background-size: cover;}
+.wiiu-title-boot-editor {background-image: url('IMG/logiciel/wiiu-title-boot-editor.png'); background-size: cover;}
 .world-painter {background-image: url('IMG/logiciel/world-painter.png'); background-size: cover;}
 .world-machine {background-image: url('IMG/logiciel/world-machine.png'); background-size: cover;}
 
@@ -329,6 +357,7 @@ hr {
 .all-dream {background-image: url('IMG/skin-pack/all-dream.png'); background-size: cover;}
 .among-us-skin-pack {background-image: url('IMG/skin-pack/among-us-skin-pack.png'); background-size: cover;}
 .block-skin-pack {background-image: url('IMG/skin-pack/block-skin-pack.png'); background-size: cover;}
+.brendans-models-skin-pack-v5 {background-image: url('IMG/skin-pack/brendans-models-skin-pack-v5.png'); background-size: cover;}
 .commu-skin-pack {background-image: url('IMG/skin-pack/commu-skin-pack.png'); background-size: cover;}
 .enderman-skin-pack {background-image: url('IMG/skin-pack/enderman-skin-pack.png'); background-size: cover;}
 .fallguys-skin-pack {background-image: url('IMG/skin-pack/fallguys-skin-pack.png'); background-size: cover;}
@@ -340,17 +369,24 @@ hr {
 .mob-skin-pack {background-image: url('IMG/skin-pack/mob-skin-pack.png'); background-size: cover;}
 .noob-skin-pack {background-image: url('IMG/skin-pack/noob-skin-pack.png'); background-size: cover;}
 .portrait-skin-pack {background-image: url('IMG/skin-pack/portrait-skin-pack.png'); background-size: cover;}
+.pvp-skin-pack {background-image: url('IMG/skin-pack/pvp-skin-pack.png'); background-size: cover;}
+.Qu-skin-pack {background-image: url('IMG/skin-pack/Qu@-skin-pack.png'); background-size: cover;}
 .requestpck-nobledez {background-image: url('IMG/skin-pack/requestpck-nobledez.png'); background-size: cover;}
+.skin-pack-of-liviaxel {background-image: url('IMG/skin-pack/skin-pack-of-liviaxel.png'); background-size: cover;}
+.srg64-mega-skinpack {background-image: url('IMG/skin-pack/srg64-mega-skinpack.png'); background-size: cover;}
 .steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
+.the-final-skin-pack {background-image: url('IMG/skin-pack/the-final-skin-pack.png'); background-size: cover;}
+.the-world-skin-pack {background-image: url('IMG/skin-pack/the-world-skin-pack.png'); background-size: cover;}
+.troll-skin-pack {background-image: url('IMG/skin-pack/troll-skin-pack.png'); background-size: cover;}
 
 /* image carte */
-
 .arcane-practice {background-image: url('IMG/map/arcane-practice.png'); background-size: cover;}
 .bo2-boat {background-image: url('IMG/map/bo2-boat.png'); background-size: cover;}
 .capturetheflag {background-image: url('IMG/map/capturetheflag.png'); background-size: cover;}
 .core-war {background-image: url('IMG/map/core-war.png'); background-size: cover;}
 .eggwars {background-image: url('IMG/map/eggwars.png'); background-size: cover;}
 .fallenkingdom {background-image: url('IMG/map/fallenkingdom.png'); background-size: cover;}
+.farmland-v3 {background-image: url('IMG/map/farmland-v3.png'); background-size: cover;}
 .fortnite-modded {background-image: url('IMG/map/fortnite-modded.png'); background-size: cover;}
 .gtav-in-minecraft {background-image: url('IMG/map/gtav-in-minecraft.png'); background-size: cover;}
 .island-pack-adventure {background-image: url('IMG/map/island-pack-adventure.png'); background-size: cover;}
@@ -359,16 +395,21 @@ hr {
 .jerem-uhc-map-pack {background-image: url('IMG/map/jerem-uhc-map-pack.png'); background-size: cover;}
 .map-aventure {background-image: url('IMG/map/map-aventure.png'); background-size: cover;}
 .map-jump {background-image: url('IMG/map/map-jump.png'); background-size: cover;}
-.tntplus-modded {background-image: url('IMG/map/tnt+-modded.png'); background-size: cover;}
+.mystic-maze {background-image: url('IMG/map/mystic-maze.png'); background-size: cover;}
 .pack-map-hide-n-seek {background-image: url('IMG/map/pack-map-hide-n-seek.png'); background-size: cover;}
 .pack-map-skywars {background-image: url('IMG/map/pack-map-skywars.png'); background-size: cover;}
 .skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
 .speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
+.spiral-parkour {background-image: url('IMG/map/spiral-parkour.png'); background-size: cover;}
+.tntplus-modded {background-image: url('IMG/map/tnt+-modded.png'); background-size: cover;}
 .zombie-tower-defence {background-image: url('IMG/map/zombie-tower-defence.png'); background-size: cover;}
 
 /* image texture pack */
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
-.easy-plastic-pvp {background-image: url('IMG/texture-pack/easy-plastic-pvp.png'); background-size: cover;}
+.erl-elementary-pvp {background-image: url('IMG/texture-pack/elr-elementary-pvp.png'); background-size: cover;}
+.hafen {background-image: url('IMG/texture-pack/hafen.png'); background-size: cover;}
+.mizunos {background-image: url('IMG/texture-pack/mizunos.png'); background-size: cover;}
+.morea {background-image: url('IMG/texture-pack/morea.png'); background-size: cover;}
 .nebula {background-image: url('IMG/texture-pack/nebula.png'); background-size: cover;}
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
