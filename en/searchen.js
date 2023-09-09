@@ -23,11 +23,13 @@ const pages = [
 	//E
 	{ title: "EggWars", content: "This map by pengchan is a map of eggwars game mode [Published by Frutox].", url: "map/list/eggwars.html", image: "../IMG/map/eggwars.png" },
 	{ title: "ELR Elementary PvP", content: "This texture pack converted by el-robinator is simplistic and may appeal to PvP players. [Posted by el-robinator]", url: "map/texture-pack/elr-elementary-pvp.html", image: "../IMG/texture-pack/elr-elementary-pvp.png" },
+	{ title: "Empty World", content: "This map is just an empty map.", url: "map/list/empty-world.html", image: "../IMG/nothing.png" },
 	{ title: "Enderman Skin Pack", content: "This Skin Pack created by Nobledez contains Enderman of different colors.", url: "skin-pack/list/enderman-skin-pack.html", image: "../IMG/skin-pack/enderman-skin-pack.png" },
 	//F
 	{ title: "Fallen Kingdom", content: "This map is a PvP map where different teams compete [Published by Frutox].", url: "map/list/fallen-kingdom.html", image: "../IMG/map/fallenkingdom.png" },
 	{ title: "FallGuys Skin Pack", content: "This Skin Pack created by Orika Hero includes all the colors of the FallGuys character. [Posted by Azox]", url: "skin-pack/list/fallguys-skin-pack.html", image: "../IMG/skin-pack/fallguys-skin-pack.png" },
 	{ title: "FarmLand V3", content: "This map created by Jerem2206 and with the participation of MisterV4 is a farm type map.", url: "map/list/farmland-v3.html", image: "../IMG/map/farmland-v3.png" },
+	{ title: "FNAF Skin Pack", content: "This Skin Pack created by TheSecretPadlock brings together different personalized skins on the theme of Five Night At Freddy's.", url: "skin-pack/list/fnaf-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "FontForge", content: "This software allows you to modify and create fonts.", url: "logiciel/list/fontforge.html", image: "../IMG/logiciel/fontforge.png" },
 	{ title: "Fortnite Modded", content: "This map is a map referring to the game Fortnite in Minecraft [Published by Sehou Game].", url: "map/list/fortnite-modded.html", image: "../IMG/map/fortnite-modded.png" },
 	{ title: "FUI Editor", content: "This software allows you to change the textures found in the .fui files.", url: "logiciel/list/fui-editor.html", image: "../IMG/logiciel/fui-editor.png" },
@@ -72,6 +74,7 @@ const pages = [
 	//P
 	{ title: "Pack map Hide N Seek", content: "This map pack converted by Jerem2206 contains maps from the hide and seek(3) game mode.", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "This map pack includes 2 maps converted by Jerem2206 and one made by Pengchan [Published by Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
+	{ title: "Paint.net", content: "This software allows you to edit and create images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
 	{ title: "PCK Studio", content: "This software to make skin packs and create special skins while being able to export skin packs to its console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Portrait Skin Pack", content: "This Skin Pack created by Nobledez includes different skins in the portrait theme.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
 	{ title: "PvP Skin Pack", content: "This Skin Pack created by Jerem2206 includes different simple skins.", url: "skin-pack/list/pvp-skin-pack.html", image: "../IMG/skin-pack/pvp-skin-pack.png" },
