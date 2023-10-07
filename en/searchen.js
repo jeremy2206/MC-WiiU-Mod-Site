@@ -11,6 +11,7 @@ const pages = [
     { title: "BlockBench", content: "This software is a tool that makes it easier to create Custom Skins.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
 	{ title: "BO2 Boat", content: "This map is a map of the game Call of Duty Black Ops 2 in Minecraft.", url: "map/list/bo2-boat.html", image: "../IMG/map/bo2-boat.png" },
 	{ title: "Brendans Models Skin Pack V5", content: "This Skin Pack created by Brendans brings together a few hundred original skins.", url: "skin-pack/list/brendans-models-skin-pack-v5.html", image: "../IMG/skin-pack/brendans-models-skin-pack-v5.png" },
+	{ title: "Brillant", content: "This texture pack created by Brilliant-PVP and converted by jerem2206 is a very colorful texture pack a bit in the style of the plastic pack.", url: "texture-pack/list/rillant.html", image: "../IMG/texture-pack/brillant.png" },
 	//C
 	{ title: "Capture the flag", content: "This map is a PvP map that consists of capturing the flag [Published by Frutox].", url: "map/list/capturetheflag.html", image: "../IMG/map/capturetheflag.png" },
     { title: "Cemu", content: "This software allows you to play WiiU games on PC.", url: "logiciel/list/cemu.html", image: "../IMG/logiciel/cemu.png" },
@@ -18,11 +19,12 @@ const pages = [
 	{ title: "Core War", content: "This map created by Thepyrocrafteur & Uranium_49 on Java redone by Jerem2206 contains a team against team map to destroy the opposing heart.", url: "map/list/core-war.html", image: "../IMG/map/core-war.png" },
 	{ title: "Creeper Skin Pack", content: "This Skin Pack contains creepers of different colors.", url: "skin-pack/list/creeper-skin-pack.html", image: "../IMG/nothing.png" },
 	//D
+	{ title: "Dandelion X", content: "This texture pack created by Steelfeathers & Xerotrinity then converted by jerem2206 is a texture pack resembling the medieval pack.", url: "texture-pack/list/dandelion-x.html", image: "../IMG/texture-pack/dandelion-x.png" },
     { title: "Discord To Minecraft WiiU", content: "This software allows you to view Discord messages on Minecraft WiiU.", url: "logiciel/list/discord-to-minecraft-wiiu.html", image: "../IMG/nothing.png" },
 	{ title: "Dragon UnPACKer", content: "This software allows you to open files that are impossible to open easily (like .pck mashups).", url: "logiciel/list/dragon-unpacker.html", image: "../IMG/logiciel/dragon-unpacker.png" },
 	//E
 	{ title: "EggWars", content: "This map by pengchan is a map of eggwars game mode [Published by Frutox].", url: "map/list/eggwars.html", image: "../IMG/map/eggwars.png" },
-	{ title: "ELR Elementary PvP", content: "This texture pack converted by el-robinator is simplistic and may appeal to PvP players. [Posted by el-robinator]", url: "map/texture-pack/elr-elementary-pvp.html", image: "../IMG/texture-pack/elr-elementary-pvp.png" },
+	{ title: "ELR Elementary PvP", content: "This texture pack converted by el-robinator is simplistic and may appeal to PvP players. [Posted by el-robinator]", url: "texture-pack/list/elr-elementary-pvp.html", image: "../IMG/texture-pack/elr-elementary-pvp.png" },
 	{ title: "Empty World", content: "This map is just an empty map.", url: "map/list/empty-world.html", image: "../IMG/nothing.png" },
 	{ title: "Enderman Skin Pack", content: "This Skin Pack created by Nobledez contains Enderman of different colors.", url: "skin-pack/list/enderman-skin-pack.html", image: "../IMG/skin-pack/enderman-skin-pack.png" },
 	//F
@@ -38,7 +40,7 @@ const pages = [
 	{ title: "GTAV In Minecraft", content: "This map is a map referencing the game GTAV in Minecraft [Converted by Jerem2206].", url: "map/list/gtav-in-minecraft.html", image: "../IMG/map/gtav-in-minecraft.png" },
 	//H
 	{ title: "Hacker Skin Pack", content: "This Skin Pack created by Nobledez contains different skins in hacker theme.", url: "skin-pack/list/hacker-skin-pack.html", image: "../IMG/skin-pack/hacker-skin-pack.png" },
-	{ title: "Hafen", content: "This texture pack created by nongko18 and converted by jerem2206 is a texture pack with very colorful and simplistic colors", url: "map/texture-pack/hafen.html", image: "../IMG/texture-pack/hafen.png" },
+	{ title: "Hafen", content: "This texture pack created by nongko18 and converted by jerem2206 is a texture pack with very colorful and simplistic colors", url: "texture-pack/list/hafen.html", image: "../IMG/texture-pack/hafen.png" },
 	{ title: "HD Portait Skin Pack", content: "This Skin Pack different skin in the form of portraits.", url: "skin-pack/list/hd-portrait-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "HTML Color Modifier", content: "This software makes it possible to modify the .col (the colors of the grass, water...).", url: "logiciel/list/html-color-modifier.html", image: "../IMG/logiciel/html-color-modifier.png" },
 	{ title: "HxD", content: "This software allows to modify hexadecimal files or with.", url: "logiciel/list/hxd.html", image: "../IMG/logiciel/hxd.png" },
@@ -61,21 +63,23 @@ const pages = [
 	{ title: "MC WiiU ID Skin Checker", content: "This software allows you to check the id of your skin of your skin pack if it already exists.", url: "logiciel/list/mc-wiiu-id-skin-checker.html", image: "../IMG/logiciel/mc-wiiu-id-skin-checker.png" },
 	{ title: "Mega Pack", content: "This Skin Pack created by Nobledez includes different original skins which uses known skins.", url: "skin-pack/list/mega-pack.html", image: "../IMG/skin-pack/mega-pack.png" },
 	{ title: "Minecraft Converter", content: "This software allows you to convert maps (map) PS3 XBOX 360 and PC between them.", url: "logiciel/list/minecraft-converter.html", image: "../IMG/logiciel/minecraft-converter.png" },
+	{ title: "Minecraft Default x16", content: "This texture pack is just the basic pack.", url: "texture-pack/list/minecraft-default-x16.html", image: "../IMG/nothing.png" },
 	{ title: "Minecraft Version EShop", content: "This files is Minecraft EShop Version ready to be installed on WiiU (full version for modding).", url: "logiciel/list/minecraft-version-eshop.html", image: "../IMG/nothing.png" },
-	{ title: "Mizuno's 16 Craft", content: "This texture pack created by Mizuno and converted by jerem2206 is a texture pack close to the mythology pack", url: "map/texture-pack/mizunos.html", image: "../IMG/texture-pack/mizunos.png" },
-	{ title: "Morea", content: "This texture pack created by juanteh and converted by jerem2206 is a basic pvp texture pack", url: "map/texture-pack/morea.html", image: "../IMG/texture-pack/morea.png" },
+	{ title: "Mizuno's 16 Craft", content: "This texture pack created by Mizuno and converted by jerem2206 is a texture pack close to the mythology pack", url: "texture-pack/list/mizunos.html", image: "../IMG/texture-pack/mizunos.png" },
+	{ title: "Morea", content: "This texture pack created by juanteh and converted by jerem2206 is a basic pvp texture pack", url: "texture-pack/list/morea.html", image: "../IMG/texture-pack/morea.png" },
 	{ title: "Mystic Maze", content: "This map originated from the Java version by Reddoz and adapted for WiiU by Jerem2206", url: "map/list/mystic-maze.html", image: "../IMG/map/mystic-maze.png" },
 	//N
 	{ title: "NBT Tag Code Maker", content: "This software allows to modify the creative inventory of Minecraft.", url: "logiciel/list/nbt-tag-code-maker.html", image: "../IMG/logiciel/nbt-tag-code-maker.png" },
-	{ title: "Nebula", content: "This texture pack created by looshy and converted by jerem2206 is a basic pvp texture pack", url: "map/texture-pack/nebula.html", image: "../IMG/texture-pack/nebula.png" },
+	{ title: "Nebula", content: "This texture pack created by looshy and converted by jerem2206 is a basic pvp texture pack", url: "texture-pack/list/nebula.html", image: "../IMG/texture-pack/nebula.png" },
 	{ title: "Noob Skin Pack", content: "This Skin Pack created by Spectroz includes different skins in the noob theme.", url: "skin-pack/list/noob-skin-pack.html", image: "../IMG/skin-pack/noob-skin-pack.png" },
 	//O 
-	{ title: "Offensive Hearts V2", content: "This texture pack created by Juanteh and converted by jerem2206 is a basic red pvp texture pack", url: "map/texture-pack/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
+	{ title: "Offensive Hearts V2", content: "This texture pack created by Juanteh and converted by jerem2206 is a basic red pvp texture pack", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
 	//P
 	{ title: "Pack map Hide N Seek", content: "This map pack converted by Jerem2206 contains maps from the hide and seek(3) game mode.", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "This map pack includes 2 maps converted by Jerem2206 and one made by Pengchan [Published by Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
 	{ title: "Paint.net", content: "This software allows you to edit and create images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
 	{ title: "PCK Studio", content: "This software to make skin packs and create special skins while being able to export skin packs to its console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
+	{ title: "Pixelorama", content: "This software allows you to create animated textures.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "This Skin Pack created by Nobledez includes different skins in the portrait theme.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
 	{ title: "PvP Skin Pack", content: "This Skin Pack created by Jerem2206 includes different simple skins.", url: "skin-pack/list/pvp-skin-pack.html", image: "../IMG/skin-pack/pvp-skin-pack.png" },
 	//Q 
@@ -90,17 +94,18 @@ const pages = [
 	{ title: "SpriteCraft", content: "This software allows you to transform images into schematics.", url: "logiciel/list/spritecraft.html", image: "../IMG/nothing.png" },
 	{ title: "SRG64 Mega SkinPack", content: "This Skin Pack created by SRG64 includes more than 300 skins mainly in the mario universe.", url: "skin-pack/list/srg64-mega-skinpack.html", image: "../IMG/skin-pack/srg64-mega-skinpack.png" },
 	{ title: "Steven Universe Updated", content: "This Skin Pack created by Nobledez includes different related to steven universe.", url: "skin-pack/list/steven-universe-updated.html", image: "../IMG/skin-pack/steven-universe-updated.png" },
-	{ title: "SubZero", content: "This texture pack created by dreamCritting and converted by jerem2206 is a texture pack where everything is frozen", url: "map/texture-pack/subzero.html", image: "../IMG/texture-pack/subzero.png" },
+	{ title: "SubZero", content: "This texture pack created by dreamCritting and converted by jerem2206 is a texture pack where everything is frozen", url: "texture-pack/list/subzero.html", image: "../IMG/texture-pack/subzero.png" },
 	{ title: "Super Smash Bros Pack V2", content: "This Skin Pack includes different skins related to the super smash bros theme.", url: "skin-pack/list/super-smash-bros-pack-v2.html", image: "../IMG/nothing.png" },
 	//T 
 	{ title: "The Final Skin Pack", content: "This Skin Pack created by Jerem2206 includes different skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "This Skin Pack includes different skins related to the joy of creation theme.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "This Skin Pack created by TheSecretPadlock includes different special skins.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
 	{ title: "TNT+ Modded", content: "This map made by NT Games offers you different modded tnts.", url: "map/list/tnt+-modded.html", image: "../IMG/map/tnt+-modded.png" },
-	{ title: "Tonic Pack", content: "This texture pack created by JabaPacks and converted by jerem2206 is a basic pvp texture pack", url: "map/texture-pack/tonic-pack.html", image: "../IMG/texture-pack/tonic-pack.png" },
+	{ title: "Tonic Pack", content: "This texture pack created by JabaPacks and converted by jerem2206 is a basic pvp texture pack", url: "/texture-pack/list/tonic-pack.html", image: "../IMG/texture-pack/tonic-pack.png" },
 	{ title: "Troll Skin Pack", content: "This Skin Pack created by Jerem2206 which includes different simple skins in troll theme.", url: "skin-pack/list/troll-skin-pack.html", image: "../IMG/skin-pack/troll-skin-pack.png" },
 	//U
 	{ title: "Universal Minecraft Editor", content: "This software allows you to modify maps (map) as well as .nbt files.", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
+	{ title: "Ultra", content: "This texture pack created by iSparkton for xNestorio and converted by jerem2206 is a gold colored pvp texture pack.", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
 	{ title: "USB Helper", content: "This software allows you to download wiiu games for yourself and emulate them or put them on your console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
 	//W
@@ -114,9 +119,6 @@ const pages = [
 	//Y 
 	//Z 
 	{ title: "Zombie Tower Defence", content: "This map is a Tower Defense map with zombies [Published by Frutox].", url: "map/list/zombie-tower-defence.html", image: "../IMG/map/zombie-tower-defence.png" },
-	
-	
-	{ title: "basic", content: "basic", url: "map/texture-pack/basic.html", image: "../IMG/texture-pack/basic.png" },
 
 ];
 

@@ -345,6 +345,7 @@ button {
 .nbt-tag-code-maker {background-image: url('IMG/logiciel/nbt-tag-code-maker.png'); background-size: cover;}
 .paintnet {background-image: url('IMG/logiciel/paint.net.png'); background-size: cover;}
 .pck-studio {background-image: url('IMG/logiciel/pck-studio.png'); background-size: cover;}
+.pixelorama {background-image: url('IMG/logiciel/pixelorama.png'); background-size: cover;}
 .universal-minecraft-editor {background-image: url('IMG/logiciel/universal-minecraft-editor.png'); background-size: cover;}
 .usb-helper {background-image: url('IMG/logiciel/usb-helper.png'); background-size: cover;}
 .winscp {background-image: url('IMG/logiciel/winscp.png'); background-size: cover;}
@@ -407,6 +408,8 @@ button {
 
 /* image texture pack */
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
+.brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
+.dandelion-x {background-image: url('IMG/texture-pack/dandelion-x.png'); background-size: cover;}
 .erl-elementary-pvp {background-image: url('IMG/texture-pack/elr-elementary-pvp.png'); background-size: cover;}
 .hafen {background-image: url('IMG/texture-pack/hafen.png'); background-size: cover;}
 .mizunos {background-image: url('IMG/texture-pack/mizunos.png'); background-size: cover;}
@@ -415,3 +418,4 @@ button {
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
 .tonic-pack {background-image: url('IMG/texture-pack/tonic-pack.png'); background-size: cover;}
+.ultra {background-image: url('IMG/texture-pack/ultra.png'); background-size: cover;}
