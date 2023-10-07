@@ -327,6 +327,15 @@ button {
   cursor: pointer;
 }
 
+/* Discord Widget */
+.discordwidget {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
 /* image logiciel */
 .binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
 .blockbench {background-image: url('IMG/logiciel/blockbench.png'); background-size: cover;}
