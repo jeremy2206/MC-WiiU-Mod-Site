@@ -1,10 +1,15 @@
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* général */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 body {
-	font-family: Metropolis,Metropolis-Fallback,sans-serif;
+	font-family: 'Poppins',sans-serif;
 	background: #222222;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* Sélélection de la langue */
 .country-selector {
 	display:flex;
@@ -23,15 +28,16 @@ body {
 	text-decoration: none;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* barre coté */
 
 #sidebar {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 15%;
+	width: 20vh;
 	height: 100%;
-	background-color: #303030;
+	background: linear-gradient(0deg, #303030, #141414, #303030);
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
@@ -40,15 +46,16 @@ body {
 	padding-top: 0.4%;
 	border-right: 0.1vw solid white;
 	border-left: 0.1vw solid white;
+	/*font-family: 'Poppins', sans-serif; /* Normal */
+	font-family: 'Metal Mania'; /* Halloween */
 }
 
 .sidebar-title {
 	color: white;
-	font-size: 1.7vw;
+	font-size: 2.7vh;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 5%;
-	font-family: Sigmar;
 }
 
 ul.navbar {
@@ -67,7 +74,7 @@ ul.navbar li {
 	margin: 0;
 	padding: 0.5em;
 	text-align: center;
-	font-size: 1vw;
+	font-size: 1.8vh;
 }
 
 ul.navbar a.active {
@@ -91,7 +98,7 @@ ul.navbar a:not(.active):hover {
 	text-align: center;
 	color: white;
 	border: 0.1em solid white;
-	font-size: 0.7vw;
+	font-size: 1.2vh;
 	border-radius: 1.2vh;
 	background-color:black;
 }
@@ -103,8 +110,8 @@ ul.navbar a:not(.active):hover {
 .navbar li {
   position: relative;
 }
-.navbar li::before,
-.navbar li::after {
+
+.navbar li::before,.navbar li::after {
   content: "";
   position: absolute;
   bottom: 0.3vw;
@@ -113,52 +120,60 @@ ul.navbar a:not(.active):hover {
   background-color: white;
   transition: width 1s cubic-bezier(0.65, 0.05, 0.39, 1.38);
 }
+
 .navbar li::before {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .navbar li::after {
   right: 50%;
   transform: translateX(50%);
 }
-.navbar li:hover::before,
-.navbar li:hover::after {
+
+.navbar li:hover::before,.navbar li:hover::after {
   width: 100%;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* sidebar pour text */
 
 #content {
-	margin-left: 15%;
+	margin-left: 20vh;
 	padding: 1em;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* Titre onglet */
 
 .title {
 	text-align: center;
-	font-size: 8em;
+	font-size:calc(25px + 5vw);
 	margin-block-start: 0.5em;
 	margin-block-end: 0.5em;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 	color:white;
-	font-family: Sigmar;
+	/*font-family: 'Poppins', sans-serif; /* Normal */
+	font-family: 'Metal Mania'; /* Halloween */
 }
 
 hr {
 	border: 0.125em solid white;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /*  onglet principaux */
 
 .title2 {
 	text-align: center;
-	font-size: 4em;
+	font-size:calc(25px + 3.5vw);
 	margin-block-start: 1em;
 	margin-block-end: 0.5em;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 	color:white;
-	font-family: Sigmar;
+	/*font-family: 'Poppins', sans-serif; /* Normal */
+	font-family: 'Metal Mania'; /* Halloween */
+
 }
 
 .buttoncontainertop {
@@ -166,34 +181,46 @@ hr {
 	justify-content: center;
 }
 
+.buttoncontainertop a {
+	text-decoration: none;
+}
+
 .buttontop {
-	width: 25vh;
-	height: 25vh;
-	margin: 0 2vh;
+	width: 12.5vw;
+	height: 12.5vw;
+	min-width: 165px;
+	min-height: 165px;
+	margin: 0 1vw;
 	border: 0.3vh solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-block-end: 4vh;
-	text-decoration: none;
 	border-radius: 1.2vh;
 }
 
+.buttontop:hover {
+	border-color: #424242;
+}
+
 .spanbuttontop {
-	font-size: 2.5vh;
+	font-size:calc(10px + 0.8vw);
 	font-weight: bold;
 	text-align: center;
 	background: white;
 	border: 0.2vh solid black;
-	text-decoration: none;
+	border-radius: 0.2vh;
 }
 
+.spanbuttontop:hover {
+	background-color: #d2d2d2;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* centrage */
 
-.textcentrage 
-{
+.textcentrage {
 	text-align: center;
-	font-family:Metropolis,Metropolis-Fallback,sans-serif;
 	color:white;
 }
 
@@ -209,7 +236,7 @@ hr {
 .divcentrage {
 	display: block;
 	margin: 0 auto;
-	width: 45em;
+	width: 45vw;
 	border: 5px solid black;
 	border-radius: 2.5em;	
 	margin-block-start: 5em;
@@ -228,7 +255,7 @@ hr {
 	margin-block-end: 2em;
 }
 
-.buttoncentrage a{
+.buttoncentrage a {
 	color:white;
 }
 
@@ -254,7 +281,9 @@ hr {
 	align-items: center;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* Onglet Update */
+
 .title3 {
 	color:white;
 	text-align:center;
@@ -280,13 +309,16 @@ hr {
 	color:white;
 	padding-left:80px;
 }
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* bouton téléchargement */
 
 .button-download {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 250px;
+	width: 25vw;
+	min-width: 200px;
 	height: 50px;
 	background-color: #007bff;
 	border-radius: 10px;
@@ -303,40 +335,50 @@ hr {
 	text-transform: uppercase;
 }
 
-/* Recherche */
-.center-container {
-  display: flex;
-  justify-content: center;
+.button-download:hover {
+	background-color: #0067d6;
+	border-color: #ffffff;
 }
 
-.search-container {
-  display: flex;
-  align-items: center;
-  margin: 0 auto; /* Centrer horizontalement le contenu */
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* Recherche */
+
+.center-container {
+  	display: flex;
+  	justify-content: center;
+	align-items: center;
+  	margin: 0 auto;
 }
 
 #searchInput {
-  padding: 8px 12px;
-  font-size: 16px;
-  border: 1px solid #ccc;
+  	padding: 9px 12px;
+  	font-size: 16px;
+  	border: 1px solid #ccc;
+	color: #ffffff;
+  	width: 15vw;
+  	height: 20px;
 }
 
 button {
-  padding: 8px 12px;
-  font-size: 16px;
-  cursor: pointer;
+  	padding: 9px 15px;
+  	font-size: 16px;
+  	cursor: pointer;
 }
-
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* Discord Widget */
+
 .discordwidget {
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
 	border: 2px solid black;
 	border-radius: 10px;
+	width: 25vw;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image logiciel */
+
 .binkman {background-image: url('IMG/logiciel/binkman.png'); background-size: cover;}
 .blockbench {background-image: url('IMG/logiciel/blockbench.png'); background-size: cover;}
 .cemu {background-image: url('IMG/logiciel/cemu.png'); background-size: cover;}
@@ -364,7 +406,9 @@ button {
 .world-painter {background-image: url('IMG/logiciel/world-painter.png'); background-size: cover;}
 .world-machine {background-image: url('IMG/logiciel/world-machine.png'); background-size: cover;}
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image skin pack */
+
 .all-dream {background-image: url('IMG/skin-pack/all-dream.png'); background-size: cover;}
 .among-us-skin-pack {background-image: url('IMG/skin-pack/among-us-skin-pack.png'); background-size: cover;}
 .block-skin-pack {background-image: url('IMG/skin-pack/block-skin-pack.png'); background-size: cover;}
@@ -390,7 +434,9 @@ button {
 .the-world-skin-pack {background-image: url('IMG/skin-pack/the-world-skin-pack.png'); background-size: cover;}
 .troll-skin-pack {background-image: url('IMG/skin-pack/troll-skin-pack.png'); background-size: cover;}
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image carte */
+
 .arcane-practice {background-image: url('IMG/map/arcane-practice.png'); background-size: cover;}
 .bo2-boat {background-image: url('IMG/map/bo2-boat.png'); background-size: cover;}
 .capturetheflag {background-image: url('IMG/map/capturetheflag.png'); background-size: cover;}
@@ -415,7 +461,9 @@ button {
 .tntplus-modded {background-image: url('IMG/map/tnt+-modded.png'); background-size: cover;}
 .zombie-tower-defence {background-image: url('IMG/map/zombie-tower-defence.png'); background-size: cover;}
 
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image texture pack */
+
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
 .brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
 .dandelion-x {background-image: url('IMG/texture-pack/dandelion-x.png'); background-size: cover;}
