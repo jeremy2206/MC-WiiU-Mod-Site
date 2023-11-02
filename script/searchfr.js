@@ -9,6 +9,9 @@ const pages = [
     { title: "Binkman", content: "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
 	{ title: "Block Skin Pack", content: "Ce Skin Pack créé par Nobledez rassemble quelques centaines de blocs de minecraft et de certains mods.", url: "skin-pack/list/block-skin-pack.html", image: "../IMG/skin-pack/block-skin-pack.png" },
     { title: "BlockBench", content: "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
+
+	{ title: "Blue & Red Fade", content: "Ce texture pack crée par Xenox et converti par jerem2206 est un texture pack pvp de couleur dégradé entre le rouge et le bleu .", url: "texture-pack/list/blue-&-red-fade.html", image: "../IMG/texture-pack/blue-&-red-fade.png" },
+
 	{ title: "BO2 Boat", content: "Cette carte est une carte du jeu Call of Duty Black Ops 2 dans Minecraft.", url: "map/list/bo2-boat.html", image: "../IMG/map/bo2-boat.png" },
 	{ title: "Brendans Models Skin Pack V5", content: "Ce Skin Pack créé par Brendans rassemble quelques centaines de skins originaux.", url: "skin-pack/list/brendans-models-skin-pack-v5.html", image: "../IMG/skin-pack/brendans-models-skin-pack-v5.png" },
 	{ title: "Brillant", content: "Ce texture pack crée par Brilliant-PVP et converti par jerem2206 est un texture pack très coloré un peu dans le style du pack plastic.", url: "texture-pack/list/brillant.html", image: "../IMG/texture-pack/brillant.png" },
@@ -21,6 +24,7 @@ const pages = [
 	//D
 	{ title: "Dandelion X", content: "Ce texture pack crée par Steelfeathers & Xerotrinity puis converti par jerem2206 est un texture pack ressemblant au pack médiéval.", url: "texture-pack/list/dandelion-x.html", image: "../IMG/texture-pack/dandelion-x.png" },
     { title: "Discord To Minecraft WiiU", content: "Ce logiciel permet de voir les messages Discord sur Minecraft WiiU.", url: "logiciel/list/discord-to-minecraft-wiiu.html", image: "../IMG/nothing.png" },
+	{ title: "Dragon Fruit", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur rose/rouge.", url: "texture-pack/list/dragon-fruit.html", image: "../IMG/texture-pack/dragon-fruit.png" },
 	{ title: "Dragon UnPACKer", content: "Ce logiciel permet d'ouvrir des fichiers impossible a ouvrir facilement (comme les .pck des mashup).", url: "logiciel/list/dragon-unpacker.html", image: "../IMG/logiciel/dragon-unpacker.png" },
 	//E
 	{ title: "EggWars", content: "Cette carte par pengchan est une carte du mode de jeu d'eggwars [Publié par Frutox].", url: "map/list/eggwars.html", image: "../IMG/map/eggwars.png" },
@@ -97,12 +101,14 @@ const pages = [
 	{ title: "SubZero", content: "Ce texture pack crée par dreamCritting et converti par jerem2206 est un texture pack où tout est glacé", url: "texture-pack/list/subzero.html", image: "../IMG/texture-pack/subzero.png" },
 	{ title: "Super Smash Bros Pack V2", content: "Ce Skin Pack comprends différents skins lié au thème super smash bros.", url: "skin-pack/list/super-smash-bros-pack-v2.html", image: "../IMG/nothing.png" },
 	//T 
+	{ title: "Tank Skin Pack", content: "Ce Skin Pack créé par Jerem2206 en utilisant le modèle du tank du pack brendans models skin pack et comprend différents skins de tank dans différentes couleurs.", url: "skin-pack/list/tank-skin-pack.html", image: "../IMG/skin-pack/tank-skin-pack.png" },
 	{ title: "The Final Skin Pack", content: "Ce Skin Pack créé par Jerem2206 comprends différents skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "Ce Skin Pack comprends différents skins lié au thème the joy of creation.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "Ce Skin Pack crée par TheSecretPadlock comprends différents skins spéciaux.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
 	{ title: "TNT+ Modded", content: "Cette carte faites par NT Games vous propose différentes tnt modées.", url: "map/list/tnt+-modded.html", image: "../IMG/map/tnt+-modded.png" },
 	{ title: "Tonic Pack", content: "Ce texture pack crée par JabaPacks et converti par jerem2206 est un texture pack pvp basic", url: "texture-pack/list/tonic-pack.html", image: "../IMG/texture-pack/tonic-pack.png" },
 	{ title: "Troll Skin Pack", content: "Ce Skin Pack créé par Jerem2206 qui comprends différents skins simple dans le thème troll.", url: "skin-pack/list/troll-skin-pack.html", image: "../IMG/skin-pack/troll-skin-pack.png" },
+	{ title: "Tropical Fade", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur vert/jaune pour bedwars/skywars.", url: "texture-pack/list/tropical-fade.html", image: "../IMG/texture-pack/tropical-fade.png" },
 	//U
 	{ title: "Universal Minecraft Editor", content: "Ce logiciel permet de modifier des cartes (map) ainsi que les .nbt .", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
 	{ title: "Ultra", content: "Ce texture pack crée par iSparkton pour xNestorio et converti par jerem2206 est un texture pack pvp de couleur or. ", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
@@ -144,8 +150,8 @@ function search() {
 
     // Recherche dans la liste des pages
     const results = pages.filter(page => {
-        return page.title.toLowerCase().includes(searchTerm) || page.content.toLowerCase().includes(searchTerm);
-    });
+		return (page.title && page.title.toLowerCase().includes(searchTerm)) || (page.content && page.content.toLowerCase().includes(searchTerm));
+	});
 
     // Affichage des résultats
     if (results.length > 0) {

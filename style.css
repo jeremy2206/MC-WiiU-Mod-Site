@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 body {
 	font-family: 'Poppins',sans-serif;
@@ -46,8 +47,8 @@ body {
 	padding-top: 0.4%;
 	border-right: 0.1vw solid white;
 	border-left: 0.1vw solid white;
-	/*font-family: 'Poppins', sans-serif; /* Normal */
-	font-family: 'Metal Mania'; /* Halloween */
+	font-family: 'Poppins', sans-serif; /* Normal */
+	/*font-family: 'Metal Mania'; /* Halloween */
 }
 
 .sidebar-title {
@@ -56,6 +57,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 5%;
+	font-family: 'Metal Mania';
 }
 
 ul.navbar {
@@ -153,8 +155,8 @@ ul.navbar a:not(.active):hover {
 	margin-block-end: 0.5em;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 	color:white;
-	/*font-family: 'Poppins', sans-serif; /* Normal */
-	font-family: 'Metal Mania'; /* Halloween */
+	font-family: 'Ubuntu', sans-serif; /* Normal */
+	/*font-family: 'Metal Mania'; /* Halloween */
 }
 
 hr {
@@ -171,8 +173,8 @@ hr {
 	margin-block-end: 0.5em;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 	color:white;
-	/*font-family: 'Poppins', sans-serif; /* Normal */
-	font-family: 'Metal Mania'; /* Halloween */
+	font-family: 'Ubuntu', sans-serif; /* Normal */
+	/*font-family: 'Metal Mania'; /* Halloween */
 
 }
 
@@ -430,6 +432,7 @@ button {
 .skin-pack-of-liviaxel {background-image: url('IMG/skin-pack/skin-pack-of-liviaxel.png'); background-size: cover;}
 .srg64-mega-skinpack {background-image: url('IMG/skin-pack/srg64-mega-skinpack.png'); background-size: cover;}
 .steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
+.tank-skin-pack {background-image: url('IMG/skin-pack/tank-skin-pack.png'); background-size: cover;}
 .the-final-skin-pack {background-image: url('IMG/skin-pack/the-final-skin-pack.png'); background-size: cover;}
 .the-world-skin-pack {background-image: url('IMG/skin-pack/the-world-skin-pack.png'); background-size: cover;}
 .troll-skin-pack {background-image: url('IMG/skin-pack/troll-skin-pack.png'); background-size: cover;}
@@ -465,8 +468,10 @@ button {
 /* image texture pack */
 
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
+.blue-red-fade {background-image: url('IMG/texture-pack/blue-&-red-fade.png'); background-size: cover;}
 .brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
 .dandelion-x {background-image: url('IMG/texture-pack/dandelion-x.png'); background-size: cover;}
+.dragon-fruit {background-image: url('IMG/texture-pack/dragon-fruit.png'); background-size: cover;}
 .erl-elementary-pvp {background-image: url('IMG/texture-pack/elr-elementary-pvp.png'); background-size: cover;}
 .hafen {background-image: url('IMG/texture-pack/hafen.png'); background-size: cover;}
 .mizunos {background-image: url('IMG/texture-pack/mizunos.png'); background-size: cover;}
@@ -475,4 +480,5 @@ button {
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
 .tonic-pack {background-image: url('IMG/texture-pack/tonic-pack.png'); background-size: cover;}
+.tropical-fade {background-image: url('IMG/texture-pack/tropical-fade.png'); background-size: cover;}
 .ultra {background-image: url('IMG/texture-pack/ultra.png'); background-size: cover;}
