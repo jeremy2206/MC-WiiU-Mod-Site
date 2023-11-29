@@ -9,5 +9,5 @@ This website allows to have a lot of: software/map/texture pack/skin pack/lobby/
 ## The website details ?
 - Images of what the different elements look like
 - Tutorial and presentation videos
-- Possibility to post your creations
-- A minimum of one update per month
+- Possibility to post your creations with forms
+- A minimum of one update per month as long as there are enough people using it
