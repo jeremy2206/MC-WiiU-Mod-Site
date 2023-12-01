@@ -413,6 +413,7 @@ button {
 
 .all-dream {background-image: url('IMG/skin-pack/all-dream.png'); background-size: cover;}
 .among-us-skin-pack {background-image: url('IMG/skin-pack/among-us-skin-pack.png'); background-size: cover;}
+.apps-pack {background-image: url('IMG/skin-pack/apps-pack.png'); background-size: cover;}
 .block-skin-pack {background-image: url('IMG/skin-pack/block-skin-pack.png'); background-size: cover;}
 .brendans-models-skin-pack-v5 {background-image: url('IMG/skin-pack/brendans-models-skin-pack-v5.png'); background-size: cover;}
 .commu-skin-pack {background-image: url('IMG/skin-pack/commu-skin-pack.png'); background-size: cover;}
@@ -420,9 +421,11 @@ button {
 .fallguys-skin-pack {background-image: url('IMG/skin-pack/fallguys-skin-pack.png'); background-size: cover;}
 .fnaf-skin-pack {background-image: url('IMG/skin-pack/fnaf-skin-pack.png'); background-size: cover;}
 .gameallstar {background-image: url('IMG/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
+.gazgoh-custom-models {background-image: url('IMG/skin-pack/gazgoh-custom-model.png'); background-size: cover;}
 .hacker-skin-pack {background-image: url('IMG/skin-pack/hacker-skin-pack.png'); background-size: cover;}
 .jurassic-world-skin-pack {background-image: url('IMG/skin-pack/jurassic-world-skin-pack.png'); background-size: cover;}
 .mega-pack {background-image: url('IMG/skin-pack/mega-pack.png'); background-size: cover;}
+.minecraft-dungeons {background-image: url('IMG/skin-pack/minecraft-dungeons.png'); background-size: cover;}
 .mob-skin-pack {background-image: url('IMG/skin-pack/mob-skin-pack.png'); background-size: cover;}
 .noob-skin-pack {background-image: url('IMG/skin-pack/noob-skin-pack.png'); background-size: cover;}
 .portrait-skin-pack {background-image: url('IMG/skin-pack/portrait-skin-pack.png'); background-size: cover;}
@@ -468,17 +471,26 @@ button {
 /* image texture pack */
 
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
+.aqua {background-image: url('IMG/texture-pack/aqua.png'); background-size: cover;}
 .blue-red-fade {background-image: url('IMG/texture-pack/blue-&-red-fade.png'); background-size: cover;}
 .brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
 .dandelion-x {background-image: url('IMG/texture-pack/dandelion-x.png'); background-size: cover;}
 .dragon-fruit {background-image: url('IMG/texture-pack/dragon-fruit.png'); background-size: cover;}
 .erl-elementary-pvp {background-image: url('IMG/texture-pack/elr-elementary-pvp.png'); background-size: cover;}
+.mathox-red-pack {background-image: url('IMG/texture-pack/mathox-red-pack.png'); background-size: cover;}
 .hafen {background-image: url('IMG/texture-pack/hafen.png'); background-size: cover;}
 .mizunos {background-image: url('IMG/texture-pack/mizunos.png'); background-size: cover;}
 .morea {background-image: url('IMG/texture-pack/morea.png'); background-size: cover;}
 .nebula {background-image: url('IMG/texture-pack/nebula.png'); background-size: cover;}
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
+.paint-red {background-image: url('IMG/texture-pack/paint-red.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
 .tonic-pack {background-image: url('IMG/texture-pack/tonic-pack.png'); background-size: cover;}
 .tropical-fade {background-image: url('IMG/texture-pack/tropical-fade.png'); background-size: cover;}
 .ultra {background-image: url('IMG/texture-pack/ultra.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image Lobby*/
+
+.basic-lobby {background-image: url('IMG/lobby/basic-lobby.png'); background-size: cover;}
+.old-lobby {background-image: url('IMG/lobby/old-lobby.png'); background-size: cover;}

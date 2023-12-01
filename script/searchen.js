@@ -1,11 +1,14 @@
 
 const pages = [
 	//A
-	{ title: "Arcane Practice", content: "This map created by Pengchan and modified by Frutox is a PvP map with several maps and different kits [Published by Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
 	{ title: "All Dream", content: "This Skin Pack created by Azox includes all the colors of the skin dream. [Posted by Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Amethyst Pack", content: "This texture pack created by Colbb and converted by jerem2206 is a purple pvp texture pack", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
 	{ title: "Among us Skin Pack", content: "This Skin Pack created by Orika Hero includes all the colors of the Among us crewmate. [Posted by Azox]", url: "skin-pack/list/among-us-skin-pack.html", image: "../IMG/skin-pack/among-us-skin-pack.png" },
+	{ title: "Apps Pack", content: "This Skin Pack created by Nobledez includes application logo skin.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
+	{ title: "Aqua", content: "This texture pack created by TeaPlays and converted by a4l is a classic pvp texture pack", url: "texture-pack/list/aqua.html", image: "../IMG/texture-pack/aqua.png" },
+	{ title: "Arcane Practice", content: "This map created by Pengchan and modified by Frutox is a PvP map with several maps and different kits [Published by Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
 	//B
+	{ title: "Basic Lobby", content: "Just the current minecraft console mini games lobby.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
     { title: "Binkman", content: "This software allows you to convert files in 2 directions: .wav files in .binka which is useful for modifying minecraft WiiU music.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
 	{ title: "Block Skin Pack", content: "This Skin Pack created by Nobledez brings together a few hundred blocks of minecraft and some mods.", url: "skin-pack/list/block-skin-pack.html", image: "../IMG/skin-pack/block-skin-pack.png" },
     { title: "BlockBench", content: "This software is a tool that makes it easier to create Custom Skins.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
@@ -39,6 +42,7 @@ const pages = [
 	{ title: "FUI Editor", content: "This software allows you to change the textures found in the .fui files.", url: "logiciel/list/fui-editor.html", image: "../IMG/logiciel/fui-editor.png" },
 	//G 
 	{ title: "GameAllStar", content: "This Skin Pack created by Nobledez contains different original skins in the universe of video games.", url: "skin-pack/list/gameallstar.html", image: "../IMG/skin-pack/game-all-star-skin-pack.png" },
+	{ title: "Gazgoh Custom Models", content: "This Skin Pack created by Gazgoh includes different original skins.", url: "skin-pack/list/gazgoh-custom-models.html", image: "../IMG/skin-pack/gazgoh-custom-model.png" },
 	{ title: "GTAV In Minecraft", content: "This map is a map referencing the game GTAV in Minecraft [Converted by Jerem2206].", url: "map/list/gtav-in-minecraft.html", image: "../IMG/map/gtav-in-minecraft.png" },
 	//H
 	{ title: "Hacker Skin Pack", content: "This Skin Pack created by Nobledez contains different skins in hacker theme.", url: "skin-pack/list/hacker-skin-pack.html", image: "../IMG/skin-pack/hacker-skin-pack.png" },
@@ -59,6 +63,7 @@ const pages = [
 	//M
 	{ title: "Map aventure", content: "This map made by frifri offers you an adventure map.", url: "map/list/map-aventure.html", image: "../IMG/map/map-aventure.png" },
 	{ title: "Map Jump", content: "This map made by frifri converted on WiiU by Jerem2206 offers you a parkour map.", url: "map/list/map-jump.html", image: "../IMG/map/map-jump.png" },
+	{ title: "Mathox Red Pack", content: "This texture pack created by Mathox and converted by jerem2206 is a red uhc pvp texture pack", url: "texture-pack/list/mathox-red-pack.html", image: "../IMG/texture-pack/mathox-red-pack.png" },	
 	{ title: "MCC Tool Chest", content: "This software allows you to modify maps (map) like universal minecraft editor and convert them. Also to extract .arc .", url: "logiciel/list/mcc-tool-chest.html", image: "../IMG/logiciel/mcc-tool-chest.png" },
 	{ title: "McEdit 2", content: "This software allows you to modify maps (map) in depth.", url: "logiciel/list/mcedit-2.html", image: "../IMG/logiciel/mcedit-2.png" },
 	{ title: "MCSE Editor", content: "This software allows you to modify the files of your mcse.", url: "logiciel/list/mcse-editor.html", image: "../IMG/logiciel/mcse-editor.png" },
@@ -66,6 +71,7 @@ const pages = [
 	{ title: "Mega Pack", content: "This Skin Pack created by Nobledez includes different original skins which uses known skins.", url: "skin-pack/list/mega-pack.html", image: "../IMG/skin-pack/mega-pack.png" },
 	{ title: "Minecraft Converter", content: "This software allows you to convert maps (map) PS3 XBOX 360 and PC between them.", url: "logiciel/list/minecraft-converter.html", image: "../IMG/logiciel/minecraft-converter.png" },
 	{ title: "Minecraft Default x16", content: "This texture pack is just the basic pack.", url: "texture-pack/list/minecraft-default-x16.html", image: "../IMG/nothing.png" },
+	{ title: "Minecraft Dungeons", content: "This Skin Pack includes minecraft dungeons player characters", url: "skin-pack/list/minecraft-dungeons.html", image: "../IMG/skin-pack/minecraft-dungeons.png" },
 	{ title: "Minecraft Version EShop", content: "This files is Minecraft EShop Version ready to be installed on WiiU (full version for modding).", url: "logiciel/list/minecraft-version-eshop.html", image: "../IMG/nothing.png" },
 	{ title: "Mizuno's 16 Craft", content: "This texture pack created by Mizuno and converted by jerem2206 is a texture pack close to the mythology pack", url: "texture-pack/list/mizunos.html", image: "../IMG/texture-pack/mizunos.png" },
 	{ title: "Morea", content: "This texture pack created by juanteh and converted by jerem2206 is a basic pvp texture pack", url: "texture-pack/list/morea.html", image: "../IMG/texture-pack/morea.png" },
@@ -76,10 +82,12 @@ const pages = [
 	{ title: "Noob Skin Pack", content: "This Skin Pack created by Spectroz includes different skins in the noob theme.", url: "skin-pack/list/noob-skin-pack.html", image: "../IMG/skin-pack/noob-skin-pack.png" },
 	//O 
 	{ title: "Offensive Hearts V2", content: "This texture pack created by Juanteh and converted by jerem2206 is a basic red pvp texture pack", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
+	{ title: "Old Lobby", content: "Just the old minecraft console mini games lobby.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
 	{ title: "Pack map Hide N Seek", content: "This map pack converted by Jerem2206 contains maps from the hide and seek(3) game mode.", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "This map pack includes 2 maps converted by Jerem2206 and one made by Pengchan [Published by Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
 	{ title: "Paint.net", content: "This software allows you to edit and create images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
+	{ title: "Paint Red", content: "This texture pack created by AlwaysTwoClutch and converted by a4L is a red pvp texture pack", url: "texture-pack/list/paint-red.html", image: "../IMG/texture-pack/paint-red.png" },
 	{ title: "PCK Studio", content: "This software to make skin packs and create special skins while being able to export skin packs to its console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Pixelorama", content: "This software allows you to create animated textures.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "This Skin Pack created by Nobledez includes different skins in the portrait theme.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },

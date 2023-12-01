@@ -1,11 +1,14 @@
 
 const pages = [
 	//A
-	{ title: "Arcane Practice", content: "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Amethyst Pack", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp violet", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
 	{ title: "Among us Skin Pack", content: "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du crewmate de Among us. [Publié par Azox]", url: "skin-pack/list/among-us-skin-pack.html", image: "../IMG/skin-pack/among-us-skin-pack.png" },
+	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
+	{ title: "Apps Pack", content: "Ce Skin Pack crée par Nobledez comprends skin de logo d'applications.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
+	{ title: "Arcane Practice", content: "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
 	//B
+	{ title: "Basic Lobby", content: "Juste le lobby actuel des mini jeux de minecraft console.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
     { title: "Binkman", content: "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
 	{ title: "Block Skin Pack", content: "Ce Skin Pack créé par Nobledez rassemble quelques centaines de blocs de minecraft et de certains mods.", url: "skin-pack/list/block-skin-pack.html", image: "../IMG/skin-pack/block-skin-pack.png" },
     { title: "BlockBench", content: "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
@@ -41,6 +44,7 @@ const pages = [
 	{ title: "FUI Editor", content: "Ce logiciel permet de changer les textures se trouvant dans les .fui .", url: "logiciel/list/fui-editor.html", image: "../IMG/logiciel/fui-editor.png" },
 	//G 
 	{ title: "GameAllStar", content: "Ce Skin Pack créé par Nobledez contient différents skins originaux dans l'univers des jeux vidéo.", url: "skin-pack/list/gameallstar.html", image: "../IMG/skin-pack/game-all-star-skin-pack.png" },
+	{ title: "Gazgoh Custom Models", content: " Ce Skin Pack crée par Gazgoh comprends différents skins originaux.", url: "skin-pack/list/gazgoh-custom-models.html", image: "../IMG/skin-pack/gazgoh-custom-model.png" },
 	{ title: "GTAV In Minecraft", content: "Cette carte est une carte faisant référence au jeu GTAV dans Minecraft [Convertie par Jerem2206].", url: "map/list/gtav-in-minecraft.html", image: "../IMG/map/gtav-in-minecraft.png" },
 	//H
 	{ title: "Hacker Skin Pack", content: "Ce Skin Pack créé par Nobledez contient différents skins dans le thème hacker.", url: "skin-pack/list/hacker-skin-pack.html", image: "../IMG/skin-pack/hacker-skin-pack.png" },
@@ -61,6 +65,7 @@ const pages = [
 	//M
 	{ title: "Map aventure", content: "Cette carte faites par frifri vous propose une carte aventure.", url: "map/list/map-aventure.html", image: "../IMG/map/map-aventure.png" },
 	{ title: "Map Jump", content: "Cette carte faites par frifri converti sur WiiU par Jerem2206 vous propose une carte de parcour.", url: "map/list/map-jump.html", image: "../IMG/map/map-jump.png" },
+	{ title: "Mathox Red Pack", content: "Ce texture pack crée par Mathox et converti par jerem2206 est un texture pack pvp uhc rouge", url: "texture-pack/list/mathox-red-pack.html", image: "../IMG/texture-pack/mathox-red-pack.png" },
 	{ title: "MCC Tool Chest", content: "Ce logiciel permet de modifier des cartes (map) comme universal minecraft editor et de les convertir. Également d'extraire les .arc .", url: "logiciel/list/mcc-tool-chest.html", image: "../IMG/logiciel/mcc-tool-chest.png" },
 	{ title: "McEdit 2", content: "Ce logiciel permet de modifier des cartes (map) de façons approfondies.", url: "logiciel/list/mcedit-2.html", image: "../IMG/logiciel/mcedit-2.png" },
 	{ title: "MCSE Editor", content: "Ce logiciel permet de modifier les fichiers de son mcse.", url: "logiciel/list/mcse-editor.html", image: "../IMG/logiciel/mcse-editor.png" },
@@ -68,6 +73,7 @@ const pages = [
 	{ title: "Mega Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skins originaux qui utilise des skins connus.", url: "skin-pack/list/mega-pack.html", image: "../IMG/skin-pack/mega-pack.png" },
 	{ title: "Minecraft Converter", content: "Ce logiciel permet de convertir cartes(map) PS3 XBOX 360 et PC entre elles.", url: "logiciel/list/minecraft-converter.html", image: "../IMG/logiciel/minecraft-converter.png" },
 	{ title: "Minecraft Default x16", content: "Ce texture pack est juste le pack de base.", url: "texture-pack/list/minecraft-default-x16.html", image: "../IMG/nothing.png" },
+	{ title: "Minecraft Dungeons", content: "Ce Skin Pack comprends les personnages de joueurs de minecraft dungeons", url: "skin-pack/list/minecraft-dungeons.html", image: "../IMG/skin-pack/minecraft-dungeons.png" },
 	{ title: "Minecraft Version EShop", content: "Ce fichiers est Minecraft Version EShop prêt a être installé sur WiiU (version complète pour le modding).", url: "logiciel/list/minecraft-version-eshop.html", image: "../IMG/nothing.png" },
 	{ title: "Mizuno's 16 Craft", content: "Ce texture pack crée par Mizuno et converti par jerem2206 est un texture pack proche des pack mythologie", url: "texture-pack/list/mizunos.html", image: "../IMG/texture-pack/mizunos.png" },
 	{ title: "Morea", content: "Ce texture pack crée par juanteh et converti par jerem2206 est un texture pack pvp basic", url: "texture-pack/list/morea.html", image: "../IMG/texture-pack/morea.png" },
@@ -78,10 +84,12 @@ const pages = [
 	{ title: "Noob Skin Pack", content: "Ce Skin Pack crée par Spectroz comprends différents skins dans le thème noob.", url: "skin-pack/list/noob-skin-pack.html", image: "../IMG/skin-pack/noob-skin-pack.png" },
 	//O 
 	{ title: "Offensive Hearts V2", content: "Ce texture pack crée par Juanteh et converti par jerem2206 est un texture pack pvp rouge basic", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
+	{ title: "Old Lobby", content: "Juste l'ancien lobby des mini jeux de minecraft console.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
 	{ title: "Pack map Hide N Seek", content: "Ce pack de cartes converti par Jerem2206 contient des cartes du mode de jeu cache cache(3).", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "Ce pack de carte comporte 2 cartes convertit par Jerem2206 et une faites par Pengchan [Publié par Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
 	{ title: "Paint.net", content: "Ce logiciel permet de modifier et de créer des images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
+	{ title: "Paint Red", content: "Ce texture pack crée par AlwaysTwoClutch et converti par a4L est un texture pack pvp rouge", url: "texture-pack/list/paint-red.html", image: "../IMG/texture-pack/paint-red.png" },
 	{ title: "PCK Studio", content: "Ce logiciel de faire des packs de skin et de crée des skins spéciaux tout en pouvant exporter les packs de skin vers sa console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Pixelorama", content: "Ce logiciel permet de créer des textures animées.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skins dans le thème portrait.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
