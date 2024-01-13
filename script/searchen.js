@@ -1,5 +1,7 @@
 
 const pages = [
+	//123
+	{ title: "45625w-2019", content: "This Skin Pack includes different skins.", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
 	{ title: "All Dream", content: "This Skin Pack created by Azox includes all the colors of the skin dream. [Posted by Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Amethyst Pack", content: "This texture pack created by Colbb and converted by jerem2206 is a purple pvp texture pack", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
@@ -57,6 +59,7 @@ const pages = [
 	{ title: "Jerem Event 2021 Map Pack", content: "This map pack created by Jerem2206 contains the maps of the event organized in 2021(2).", url: "map/list/jerem-event-2021-map-pack.html", image: "../IMG/map/jerem-event-2021-map-pack.png" },
 	{ title: "Jerem Texture Pack", content: "This map created by Jerem2206 contains the necessary to test his texture pack and for PvP.", url: "map/list/jerem-texture-pack.html", image: "../IMG/map/jerem-texture-pack.png" },
 	{ title: "Jerem UHC Map Pack", content: "This map pack created by Jerem2206 contains various custom(2) uhc maps.", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
+	{ title: "Jerem's Customs Models Skin Pack", content: "This Skin Pack includes different special skins created by Jerem2206.", url: "skin-pack/list/jerems-customs-models-skin-pack.html", image: "../IMG/skin-pack/jerems-customs-models-skin-pack.png" },
 	{ title: "Jurassic World Skin Pack", content: "This Skin Pack created by Nobledez includes different skins in the form of dinosaur images related to Jurassic World.", url: "skin-pack/list/jurassic-world-skin-pack.html", image: "../IMG/skin-pack/jurassic-world-skin-pack.png" },
 	//K 
 	//L 
@@ -84,8 +87,9 @@ const pages = [
 	{ title: "Offensive Hearts V2", content: "This texture pack created by Juanteh and converted by jerem2206 is a basic red pvp texture pack", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
 	{ title: "Old Lobby", content: "Just the old minecraft console mini games lobby.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
+	{ title: "Pack map Bedwars", content: "This map pack contains maps from the bedwars game mode(35).", url: "map/list/pack-map-bedwars.html", image: "../IMG/map/pack-map-bedwars.png" },
 	{ title: "Pack map Hide N Seek", content: "This map pack converted by Jerem2206 contains maps from the hide and seek(3) game mode.", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
-	{ title: "Pack map skywars", content: "This map pack includes 2 maps converted by Jerem2206 and one made by Pengchan [Published by Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
+	{ title: "Pack map skywars", content: "This map pack includes 4 maps converted by Jerem2206 and one made by Pengchan.", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
 	{ title: "Paint.net", content: "This software allows you to edit and create images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
 	{ title: "Paint Red", content: "This texture pack created by AlwaysTwoClutch and converted by a4L is a red pvp texture pack", url: "texture-pack/list/paint-red.html", image: "../IMG/texture-pack/paint-red.png" },
 	{ title: "PCK Studio", content: "This software to make skin packs and create special skins while being able to export skin packs to its console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
@@ -96,6 +100,7 @@ const pages = [
 	{ title: "Qu@ skin pack", content: "This Skin Pack created by Mario Level contains a lot of original skin", url: "skin-pack/list/Qu@-skin-pack.html", image: "../IMG/skin-pack/Qu@-skin-pack.png" },
 	//R 
 	{ title: "ReQuestPCK", content: "This Skin Pack created by Nobledez includes different skins requested by his community.", url: "skin-pack/list/requestpck-nobledez.html", image: "../IMG/skin-pack/requestpck-nobledez.png" },
+	{ title: "Rick & Morty", content: " This Skin Pack created by Nobledez includes different skins from the Rick & Morty universe.", url: "skin-pack/list/rick-&-morty.html", image: "../IMG/skin-pack/rick-&-morty.png" },
 	//S
 	{ title: "Skin Pack of The LiviAxel", content: "This Skin Pack created by TheSecretPadlock contains over a hundred original skins", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
 	{ title: "Skyblock", content: "This map made by DanRobzProbz is a complete skyblock map.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
@@ -108,11 +113,13 @@ const pages = [
 	{ title: "Super Smash Bros Pack V2", content: "This Skin Pack includes different skins related to the super smash bros theme.", url: "skin-pack/list/super-smash-bros-pack-v2.html", image: "../IMG/nothing.png" },
 	//T 
 	{ title: "Tank Skin Pack", content: "This Skin Pack created by Jerem2206 using the tank model from the brendans models skin pack and includes different tank skins in different colors.", url: "skin-pack/list/tank-skin-pack.html", image: "../IMG/skin-pack/tank-skin-pack.png" },-
+	{ title: "Terraria Skins V2", content: "This Skin Pack includes different skins from the Terraria universe.", url: "skin-pack/list/terraria-skins-v2.html", image: "../IMG/skin-pack/terraria-skins-v2.png" },
 	{ title: "The Final Skin Pack", content: "This Skin Pack created by Jerem2206 includes different skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "This Skin Pack includes different skins related to the joy of creation theme.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "This Skin Pack created by TheSecretPadlock includes different special skins.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
 	{ title: "TNT+ Modded", content: "This map made by NT Games offers you different modded tnts.", url: "map/list/tnt+-modded.html", image: "../IMG/map/tnt+-modded.png" },
 	{ title: "Tonic Pack", content: "This texture pack created by JabaPacks and converted by jerem2206 is a basic pvp texture pack", url: "/texture-pack/list/tonic-pack.html", image: "../IMG/texture-pack/tonic-pack.png" },
+	{ title: "Trailer Texture Pack", content: "This texture pack created by RobotPants and converted by jerem2206 is a texture pack using the textures from Minecraft trailers / animations made by Element Animation", url: "texture-pack/list/trailer-texture-pack.html", image: "../IMG/texture-pack/trailer-texture-pack.png" },
 	{ title: "Troll Skin Pack", content: "This Skin Pack created by Jerem2206 which includes different simple skins in troll theme.", url: "skin-pack/list/troll-skin-pack.html", image: "../IMG/skin-pack/troll-skin-pack.png" },
 	{ title: "Tropical Fade", content: "This texture pack created by Colbb and converted by jerem2206 is a green/yellow colored pvp texture pack for bedwars/skywars.", url: "texture-pack/list/tropical-fade.html", image: "../IMG/texture-pack/tropical-fade.png" },
 	//U

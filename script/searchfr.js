@@ -1,5 +1,7 @@
 
 const pages = [
+	//123
+	{ title: "45625w-2019", content: " Ce Skin Pack comprends différents skins", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Amethyst Pack", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp violet", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
@@ -59,6 +61,7 @@ const pages = [
 	{ title: "Jerem Event 2021 Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient les cartes de l'évvènement organisé en 2021(2).", url: "map/list/jerem-event-2021-map-pack.html", image: "../IMG/map/jerem-event-2021-map-pack.png" },
 	{ title: "Jerem Texture Pack", content: "Cette carte crée par Jerem2206 contient le nécéssaire pour tester son texture pack et pour PvP.", url: "map/list/jerem-texture-pack.html", image: "../IMG/map/jerem-texture-pack.png" },
 	{ title: "Jerem UHC Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient des cartes d'uhc divers custom(2).", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
+	{ title: "Jerem's Customs Models Skin Pack", content: "Ce Skin Pack comprends différents skins spéciaux crée par Jerem2206", url: "skin-pack/list/jerems-customs-models-skin-pack.html", image: "../IMG/skin-pack/jerems-customs-models-skin-pack.png" },
 	{ title: "Jurassic World Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skin sous forme d'images de dinosaures lié à Jurassic World.", url: "skin-pack/list/jurassic-world-skin-pack.html", image: "../IMG/skin-pack/jurassic-world-skin-pack.png" },
 	//K 
 	//L 
@@ -86,8 +89,9 @@ const pages = [
 	{ title: "Offensive Hearts V2", content: "Ce texture pack crée par Juanteh et converti par jerem2206 est un texture pack pvp rouge basic", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
 	{ title: "Old Lobby", content: "Juste l'ancien lobby des mini jeux de minecraft console.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
+	{ title: "Pack map Bedwars", content: "Ce pack de cartes contient des cartes du mode de jeu bedwars(35)", url: "map/list/pack-map-bedwars.html", image: "../IMG/map/pack-map-bedwars.png" },
 	{ title: "Pack map Hide N Seek", content: "Ce pack de cartes converti par Jerem2206 contient des cartes du mode de jeu cache cache(3).", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
-	{ title: "Pack map skywars", content: "Ce pack de carte comporte 2 cartes convertit par Jerem2206 et une faites par Pengchan [Publié par Frutox].", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
+	{ title: "Pack map skywars", content: "Ce pack de cartes comporte 4 cartes convertit par Jerem2206 et une faites par Pengchan.", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
 	{ title: "Paint.net", content: "Ce logiciel permet de modifier et de créer des images.", url: "logiciel/list/paint.net.html", image: "../IMG/logiciel/paint.net.png" },
 	{ title: "Paint Red", content: "Ce texture pack crée par AlwaysTwoClutch et converti par a4L est un texture pack pvp rouge", url: "texture-pack/list/paint-red.html", image: "../IMG/texture-pack/paint-red.png" },
 	{ title: "PCK Studio", content: "Ce logiciel de faire des packs de skin et de crée des skins spéciaux tout en pouvant exporter les packs de skin vers sa console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
@@ -98,6 +102,7 @@ const pages = [
 	{ title: "Qu@ skin pack", content: "Ce Skin Pack crée par Niveau de Mario contient beaucoup de skin original", url: "skin-pack/list/Qu@-skin-pack.html", image: "../IMG/skin-pack/Qu@-skin-pack.png" },
 	//R 
 	{ title: "ReQuestPCK", content: "Ce Skin Pack crée par Nobledez comprends différents skins demandé par sa communautée.", url: "skin-pack/list/requestpck-nobledez.html", image: "../IMG/skin-pack/requestpck-nobledez.png" },
+	{ title: "Rick & Morty", content: " Ce Skin Pack crée par Nobledez comprends différents skins de l'univers de Rick & Morty.", url: "skin-pack/list/rick-&-morty.html", image: "../IMG/skin-pack/rick-&-morty.png" },
 	//S
 	{ title: "Skin Pack of The LiviAxel", content: "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
 	{ title: "Skyblock", content: "Cette carte faites par DanRobzProbz est une carte skyblock complète.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
@@ -110,11 +115,13 @@ const pages = [
 	{ title: "Super Smash Bros Pack V2", content: "Ce Skin Pack comprends différents skins lié au thème super smash bros.", url: "skin-pack/list/super-smash-bros-pack-v2.html", image: "../IMG/nothing.png" },
 	//T 
 	{ title: "Tank Skin Pack", content: "Ce Skin Pack créé par Jerem2206 en utilisant le modèle du tank du pack brendans models skin pack et comprend différents skins de tank dans différentes couleurs.", url: "skin-pack/list/tank-skin-pack.html", image: "../IMG/skin-pack/tank-skin-pack.png" },
+	{ title: "Terraria Skins V2", content: "Ce Skin Pack comprends différents skins de l'univers de Terraria.", url: "skin-pack/list/terraria-skins-v2.html", image: "../IMG/skin-pack/terraria-skins-v2.png" },
 	{ title: "The Final Skin Pack", content: "Ce Skin Pack créé par Jerem2206 comprends différents skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "Ce Skin Pack comprends différents skins lié au thème the joy of creation.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "Ce Skin Pack crée par TheSecretPadlock comprends différents skins spéciaux.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
 	{ title: "TNT+ Modded", content: "Cette carte faites par NT Games vous propose différentes tnt modées.", url: "map/list/tnt+-modded.html", image: "../IMG/map/tnt+-modded.png" },
 	{ title: "Tonic Pack", content: "Ce texture pack crée par JabaPacks et converti par jerem2206 est un texture pack pvp basic", url: "texture-pack/list/tonic-pack.html", image: "../IMG/texture-pack/tonic-pack.png" },
+	{ title: "Trailer Texture Pack", content: "Ce texture pack crée par RobotPants et converti par jerem2206 est un texture reprennant les textures des trailers de minecraft des animations faites par Element Animation", url: "texture-pack/list/trailer-texture-pack.html", image: "../IMG/texture-pack/trailer-texture-pack.png" },
 	{ title: "Troll Skin Pack", content: "Ce Skin Pack créé par Jerem2206 qui comprends différents skins simple dans le thème troll.", url: "skin-pack/list/troll-skin-pack.html", image: "../IMG/skin-pack/troll-skin-pack.png" },
 	{ title: "Tropical Fade", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur vert/jaune pour bedwars/skywars.", url: "texture-pack/list/tropical-fade.html", image: "../IMG/texture-pack/tropical-fade.png" },
 	//U
@@ -133,7 +140,7 @@ const pages = [
 	//Y 
 	//Z 
 	{ title: "Zombie Tower Defence", content: "Cette carte est une carte Tower Defence avec des zombie [Publié par Frutox].", url: "map/list/zombie-tower-defence.html", image: "../IMG/map/zombie-tower-defence.png" },
-
+	
 ];
 
 function search() {

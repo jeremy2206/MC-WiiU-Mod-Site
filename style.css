@@ -411,6 +411,7 @@ button {
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image skin pack */
 
+.w45625-2019 {background-image: url('IMG/skin-pack/45625w-2019.png'); background-size: cover;}
 .all-dream {background-image: url('IMG/skin-pack/all-dream.png'); background-size: cover;}
 .among-us-skin-pack {background-image: url('IMG/skin-pack/among-us-skin-pack.png'); background-size: cover;}
 .apps-pack {background-image: url('IMG/skin-pack/apps-pack.png'); background-size: cover;}
@@ -423,6 +424,7 @@ button {
 .gameallstar {background-image: url('IMG/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
 .gazgoh-custom-models {background-image: url('IMG/skin-pack/gazgoh-custom-model.png'); background-size: cover;}
 .hacker-skin-pack {background-image: url('IMG/skin-pack/hacker-skin-pack.png'); background-size: cover;}
+.jerems-customs-models-skin-pack {background-image: url('IMG/skin-pack/jerems-customs-models-skin-pack.png'); background-size: cover;}
 .jurassic-world-skin-pack {background-image: url('IMG/skin-pack/jurassic-world-skin-pack.png'); background-size: cover;}
 .mega-pack {background-image: url('IMG/skin-pack/mega-pack.png'); background-size: cover;}
 .minecraft-dungeons {background-image: url('IMG/skin-pack/minecraft-dungeons.png'); background-size: cover;}
@@ -432,10 +434,12 @@ button {
 .pvp-skin-pack {background-image: url('IMG/skin-pack/pvp-skin-pack.png'); background-size: cover;}
 .Qu-skin-pack {background-image: url('IMG/skin-pack/Qu@-skin-pack.png'); background-size: cover;}
 .requestpck-nobledez {background-image: url('IMG/skin-pack/requestpck-nobledez.png'); background-size: cover;}
+.rick-morty {background-image: url('IMG/skin-pack/rick-&-morty.png'); background-size: cover;}
 .skin-pack-of-liviaxel {background-image: url('IMG/skin-pack/skin-pack-of-liviaxel.png'); background-size: cover;}
 .srg64-mega-skinpack {background-image: url('IMG/skin-pack/srg64-mega-skinpack.png'); background-size: cover;}
 .steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
 .tank-skin-pack {background-image: url('IMG/skin-pack/tank-skin-pack.png'); background-size: cover;}
+.terraria-skins-v2 {background-image: url('IMG/skin-pack/terraria-skins-v2.png'); background-size: cover;}
 .the-final-skin-pack {background-image: url('IMG/skin-pack/the-final-skin-pack.png'); background-size: cover;}
 .the-world-skin-pack {background-image: url('IMG/skin-pack/the-world-skin-pack.png'); background-size: cover;}
 .troll-skin-pack {background-image: url('IMG/skin-pack/troll-skin-pack.png'); background-size: cover;}
@@ -459,6 +463,7 @@ button {
 .map-aventure {background-image: url('IMG/map/map-aventure.png'); background-size: cover;}
 .map-jump {background-image: url('IMG/map/map-jump.png'); background-size: cover;}
 .mystic-maze {background-image: url('IMG/map/mystic-maze.png'); background-size: cover;}
+.pack-map-bedwars {background-image: url('IMG/map/pack-map-bedwars.png'); background-size: cover;}
 .pack-map-hide-n-seek {background-image: url('IMG/map/pack-map-hide-n-seek.png'); background-size: cover;}
 .pack-map-skywars {background-image: url('IMG/map/pack-map-skywars.png'); background-size: cover;}
 .skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
@@ -486,6 +491,7 @@ button {
 .paint-red {background-image: url('IMG/texture-pack/paint-red.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
 .tonic-pack {background-image: url('IMG/texture-pack/tonic-pack.png'); background-size: cover;}
+.trailer-texture-pack {background-image: url('IMG/texture-pack/trailer-texture-pack.png'); background-size: cover;}
 .tropical-fade {background-image: url('IMG/texture-pack/tropical-fade.png'); background-size: cover;}
 .ultra {background-image: url('IMG/texture-pack/ultra.png'); background-size: cover;}
 
