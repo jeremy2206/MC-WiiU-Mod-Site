@@ -1,6 +1,7 @@
 
 const pages = [
 	//123
+	{ title: "24/7 SMP", content: "This map created for members of the Minecraft Legacy Edition discord server is a survival which remained open for several months", url: "map/list/24-7-smp.html", image: "../IMG/map/24-7-smp.png" },
 	{ title: "45625w-2019", content: " Ce Skin Pack comprends différents skins", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
@@ -23,6 +24,7 @@ const pages = [
 	//C
 	{ title: "Capture the flag", content: "Cette carte est une carte PvP qui consiste a capturer le drapeau [Publié par Frutox].", url: "map/list/capturetheflag.html", image: "../IMG/map/capturetheflag.png" },
     { title: "Cemu", content: "Ce logiciel permet de jouer a des jeux WiiU sur PC.", url: "logiciel/list/cemu.html", image: "../IMG/logiciel/cemu.png" },
+	{ title: "Cereal Box Pack", content: "Ce Skin Pack créé par Nobledez est un pack de skin avec des boite de céréales.", url: "skin-pack/list/cereal-box-pack.html", image: "../IMG/skin-pack/cereal-box-pack.png" },
 	{ title: "Commu Skin Pack", content: "Ce Skin Pack créé par Jerem2206 rassemble différents skins simple.", url: "skin-pack/list/commu-skin-pack.html", image: "../IMG/skin-pack/commu-skin-pack.png" },
 	{ title: "Core War", content: "Cette cartes crée par Thepyrocrafteur & Uranium_49 sur Java refait par Jerem2206 contient une carte team contre team pour détruire le coeur adverse.", url: "map/list/core-war.html", image: "../IMG/map/core-war.png" },
 	{ title: "Creeper Skin Pack", content: "Ce Skin Pack contient des creeper de différentes couleurs.", url: "skin-pack/list/creeper-skin-pack.html", image: "../IMG/nothing.png" },
@@ -73,6 +75,7 @@ const pages = [
 	{ title: "McEdit 2", content: "Ce logiciel permet de modifier des cartes (map) de façons approfondies.", url: "logiciel/list/mcedit-2.html", image: "../IMG/logiciel/mcedit-2.png" },
 	{ title: "MCSE Editor", content: "Ce logiciel permet de modifier les fichiers de son mcse.", url: "logiciel/list/mcse-editor.html", image: "../IMG/logiciel/mcse-editor.png" },
 	{ title: "MC WiiU ID Skin Checker", content: "Ce logiciel permet de vérifier l'id de son skin de son skin pack si il existe deja.", url: "logiciel/list/mc-wiiu-id-skin-checker.html", image: "../IMG/logiciel/mc-wiiu-id-skin-checker.png" },
+	{ title: "Mega Mapa De Splatoon", content: "Cette carte rassemble des cartes de Splatoon.", url: "map/list/mega-mapa-de-splatoon.html", image: "../IMG/map/mega-mapa-de-splatoon.png" },
 	{ title: "Mega Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skins originaux qui utilise des skins connus.", url: "skin-pack/list/mega-pack.html", image: "../IMG/skin-pack/mega-pack.png" },
 	{ title: "Minecraft Converter", content: "Ce logiciel permet de convertir cartes(map) PS3 XBOX 360 et PC entre elles.", url: "logiciel/list/minecraft-converter.html", image: "../IMG/logiciel/minecraft-converter.png" },
 	{ title: "Minecraft Default x16", content: "Ce texture pack est juste le pack de base.", url: "texture-pack/list/minecraft-default-x16.html", image: "../IMG/nothing.png" },
@@ -89,6 +92,7 @@ const pages = [
 	{ title: "Offensive Hearts V2", content: "Ce texture pack crée par Juanteh et converti par jerem2206 est un texture pack pvp rouge basic", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
 	{ title: "Old Lobby", content: "Juste l'ancien lobby des mini jeux de minecraft console.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
+	{ title: "Pack De Mini Jeux Hack", content: "Ce lobby crée par Nt Games et sayZEN qui contient un lobby moddé ainsi que des paramètres pour les différents mini jeux.", url: "lobby/list/pack-de-mini-jeux-hack.html", image: "../IMG/lobby/pack-de-mini-jeux-hack.png" },
 	{ title: "Pack map Bedwars", content: "Ce pack de cartes contient des cartes du mode de jeu bedwars(35)", url: "map/list/pack-map-bedwars.html", image: "../IMG/map/pack-map-bedwars.png" },
 	{ title: "Pack map Hide N Seek", content: "Ce pack de cartes converti par Jerem2206 contient des cartes du mode de jeu cache cache(3).", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "Ce pack de cartes comporte 4 cartes convertit par Jerem2206 et une faites par Pengchan.", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
@@ -97,6 +101,7 @@ const pages = [
 	{ title: "PCK Studio", content: "Ce logiciel de faire des packs de skin et de crée des skins spéciaux tout en pouvant exporter les packs de skin vers sa console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Pixelorama", content: "Ce logiciel permet de créer des textures animées.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skins dans le thème portrait.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
+	{ title: "PowerFTP", content: "Ce logiciel permet de transférer des fichiers vers sa WiiU mais pour téléphone.", url: "logiciel/list/powerftp.html", image: "../IMG/logiciel/ppowerftp.png" },
 	{ title: "PvP Skin Pack", content: "Ce Skin Pack crée par Jerem2206 comprends différents skins simple.", url: "skin-pack/list/pvp-skin-pack.html", image: "../IMG/skin-pack/pvp-skin-pack.png" },
 	//Q 
 	{ title: "Qu@ skin pack", content: "Ce Skin Pack crée par Niveau de Mario contient beaucoup de skin original", url: "skin-pack/list/Qu@-skin-pack.html", image: "../IMG/skin-pack/Qu@-skin-pack.png" },
@@ -104,6 +109,7 @@ const pages = [
 	{ title: "ReQuestPCK", content: "Ce Skin Pack crée par Nobledez comprends différents skins demandé par sa communautée.", url: "skin-pack/list/requestpck-nobledez.html", image: "../IMG/skin-pack/requestpck-nobledez.png" },
 	{ title: "Rick & Morty", content: " Ce Skin Pack crée par Nobledez comprends différents skins de l'univers de Rick & Morty.", url: "skin-pack/list/rick-&-morty.html", image: "../IMG/skin-pack/rick-&-morty.png" },
 	//S
+	{ title: "SD Card", content: "L'ensemble des fichiers de Carte SD de Jerem2206 pour pouvoir modder.", url: "logiciel/list/carte-sd.html", image: "../IMG/nothing.png" },
 	{ title: "Skin Pack of The LiviAxel", content: "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
 	{ title: "Skyblock", content: "Cette carte faites par DanRobzProbz est une carte skyblock complète.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
 	{ title: "Speed UHC", content: "Cette carte est une carte UHC de la version rapide de l'UHC classique [Publié par Frutox].", url: "map/list/speed-uhc.html", image: "../IMG/map/speed-uhc.png" },
@@ -125,10 +131,12 @@ const pages = [
 	{ title: "Troll Skin Pack", content: "Ce Skin Pack créé par Jerem2206 qui comprends différents skins simple dans le thème troll.", url: "skin-pack/list/troll-skin-pack.html", image: "../IMG/skin-pack/troll-skin-pack.png" },
 	{ title: "Tropical Fade", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur vert/jaune pour bedwars/skywars.", url: "texture-pack/list/tropical-fade.html", image: "../IMG/texture-pack/tropical-fade.png" },
 	//U
+	{ title: "Undertale Skin Pack V1", content: "Ce Skin Pack créé par boxed_by_zem0ur est un skin pack d'Undertale avec des skins du jeu [publié par alpine42330].", url: "skin-pack/list/undertale-skin-pack.html", image: "../IMG/skin-pack/undertale-skin-pack.jpg" },
 	{ title: "Universal Minecraft Editor", content: "Ce logiciel permet de modifier des cartes (map) ainsi que les .nbt .", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
 	{ title: "Ultra", content: "Ce texture pack crée par iSparkton pour xNestorio et converti par jerem2206 est un texture pack pvp de couleur or. ", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
 	{ title: "USB Helper", content: "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
+	{ title: "V48 Tutorial", content: "Simplement le tutoriel de la mise a jour v48 (d'après usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutoriel/v48-tutorial.png" },
 	//W
 	{ title: "WiiU Map Manager", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },
 	{ title: "WiiU Title Boot Editor", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-title-boot-editor.html", image: "../IMG/logiciel/wiiu-title-boot-editor.png" },
