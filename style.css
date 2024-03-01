@@ -390,6 +390,7 @@ button {
 .html-color-modifier {background-image: url('IMG/logiciel/html-color-modifier.png'); background-size: cover;}
 .hxd {background-image: url('IMG/logiciel/hxd.png'); background-size: cover;}
 .java-to-wiiu-texture-pack-converter {background-image: url('IMG/logiciel/java-to-wiiu-texture-pack-converter.png'); background-size: cover;}
+.json-to-box-converter {background-image: url('IMG/logiciel/json-to-box-converter.png'); background-size: cover;}
 .mcc-tool-chest {background-image: url('IMG/logiciel/mcc-tool-chest.png'); background-size: cover;}
 .mcedit-2 {background-image: url('IMG/logiciel/mcedit-2.png'); background-size: cover;}
 .mcse-editor {background-image: url('IMG/logiciel/mcse-editor.png'); background-size: cover;}
@@ -428,6 +429,8 @@ button {
 .hacker-skin-pack {background-image: url('IMG/skin-pack/hacker-skin-pack.png'); background-size: cover;}
 .jerems-customs-models-skin-pack {background-image: url('IMG/skin-pack/jerems-customs-models-skin-pack.png'); background-size: cover;}
 .jurassic-world-skin-pack {background-image: url('IMG/skin-pack/jurassic-world-skin-pack.png'); background-size: cover;}
+.mass-effect-extented {background-image: url('IMG/skin-pack/mass-effect-extented.png'); background-size: cover;}
+.mc360-skin-packs-1-6-port {background-image: url('IMG/skin-pack/mc360-skin-packs-1-6-port.png'); background-size: cover;}
 .mega-pack {background-image: url('IMG/skin-pack/mega-pack.png'); background-size: cover;}
 .minecraft-dungeons {background-image: url('IMG/skin-pack/minecraft-dungeons.png'); background-size: cover;}
 .mob-skin-pack {background-image: url('IMG/skin-pack/mob-skin-pack.png'); background-size: cover;}
@@ -471,6 +474,7 @@ button {
 .pack-map-bedwars {background-image: url('IMG/map/pack-map-bedwars.png'); background-size: cover;}
 .pack-map-hide-n-seek {background-image: url('IMG/map/pack-map-hide-n-seek.png'); background-size: cover;}
 .pack-map-skywars {background-image: url('IMG/map/pack-map-skywars.png'); background-size: cover;}
+.rush-furysium-v2 {background-image: url('IMG/map/rush-furysium-v2.png'); background-size: cover;}
 .skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
 .speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
 .spiral-parkour {background-image: url('IMG/map/spiral-parkour.png'); background-size: cover;}
@@ -504,6 +508,7 @@ button {
 /* image Lobby*/
 
 .basic-lobby {background-image: url('IMG/lobby/basic-lobby.png'); background-size: cover;}
+.jerem2206-lobby-v1 {background-image: url('IMG/lobby/jerem2206-lobby-v1.png'); background-size: cover;}
 .old-lobby {background-image: url('IMG/lobby/old-lobby.png'); background-size: cover;}
 .pack-de-mini-jeux-hack {background-image: url('IMG/lobby/pack-de-mini-jeux-hack.png'); background-size: cover;}
 
@@ -511,3 +516,9 @@ button {
 /* image Tutoriel*/
 
 .v48-tutorial {background-image: url('IMG/tutoriel/v48-tutorial.png'); background-size: cover;}
+.v688-tutorial {background-image: url('IMG/tutoriel/v688-tutorial.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image Map Mini-Jeux*/
+
+.basicarena-mg02-fy-v2 {background-image: url('IMG/minigame-map/basicarena-mg02-fy-v2.png'); background-size: cover;}

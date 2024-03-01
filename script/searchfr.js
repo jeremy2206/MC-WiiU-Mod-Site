@@ -12,7 +12,8 @@ const pages = [
 	{ title: "Arcane Practice", content: "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
 	//B
 	{ title: "Basic Lobby", content: "Juste le lobby actuel des mini jeux de minecraft console.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
-    { title: "Binkman", content: "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
+    { title: "BasicArena MG02 FY V2", content: "Cette carte crée par Jerem2206 pour les membres de la Furysium qui contient une légère modification de la carte principale du mode culbute", url: "minigame-map/list/basicarena-mg02-fy-v2.html", image: "../IMG/minigame-map/basicarena-mg02-fy-v2.png" },
+	{ title: "Binkman", content: "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
 	{ title: "Block Skin Pack", content: "Ce Skin Pack créé par Nobledez rassemble quelques centaines de blocs de minecraft et de certains mods.", url: "skin-pack/list/block-skin-pack.html", image: "../IMG/skin-pack/block-skin-pack.png" },
     { title: "BlockBench", content: "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
 
@@ -64,13 +65,17 @@ const pages = [
 	{ title: "Jerem Texture Pack", content: "Cette carte crée par Jerem2206 contient le nécéssaire pour tester son texture pack et pour PvP.", url: "map/list/jerem-texture-pack.html", image: "../IMG/map/jerem-texture-pack.png" },
 	{ title: "Jerem UHC Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient des cartes d'uhc divers custom(2).", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
 	{ title: "Jerem's Customs Models Skin Pack", content: "Ce Skin Pack comprends différents skins spéciaux crée par Jerem2206", url: "skin-pack/list/jerems-customs-models-skin-pack.html", image: "../IMG/skin-pack/jerems-customs-models-skin-pack.png" },
+	{ title: "Jerem2206 Lobby V1", content: "Ce lobby crée par Jerem2206 qui contient un lobby moddé simple", url: "lobby/list/jerem2206-lobby-v1.html", image: "../IMG/lobby/jerem2206-lobby-v1.png" },
+	{ title: "JSON To Box Converter", content: "Ce logiciel permet de convertir les skins de Blockbench vers PCK Studio", url: "logiciel/list/json-to-box-converter.html", image: "../IMG/logiciel/json-to-box-converter.png" },
 	{ title: "Jurassic World Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skin sous forme d'images de dinosaures lié à Jurassic World.", url: "skin-pack/list/jurassic-world-skin-pack.html", image: "../IMG/skin-pack/jurassic-world-skin-pack.png" },
 	//K 
 	//L 
 	//M
 	{ title: "Map aventure", content: "Cette carte faites par frifri vous propose une carte aventure.", url: "map/list/map-aventure.html", image: "../IMG/map/map-aventure.png" },
 	{ title: "Map Jump", content: "Cette carte faites par frifri converti sur WiiU par Jerem2206 vous propose une carte de parcour.", url: "map/list/map-jump.html", image: "../IMG/map/map-jump.png" },
+	{ title: "Mass Effect: Extented", content: "Ce Skin Pack contient des skins suplémentaires que ceux du pack mashup.", url: "skin-pack/list/mass-effect-extented.html", image: "../IMG/skin-pack/mass-effect-extented.png" },
 	{ title: "Mathox Red Pack", content: "Ce texture pack crée par Mathox et converti par jerem2206 est un texture pack pvp uhc rouge", url: "texture-pack/list/mathox-red-pack.html", image: "../IMG/texture-pack/mathox-red-pack.png" },
+	{ title: "MC360 Skin Packs 1-6 Port", content: "Ce Skin Pack crée par Nobledez contient les skin packs de 1 à 6 de la version Xbox360.", url: "skin-pack/list/mc360-skin-packs-1-6-port.html", image: "../IMG/skin-pack/mc360-skin-packs-1-6-port.png" },
 	{ title: "MCC Tool Chest", content: "Ce logiciel permet de modifier des cartes (map) comme universal minecraft editor et de les convertir. Également d'extraire les .arc .", url: "logiciel/list/mcc-tool-chest.html", image: "../IMG/logiciel/mcc-tool-chest.png" },
 	{ title: "McEdit 2", content: "Ce logiciel permet de modifier des cartes (map) de façons approfondies.", url: "logiciel/list/mcedit-2.html", image: "../IMG/logiciel/mcedit-2.png" },
 	{ title: "MCSE Editor", content: "Ce logiciel permet de modifier les fichiers de son mcse.", url: "logiciel/list/mcse-editor.html", image: "../IMG/logiciel/mcse-editor.png" },
@@ -108,6 +113,7 @@ const pages = [
 	//R 
 	{ title: "ReQuestPCK", content: "Ce Skin Pack crée par Nobledez comprends différents skins demandé par sa communautée.", url: "skin-pack/list/requestpck-nobledez.html", image: "../IMG/skin-pack/requestpck-nobledez.png" },
 	{ title: "Rick & Morty", content: " Ce Skin Pack crée par Nobledez comprends différents skins de l'univers de Rick & Morty.", url: "skin-pack/list/rick-&-morty.html", image: "../IMG/skin-pack/rick-&-morty.png" },
+	{ title: "Rush Furysium V2", content: "Cette carte faites par LG_PvP est une carte rush classique faites pour les membres de la furysium.", url: "map/list/rush-furysium-v2.html", image: "../IMG/map/rush-furysium-v2.png" },
 	//S
 	{ title: "SD Card", content: "L'ensemble des fichiers de Carte SD de Jerem2206 pour pouvoir modder.", url: "logiciel/list/carte-sd.html", image: "../IMG/nothing.png" },
 	{ title: "Skin Pack of The LiviAxel", content: "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
@@ -137,6 +143,7 @@ const pages = [
 	{ title: "USB Helper", content: "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
 	{ title: "V48 Tutorial", content: "Simplement le tutoriel de la mise a jour v48 (d'après usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutoriel/v48-tutorial.png" },
+	{ title: "V688 Tutorial", content: "Simplement le tutoriel de la mise a jour v688 (d'après usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutorial/v688-tutoriel.png" },
 	//W
 	{ title: "WiiU Map Manager", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },
 	{ title: "WiiU Title Boot Editor", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-title-boot-editor.html", image: "../IMG/logiciel/wiiu-title-boot-editor.png" },
