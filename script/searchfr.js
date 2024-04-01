@@ -16,10 +16,9 @@ const pages = [
 	{ title: "Binkman", content: "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.", url: "logiciel/list/binkman.html", image: "../IMG/logiciel/binkman.png" },
 	{ title: "Block Skin Pack", content: "Ce Skin Pack créé par Nobledez rassemble quelques centaines de blocs de minecraft et de certains mods.", url: "skin-pack/list/block-skin-pack.html", image: "../IMG/skin-pack/block-skin-pack.png" },
     { title: "BlockBench", content: "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
-
 	{ title: "Blue & Red Fade", content: "Ce texture pack crée par Xenox et converti par jerem2206 est un texture pack pvp de couleur dégradé entre le rouge et le bleu .", url: "texture-pack/list/blue-&-red-fade.html", image: "../IMG/texture-pack/blue-&-red-fade.png" },
-
 	{ title: "BO2 Boat", content: "Cette carte est une carte du jeu Call of Duty Black Ops 2 dans Minecraft.", url: "map/list/bo2-boat.html", image: "../IMG/map/bo2-boat.png" },
+	{ title: "BrainFFA V2 FY", content: "Cette carte faites par Jerem2206 est une carte BrainFFA classique faites pour les membres de la furysium.", url: "map/list/brainffa-fy-v2.html", image: "../IMG/map/brainffa-v2-fy.png" },
 	{ title: "Brendans Models Skin Pack V5", content: "Ce Skin Pack créé par Brendans rassemble quelques centaines de skins originaux.", url: "skin-pack/list/brendans-models-skin-pack-v5.html", image: "../IMG/skin-pack/brendans-models-skin-pack-v5.png" },
 	{ title: "Brillant", content: "Ce texture pack crée par Brilliant-PVP et converti par jerem2206 est un texture pack très coloré un peu dans le style du pack plastic.", url: "texture-pack/list/brillant.html", image: "../IMG/texture-pack/brillant.png" },
 	//C
@@ -35,6 +34,7 @@ const pages = [
 	{ title: "Dragon Fruit", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur rose/rouge.", url: "texture-pack/list/dragon-fruit.html", image: "../IMG/texture-pack/dragon-fruit.png" },
 	{ title: "Dragon UnPACKer", content: "Ce logiciel permet d'ouvrir des fichiers impossible a ouvrir facilement (comme les .pck des mashup).", url: "logiciel/list/dragon-unpacker.html", image: "../IMG/logiciel/dragon-unpacker.png" },
 	//E
+	{ title: "Ester", content: "Ce Skin Pack contient des skins de la période de pâques.", url: "skin-pack/list/easter.html", image: "../IMG/skin-pack/easter.png" },
 	{ title: "EggWars", content: "Cette carte par pengchan est une carte du mode de jeu d'eggwars [Publié par Frutox].", url: "map/list/eggwars.html", image: "../IMG/map/eggwars.png" },
 	{ title: "ELR Elementary PvP", content: "Ce texture pack converti par el-robinator est simpliste et peut plaire aux joueurs PvP. [Publié par el-robinator]", url: "texture-pack/list/elr-elementary-pvp.html", image: "../IMG/texture-pack/elr-elementary-pvp.png" },
 	{ title: "Empty World", content: "Cette carte est juste une carte vide.", url: "map/list/empty-world.html", image: "../IMG/nothing.png" },
@@ -43,6 +43,7 @@ const pages = [
 	{ title: "Fallen Kingdom", content: "Cette carte est une carte PvP ou différentes équipes s'affrontent [Publié par Frutox].", url: "map/list/fallen-kingdom.html", image: "../IMG/map/fallenkingdom.png" },
 	{ title: "FallGuys Skin Pack", content: "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du personage de FallGuys. [Publié par Azox]", url: "skin-pack/list/fallguys-skin-pack.html", image: "../IMG/skin-pack/fallguys-skin-pack.png" },
 	{ title: "FarmLand V3", content: "Cette carte crée par Jerem2206 et avec la participation de MisterV4 est un carte de type farm.", url: "map/list/farmland-v3.html", image: "../IMG/map/farmland-v3.png" },
+	{ title: "FarmLand V4", content: "Cette carte crée par Jerem2206 avec MisterV4 est un carte de type farm.", url: "map/list/farmland-v4.html", image: "../IMG/map/farmland-v4.png" },
 	{ title: "FNAF Skin Pack", content: "Ce Skin Pack créé par TheSecretPadlock rassemble différents skins custom sur le thème de Five Night At Freddy's.", url: "skin-pack/list/fnaf-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "FontForge", content: "Ce logiciel permet de modifier et de creer des polices d'écritures.", url: "logiciel/list/fontforge.html", image: "../IMG/logiciel/fontforge.png" },
 	{ title: "Fortnite Modded", content: "Cette carte est une carte faisant référence au jeu Fortnite dans Minecraft [Publié par Sehou Game].", url: "map/list/fortnite-modded.html", image: "../IMG/map/fortnite-modded.png" },
@@ -66,10 +67,12 @@ const pages = [
 	{ title: "Jerem UHC Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient des cartes d'uhc divers custom(2).", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
 	{ title: "Jerem's Customs Models Skin Pack", content: "Ce Skin Pack comprends différents skins spéciaux crée par Jerem2206", url: "skin-pack/list/jerems-customs-models-skin-pack.html", image: "../IMG/skin-pack/jerems-customs-models-skin-pack.png" },
 	{ title: "Jerem2206 Lobby V1", content: "Ce lobby crée par Jerem2206 qui contient un lobby moddé simple", url: "lobby/list/jerem2206-lobby-v1.html", image: "../IMG/lobby/jerem2206-lobby-v1.png" },
+	{ title: "Jerem2206 Lobby V2", content: "Ce lobby crée par Jerem2206 qui contient un lobby moddé simple", url: "lobby/list/jerem2206-lobby-v2.html", image: "../IMG/lobby/jerem2206-lobby-v2.png" },
 	{ title: "JSON To Box Converter", content: "Ce logiciel permet de convertir les skins de Blockbench vers PCK Studio", url: "logiciel/list/json-to-box-converter.html", image: "../IMG/logiciel/json-to-box-converter.png" },
 	{ title: "Jurassic World Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skin sous forme d'images de dinosaures lié à Jurassic World.", url: "skin-pack/list/jurassic-world-skin-pack.html", image: "../IMG/skin-pack/jurassic-world-skin-pack.png" },
 	//K 
 	//L 
+	{ title: "Lobby FY", content: "Ce lobby est le lobby de la Furysium", url: "lobby/list/lobby-fy.html", image: "../IMG/lobby/lobby-fy.png" },
 	//M
 	{ title: "Map aventure", content: "Cette carte faites par frifri vous propose une carte aventure.", url: "map/list/map-aventure.html", image: "../IMG/map/map-aventure.png" },
 	{ title: "Map Jump", content: "Cette carte faites par frifri converti sur WiiU par Jerem2206 vous propose une carte de parcour.", url: "map/list/map-jump.html", image: "../IMG/map/map-jump.png" },
@@ -87,6 +90,7 @@ const pages = [
 	{ title: "Minecraft Dungeons", content: "Ce Skin Pack comprends les personnages de joueurs de minecraft dungeons", url: "skin-pack/list/minecraft-dungeons.html", image: "../IMG/skin-pack/minecraft-dungeons.png" },
 	{ title: "Minecraft Version EShop", content: "Ce fichiers est Minecraft Version EShop prêt a être installé sur WiiU (version complète pour le modding).", url: "logiciel/list/minecraft-version-eshop.html", image: "../IMG/nothing.png" },
 	{ title: "Mizuno's 16 Craft", content: "Ce texture pack crée par Mizuno et converti par jerem2206 est un texture pack proche des pack mythologie", url: "texture-pack/list/mizunos.html", image: "../IMG/texture-pack/mizunos.png" },
+	{ title: "MN Skin Pack", content: "Ce Skin Pack comprend les skins de la MN.", url: "skin-pack/list/mn-skin-pack.html", image: "../IMG/skin-pack/mn-skin-pack.png" },
 	{ title: "Morea", content: "Ce texture pack crée par juanteh et converti par jerem2206 est un texture pack pvp basic", url: "texture-pack/list/morea.html", image: "../IMG/texture-pack/morea.png" },
 	{ title: "Mystic Maze", content: "Cette carte originaire de la version Java par Reddoz et adapté pour WiiU par Jerem2206", url: "map/list/mystic-maze.html", image: "../IMG/map/mystic-maze.png" },
 	//N
@@ -139,6 +143,7 @@ const pages = [
 	//U
 	{ title: "Undertale Skin Pack V1", content: "Ce Skin Pack créé par boxed_by_zem0ur est un skin pack d'Undertale avec des skins du jeu [publié par alpine42330].", url: "skin-pack/list/undertale-skin-pack.html", image: "../IMG/skin-pack/undertale-skin-pack.jpg" },
 	{ title: "Universal Minecraft Editor", content: "Ce logiciel permet de modifier des cartes (map) ainsi que les .nbt .", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
+	{ title: "Universal Minecraft Tool", content: "Ce logiciel permet de modifier/convertir des cartes (map) ainsi que les .nbt. Mias pour accéder a toutes les fonctionalitées il faut payer.", url: "logiciel/list/universal-minecraft-tool.html", image: "../IMG/logiciel/universal-minecraft-tool.png" },
 	{ title: "Ultra", content: "Ce texture pack crée par iSparkton pour xNestorio et converti par jerem2206 est un texture pack pvp de couleur or. ", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
 	{ title: "USB Helper", content: "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
