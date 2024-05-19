@@ -1,7 +1,7 @@
 
 const pages = [
 	//123
-	{ title: "24/7 SMP", content: "This map created for members of the Minecraft Legacy Edition discord server is a survival which remained open for several months", url: "map/list/24-7-smp.html", image: "../IMG/map/24-7-smp.png" },
+	{ title: "24/7 SMP", content: "Cette carte crée pour les membres du serveur discord Minecraft Legacy Edition est une survie qui est resté ouvert pendant plusieurs mois", url: "map/list/24-7-smp.html", image: "../IMG/map/24-7-smp.png" },
 	{ title: "45625w-2019", content: " Ce Skin Pack comprends différents skins", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
@@ -10,6 +10,7 @@ const pages = [
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Apps Pack", content: "Ce Skin Pack crée par Nobledez comprends skin de logo d'applications.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
 	{ title: "Arcane Practice", content: "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
+	{ title: "Astral", content: "Ce texture pack crée par NotronDan et converti par a4l est un texture pack pvp classique", url: "texture-pack/list/astral.html", image: "../IMG/texture-pack/astral.png" },
 	//B
 	{ title: "Basic Lobby", content: "Juste le lobby actuel des mini jeux de minecraft console.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
     { title: "BasicArena MG02 FY V2", content: "Cette carte crée par Jerem2206 pour les membres de la Furysium qui contient une légère modification de la carte principale du mode culbute", url: "minigame-map/list/basicarena-mg02-fy-v2.html", image: "../IMG/minigame-map/basicarena-mg02-fy-v2.png" },
@@ -44,6 +45,7 @@ const pages = [
 	{ title: "FallGuys Skin Pack", content: "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du personage de FallGuys. [Publié par Azox]", url: "skin-pack/list/fallguys-skin-pack.html", image: "../IMG/skin-pack/fallguys-skin-pack.png" },
 	{ title: "FarmLand V3", content: "Cette carte crée par Jerem2206 et avec la participation de MisterV4 est un carte de type farm.", url: "map/list/farmland-v3.html", image: "../IMG/map/farmland-v3.png" },
 	{ title: "FarmLand V4", content: "Cette carte crée par Jerem2206 avec MisterV4 est un carte de type farm.", url: "map/list/farmland-v4.html", image: "../IMG/map/farmland-v4.png" },
+	{ title: "Five Nights at Freddys - Nobledez", content: "Ce Skin Pack créé par Nobledez rassemble différents skins sur le thème de Five Night At Freddy's.", url: "skin-pack/list/five-nights-at-freddys-nobledez.html", image: "../IMG/skin-pack/five-nights-at-freddys-nobledez.png" },
 	{ title: "FNAF Skin Pack", content: "Ce Skin Pack créé par TheSecretPadlock rassemble différents skins custom sur le thème de Five Night At Freddy's.", url: "skin-pack/list/fnaf-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "FontForge", content: "Ce logiciel permet de modifier et de creer des polices d'écritures.", url: "logiciel/list/fontforge.html", image: "../IMG/logiciel/fontforge.png" },
 	{ title: "Fortnite Modded", content: "Cette carte est une carte faisant référence au jeu Fortnite dans Minecraft [Publié par Sehou Game].", url: "map/list/fortnite-modded.html", image: "../IMG/map/fortnite-modded.png" },
@@ -102,6 +104,7 @@ const pages = [
 	{ title: "Old Lobby", content: "Juste l'ancien lobby des mini jeux de minecraft console.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
 	{ title: "Pack De Mini Jeux Hack", content: "Ce lobby crée par Nt Games et sayZEN qui contient un lobby moddé ainsi que des paramètres pour les différents mini jeux.", url: "lobby/list/pack-de-mini-jeux-hack.html", image: "../IMG/lobby/pack-de-mini-jeux-hack.png" },
+	{ title: "Pack Disney", content: "Ce Skin Pack crée par Spectroz comprends différents skins lié a l'univers de Disney.", url: "skin-pack/list/pack-disney.html", image: "../IMG/skin-pack/pack-disney.png" },
 	{ title: "Pack map Bedwars", content: "Ce pack de cartes contient des cartes du mode de jeu bedwars(35)", url: "map/list/pack-map-bedwars.html", image: "../IMG/map/pack-map-bedwars.png" },
 	{ title: "Pack map Hide N Seek", content: "Ce pack de cartes converti par Jerem2206 contient des cartes du mode de jeu cache cache(3).", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "Ce pack de cartes comporte 4 cartes convertit par Jerem2206 et une faites par Pengchan.", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
@@ -145,11 +148,13 @@ const pages = [
 	{ title: "Universal Minecraft Editor", content: "Ce logiciel permet de modifier des cartes (map) ainsi que les .nbt .", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
 	{ title: "Universal Minecraft Tool", content: "Ce logiciel permet de modifier/convertir des cartes (map) ainsi que les .nbt. Mias pour accéder a toutes les fonctionalitées il faut payer.", url: "logiciel/list/universal-minecraft-tool.html", image: "../IMG/logiciel/universal-minecraft-tool.png" },
 	{ title: "Ultra", content: "Ce texture pack crée par iSparkton pour xNestorio et converti par jerem2206 est un texture pack pvp de couleur or. ", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
+	{ title: "URuRu Lobby", content: "Ce lobby crée par URuRu qui contient un lobby moddé simple", url: "lobby/list/ururu-lobby.html", image: "../IMG/lobby/ururu-lobby.png" },
 	{ title: "USB Helper", content: "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
 	{ title: "V48 Tutorial", content: "Simplement le tutoriel de la mise a jour v48 (d'après usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutoriel/v48-tutorial.png" },
 	{ title: "V688 Tutorial", content: "Simplement le tutoriel de la mise a jour v688 (d'après usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutorial/v688-tutoriel.png" },
 	//W
+	{ title: "WiiSportsRESORT", content: "Cette carte est une carte reprennant la carte de Wii Sport (WiiU).", url: "map/list/wiisportsresort.html", image: "../IMG/map/wiisportsresort.png" },
 	{ title: "WiiU Map Manager", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },
 	{ title: "WiiU Title Boot Editor", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-title-boot-editor.html", image: "../IMG/logiciel/wiiu-title-boot-editor.png" },
 	{ title: "WinRAR", content: "Ce logiciel permet d'extraire et de compresser des fichiers (.rar).", url: "logiciel/list/winrar.html", image: "../IMG/logiciel/winrar.png" },

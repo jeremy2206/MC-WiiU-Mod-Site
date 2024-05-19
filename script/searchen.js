@@ -10,6 +10,7 @@ const pages = [
 	{ title: "Apps Pack", content: "This Skin Pack created by Nobledez includes application logo skin.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
 	{ title: "Aqua", content: "This texture pack created by TeaPlays and converted by a4l is a classic pvp texture pack", url: "texture-pack/list/aqua.html", image: "../IMG/texture-pack/aqua.png" },
 	{ title: "Arcane Practice", content: "This map created by Pengchan and modified by Frutox is a PvP map with several maps and different kits [Published by Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
+	{ title: "Astral", content: "This texture pack created by NotronDan and converted by a4l is a classic pvp texture pack", url: "texture-pack/list/astral.html", image: "../IMG/texture-pack/astral.png" },
 	//B
 	{ title: "Basic Lobby", content: "Just the current minecraft console mini games lobby.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
     { title: "BasicArena MG02 FY V2", content: "This map created by Jerem2206 for Furysium members which contains a slight modification of the main tumble mode map", url: "minigame-map/list/basicarena-mg02-fy-v2.html", image: "../IMG/minigame-map/basicarena-mg02-fy-v2.png" },
@@ -44,6 +45,7 @@ const pages = [
 	{ title: "FallGuys Skin Pack", content: "This Skin Pack created by Orika Hero includes all the colors of the FallGuys character. [Posted by Azox]", url: "skin-pack/list/fallguys-skin-pack.html", image: "../IMG/skin-pack/fallguys-skin-pack.png" },
 	{ title: "FarmLand V3", content: "This map created by Jerem2206 and with the participation of MisterV4 is a farm type map.", url: "map/list/farmland-v3.html", image: "../IMG/map/farmland-v3.png" },
 	{ title: "FarmLand V4", content: "This map created by Jerem2206 with MisterV4 is a farming type map.", url: "map/list/farmland-v4.html", image: "../IMG/map/farmland-v4.png" },
+	{ title: "Five Nights at Freddys - Nobledez", content: "This Skin Pack created by Nobledez brings together different skins on the theme of Five Night At Freddy's.", url: "skin-pack/list/five-nights-at-freddys-nobledez.html", image: "../IMG/skin-pack/five-nights-at-freddys-nobledez.png" },
 	{ title: "FNAF Skin Pack", content: "This Skin Pack created by TheSecretPadlock brings together different personalized skins on the theme of Five Night At Freddy's.", url: "skin-pack/list/fnaf-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "FontForge", content: "This software allows you to modify and create fonts.", url: "logiciel/list/fontforge.html", image: "../IMG/logiciel/fontforge.png" },
 	{ title: "Fortnite Modded", content: "This map is a map referring to the game Fortnite in Minecraft [Published by Sehou Game].", url: "map/list/fortnite-modded.html", image: "../IMG/map/fortnite-modded.png" },
@@ -102,6 +104,7 @@ const pages = [
 	{ title: "Old Lobby", content: "Just the old minecraft console mini games lobby.", url: "lobby/list/old-lobby.html", image: "../IMG/lobby/old-lobby.png" },
 	//P
 	{ title: "Pack De Mini Jeux Hack", content: "This lobby created by Nt Games and sayZEN which contains a modded lobby as well as settings for the different mini games.", url: "lobby/list/pack-de-mini-jeux-hack.html", image: "../IMG/lobby/pack-de-mini-jeux-hack.png" },
+	{ title: "Pack Disney", content: "This Skin Pack created by Spectroz includes different skins linked to the Disney universe.", url: "skin-pack/list/pack-disney.html", image: "../IMG/skin-pack/pack-disney.png" },
 	{ title: "Pack map Bedwars", content: "This map pack contains maps from the bedwars game mode(35).", url: "map/list/pack-map-bedwars.html", image: "../IMG/map/pack-map-bedwars.png" },
 	{ title: "Pack map Hide N Seek", content: "This map pack converted by Jerem2206 contains maps from the hide and seek(3) game mode.", url: "map/list/pack-map-hide-n-seek.html", image: "../IMG/map/pack-map-hide-n-seek.png" },
 	{ title: "Pack map skywars", content: "This map pack includes 4 maps converted by Jerem2206 and one made by Pengchan.", url: "map/list/pack-map-skywars.html", image: "../IMG/map/pack-map-skywars.png" },
@@ -145,11 +148,13 @@ const pages = [
 	{ title: "Universal Minecraft Editor", content: "This software allows you to modify maps (map) as well as .nbt files.", url: "logiciel/list/universal-minecraft-editor.html", image: "../IMG/logiciel/universal-minecraft-editor.png" },
 	{ title: "Universal Minecraft Tool", content: "This software allows you to modify/convert maps as well as .nbt files. However, to access all the features you have to pay.", url: "logiciel/list/universal-minecraft-tool.html", image: "../IMG/logiciel/universal-minecraft-tool.png" },
 	{ title: "Ultra", content: "This texture pack created by iSparkton for xNestorio and converted by jerem2206 is a gold colored pvp texture pack.", url: "texture-pack/list/ultra.html", image: "../IMG/texture-pack/ultra.png" },
+	{ title: "URuRu Lobby", content: "This lobby created by URuRu which contains a simple modded lobby", url: "lobby/list/ururu-lobby.html", image: "../IMG/lobby/ururu-lobby.png" },
 	{ title: "USB Helper", content: "This software allows you to download wiiu games for yourself and emulate them or put them on your console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
 	{ title: "V48 Tutorial", content: "Simply the v48 update tutorial (according to usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutorial/v48-tutoriel.png" },
 	{ title: "V688 Tutorial", content: "Simply the v688 update tutorial (according to usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutorial/v688-tutoriel.png" },
 	//W
+	{ title: "WiiSportsRESORT", content: "This map is a map based on the Wii Sport map (WiiU).", url: "map/list/wiisportsresort.html", image: "../IMG/map/wiisportsresort.png" },
 	{ title: "WiiU Map Manager", content: "This software allows you to transfer and download maps from your console to your computer and vice versa.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },
 	{ title: "WiiU Title Boot Editor", content: "This software allows you to transfer and download maps from your console to your computer and vice versa.", url: "logiciel/list/wiiu-title-boot-editor.html", image: "../IMG/logiciel/wiiu-title-boot-editor.png" },
 	{ title: "WinRAR", content: "This software can extract and compress files (.rar).", url: "logiciel/list/winrar.html", image: "../IMG/logiciel/winrar.png" },

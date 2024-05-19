@@ -425,6 +425,7 @@ button {
 .easter {background-image: url('IMG/skin-pack/easter.png'); background-size: cover;}
 .enderman-skin-pack {background-image: url('IMG/skin-pack/enderman-skin-pack.png'); background-size: cover;}
 .fallguys-skin-pack {background-image: url('IMG/skin-pack/fallguys-skin-pack.png'); background-size: cover;}
+.five-nights-at-freddys-nobledez {background-image: url('IMG/skin-pack/five-nights-at-freddys-nobledez.png'); background-size: cover;}
 .fnaf-skin-pack {background-image: url('IMG/skin-pack/fnaf-skin-pack.png'); background-size: cover;}
 .gameallstar {background-image: url('IMG/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
 .gazgoh-custom-models {background-image: url('IMG/skin-pack/gazgoh-custom-model.png'); background-size: cover;}
@@ -438,6 +439,7 @@ button {
 .mn-skin-pack {background-image: url('IMG/skin-pack/mn-skin-pack.png'); background-size: cover;}
 .mob-skin-pack {background-image: url('IMG/skin-pack/mob-skin-pack.png'); background-size: cover;}
 .noob-skin-pack {background-image: url('IMG/skin-pack/noob-skin-pack.png'); background-size: cover;}
+.pack-disney {background-image: url('IMG/skin-pack/pack-disney.png'); background-size: cover;}
 .portrait-skin-pack {background-image: url('IMG/skin-pack/portrait-skin-pack.png'); background-size: cover;}
 .pvp-skin-pack {background-image: url('IMG/skin-pack/pvp-skin-pack.png'); background-size: cover;}
 .Qu-skin-pack {background-image: url('IMG/skin-pack/Qu@-skin-pack.png'); background-size: cover;}
@@ -484,6 +486,7 @@ button {
 .speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
 .spiral-parkour {background-image: url('IMG/map/spiral-parkour.png'); background-size: cover;}
 .tntplus-modded {background-image: url('IMG/map/tnt+-modded.png'); background-size: cover;}
+.wiisportsresort {background-image: url('IMG/map/wiisportsresort.png'); background-size: cover;}
 .zombie-tower-defence {background-image: url('IMG/map/zombie-tower-defence.png'); background-size: cover;}
 
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
@@ -491,6 +494,7 @@ button {
 
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
 .aqua {background-image: url('IMG/texture-pack/aqua.png'); background-size: cover;}
+.astral {background-image: url('IMG/texture-pack/astral.png'); background-size: cover;}
 .blue-red-fade {background-image: url('IMG/texture-pack/blue-&-red-fade.png'); background-size: cover;}
 .brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
 .dandelion-x {background-image: url('IMG/texture-pack/dandelion-x.png'); background-size: cover;}
@@ -518,7 +522,7 @@ button {
 .lobby-fy {background-image: url('IMG/lobby/lobby-fy.png'); background-size: cover;}
 .old-lobby {background-image: url('IMG/lobby/old-lobby.png'); background-size: cover;}
 .pack-de-mini-jeux-hack {background-image: url('IMG/lobby/pack-de-mini-jeux-hack.png'); background-size: cover;}
-
+.ururu-lobby {background-image: url('IMG/lobby/ururu-lobby.png'); background-size: cover;}
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image Tutoriel*/
 
