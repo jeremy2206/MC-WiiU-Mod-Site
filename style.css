@@ -421,12 +421,15 @@ button {
 .block-skin-pack {background-image: url('IMG/skin-pack/block-skin-pack.png'); background-size: cover;}
 .brendans-models-skin-pack-v5 {background-image: url('IMG/skin-pack/brendans-models-skin-pack-v5.png'); background-size: cover;}
 .cereal-box-pack {background-image: url('IMG/skin-pack/cereal-box-pack.png'); background-size: cover;}
+.chicken-skin-pack {background-image: url('IMG/skin-pack/chicken-skin-pack.png'); background-size: cover;}
 .commu-skin-pack {background-image: url('IMG/skin-pack/commu-skin-pack.png'); background-size: cover;}
+.ddlcskins {background-image: url('IMG/skin-pack/ddlcskins.png'); background-size: cover;}
 .easter {background-image: url('IMG/skin-pack/easter.png'); background-size: cover;}
 .enderman-skin-pack {background-image: url('IMG/skin-pack/enderman-skin-pack.png'); background-size: cover;}
 .fallguys-skin-pack {background-image: url('IMG/skin-pack/fallguys-skin-pack.png'); background-size: cover;}
 .five-nights-at-freddys-nobledez {background-image: url('IMG/skin-pack/five-nights-at-freddys-nobledez.png'); background-size: cover;}
 .fnaf-skin-pack {background-image: url('IMG/skin-pack/fnaf-skin-pack.png'); background-size: cover;}
+.furysium-skin-pack-v2 {background-image: url('IMG/skin-pack/furysium-skin-pack-v2.png'); background-size: cover;}
 .gameallstar {background-image: url('IMG/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
 .gazgoh-custom-models {background-image: url('IMG/skin-pack/gazgoh-custom-model.png'); background-size: cover;}
 .hacker-skin-pack {background-image: url('IMG/skin-pack/hacker-skin-pack.png'); background-size: cover;}
@@ -482,6 +485,7 @@ button {
 .pack-map-hide-n-seek {background-image: url('IMG/map/pack-map-hide-n-seek.png'); background-size: cover;}
 .pack-map-skywars {background-image: url('IMG/map/pack-map-skywars.png'); background-size: cover;}
 .rush-furysium-v2 {background-image: url('IMG/map/rush-furysium-v2.png'); background-size: cover;}
+.sky-defender-8 {background-image: url('IMG/map/sky-defender-8.png'); background-size: cover;}
 .skyblock {background-image: url('IMG/map/skyblock.png'); background-size: cover;}
 .speed-uhc {background-image: url('IMG/map/speed-uhc.png'); background-size: cover;}
 .spiral-parkour {background-image: url('IMG/map/spiral-parkour.png'); background-size: cover;}
@@ -505,6 +509,7 @@ button {
 .mizunos {background-image: url('IMG/texture-pack/mizunos.png'); background-size: cover;}
 .morea {background-image: url('IMG/texture-pack/morea.png'); background-size: cover;}
 .nebula {background-image: url('IMG/texture-pack/nebula.png'); background-size: cover;}
+.nightrider-purple {background-image: url('IMG/texture-pack/nightrider-purple.png'); background-size: cover;}
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
 .paint-red {background-image: url('IMG/texture-pack/paint-red.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
@@ -533,3 +538,4 @@ button {
 /* image Map Mini-Jeux*/
 
 .basicarena-mg02-fy-v2 {background-image: url('IMG/minigame-map/basicarena-mg02-fy-v2.png'); background-size: cover;}
+.map-pack-5 {background-image: url('IMG/minigame-map/map-pack-5.png'); background-size: cover;}

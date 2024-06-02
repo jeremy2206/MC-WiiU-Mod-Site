@@ -26,12 +26,14 @@ const pages = [
 	{ title: "Capture the flag", content: "Cette carte est une carte PvP qui consiste a capturer le drapeau [Publié par Frutox].", url: "map/list/capturetheflag.html", image: "../IMG/map/capturetheflag.png" },
     { title: "Cemu", content: "Ce logiciel permet de jouer a des jeux WiiU sur PC.", url: "logiciel/list/cemu.html", image: "../IMG/logiciel/cemu.png" },
 	{ title: "Cereal Box Pack", content: "Ce Skin Pack créé par Nobledez est un pack de skin avec des boite de céréales.", url: "skin-pack/list/cereal-box-pack.html", image: "../IMG/skin-pack/cereal-box-pack.png" },
+	{ title: "Chicken Skin Pack", content: "Ce Skin Pack rassemble comprends des skins de poulets.", url: "skin-pack/list/chicken-skin-pack.html", image: "../IMG/skin-pack/chicken-skin-pack.png" },
 	{ title: "Commu Skin Pack", content: "Ce Skin Pack créé par Jerem2206 rassemble différents skins simple.", url: "skin-pack/list/commu-skin-pack.html", image: "../IMG/skin-pack/commu-skin-pack.png" },
 	{ title: "Core War", content: "Cette cartes crée par Thepyrocrafteur & Uranium_49 sur Java refait par Jerem2206 contient une carte team contre team pour détruire le coeur adverse.", url: "map/list/core-war.html", image: "../IMG/map/core-war.png" },
 	{ title: "Creeper Skin Pack", content: "Ce Skin Pack contient des creeper de différentes couleurs.", url: "skin-pack/list/creeper-skin-pack.html", image: "../IMG/nothing.png" },
 	//D
 	{ title: "Dandelion X", content: "Ce texture pack crée par Steelfeathers & Xerotrinity puis converti par jerem2206 est un texture pack ressemblant au pack médiéval.", url: "texture-pack/list/dandelion-x.html", image: "../IMG/texture-pack/dandelion-x.png" },
-    { title: "Discord To Minecraft WiiU", content: "Ce logiciel permet de voir les messages Discord sur Minecraft WiiU.", url: "logiciel/list/discord-to-minecraft-wiiu.html", image: "../IMG/nothing.png" },
+    { title: "DDLCSkins", content: "Ce Skin Pack créé par Nobledez rassemble comprends de l'univers de DDLC.", url: "skin-pack/list/ddlcskins.html", image: "../IMG/skin-pack/ddlcskins.png" },
+	{ title: "Discord To Minecraft WiiU", content: "Ce logiciel permet de voir les messages Discord sur Minecraft WiiU.", url: "logiciel/list/discord-to-minecraft-wiiu.html", image: "../IMG/nothing.png" },
 	{ title: "Dragon Fruit", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur rose/rouge.", url: "texture-pack/list/dragon-fruit.html", image: "../IMG/texture-pack/dragon-fruit.png" },
 	{ title: "Dragon UnPACKer", content: "Ce logiciel permet d'ouvrir des fichiers impossible a ouvrir facilement (comme les .pck des mashup).", url: "logiciel/list/dragon-unpacker.html", image: "../IMG/logiciel/dragon-unpacker.png" },
 	//E
@@ -50,6 +52,7 @@ const pages = [
 	{ title: "FontForge", content: "Ce logiciel permet de modifier et de creer des polices d'écritures.", url: "logiciel/list/fontforge.html", image: "../IMG/logiciel/fontforge.png" },
 	{ title: "Fortnite Modded", content: "Cette carte est une carte faisant référence au jeu Fortnite dans Minecraft [Publié par Sehou Game].", url: "map/list/fortnite-modded.html", image: "../IMG/map/fortnite-modded.png" },
 	{ title: "FUI Editor", content: "Ce logiciel permet de changer les textures se trouvant dans les .fui .", url: "logiciel/list/fui-editor.html", image: "../IMG/logiciel/fui-editor.png" },
+	{ title: "Furysium Skin Pack V2", content: "Ce Skin Pack comprends les skins des membres de la Furysium V2.", url: "skin-pack/list/furysium-skin-pack-v2.html", image: "../IMG/skin-pack/furysium-skin-pack-v2.png" },
 	//G 
 	{ title: "GameAllStar", content: "Ce Skin Pack créé par Nobledez contient différents skins originaux dans l'univers des jeux vidéo.", url: "skin-pack/list/gameallstar.html", image: "../IMG/skin-pack/game-all-star-skin-pack.png" },
 	{ title: "Gazgoh Custom Models", content: " Ce Skin Pack crée par Gazgoh comprends différents skins originaux.", url: "skin-pack/list/gazgoh-custom-models.html", image: "../IMG/skin-pack/gazgoh-custom-model.png" },
@@ -78,6 +81,7 @@ const pages = [
 	//M
 	{ title: "Map aventure", content: "Cette carte faites par frifri vous propose une carte aventure.", url: "map/list/map-aventure.html", image: "../IMG/map/map-aventure.png" },
 	{ title: "Map Jump", content: "Cette carte faites par frifri converti sur WiiU par Jerem2206 vous propose une carte de parcour.", url: "map/list/map-jump.html", image: "../IMG/map/map-jump.png" },
+	{ title: "Map Pack 5", content: "Cette carte contient différentes maps pour le mode batailles", url: "minigame-map/list/map-pack-5.html", image: "../IMG/minigame-map/map-pack-5.png" },
 	{ title: "Mass Effect: Extented", content: "Ce Skin Pack contient des skins suplémentaires que ceux du pack mashup.", url: "skin-pack/list/mass-effect-extented.html", image: "../IMG/skin-pack/mass-effect-extented.png" },
 	{ title: "Mathox Red Pack", content: "Ce texture pack crée par Mathox et converti par jerem2206 est un texture pack pvp uhc rouge", url: "texture-pack/list/mathox-red-pack.html", image: "../IMG/texture-pack/mathox-red-pack.png" },
 	{ title: "MC360 Skin Packs 1-6 Port", content: "Ce Skin Pack crée par Nobledez contient les skin packs de 1 à 6 de la version Xbox360.", url: "skin-pack/list/mc360-skin-packs-1-6-port.html", image: "../IMG/skin-pack/mc360-skin-packs-1-6-port.png" },
@@ -98,6 +102,7 @@ const pages = [
 	//N
 	{ title: "NBT Tag Code Maker", content: "Ce logiciel permet de modifier l'inventaire créatif de Minecraft.", url: "logiciel/list/nbt-tag-code-maker.html", image: "../IMG/logiciel/nbt-tag-code-maker.png" },
 	{ title: "Nebula", content: "Ce texture pack crée par looshy et converti par jerem2206 est un texture pack pvp basic", url: "texture-pack/list/nebula.html", image: "../IMG/texture-pack/nebula.png" },
+	{ title: "NightRider Purple", content: "Ce texture pack crée par itsderp est un texture pack pvp violet basic", url: "texture-pack/list/nightrider-purple.html", image: "../IMG/texture-pack/nightrider-purple.png" },
 	{ title: "Noob Skin Pack", content: "Ce Skin Pack crée par Spectroz comprends différents skins dans le thème noob.", url: "skin-pack/list/noob-skin-pack.html", image: "../IMG/skin-pack/noob-skin-pack.png" },
 	//O 
 	{ title: "Offensive Hearts V2", content: "Ce texture pack crée par Juanteh et converti par jerem2206 est un texture pack pvp rouge basic", url: "texture-pack/list/offensive-hearts-v2.html", image: "../IMG/texture-pack/offensive-hearts-v2.png" },
@@ -124,6 +129,7 @@ const pages = [
 	//S
 	{ title: "SD Card", content: "L'ensemble des fichiers de Carte SD de Jerem2206 pour pouvoir modder.", url: "logiciel/list/carte-sd.html", image: "../IMG/nothing.png" },
 	{ title: "Skin Pack of The LiviAxel", content: "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
+	{ title: "Sky Defender 8", content: "Cette carte faites par la team Andorah est une carte de Sky Defender.", url: "map/list/sky-defender-8.html", image: "../IMG/map/sky-defender-8.png" },
 	{ title: "Skyblock", content: "Cette carte faites par DanRobzProbz est une carte skyblock complète.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
 	{ title: "Speed UHC", content: "Cette carte est une carte UHC de la version rapide de l'UHC classique [Publié par Frutox].", url: "map/list/speed-uhc.html", image: "../IMG/map/speed-uhc.png" },
 	{ title: "Spiral Parkour", content: "Cette carte parcour originaire de la version Java est adapté pour WiiU par Jerem2206", url: "map/list/spiral-parkour.html", image: "../IMG/map/spiral-parkour.png" },
