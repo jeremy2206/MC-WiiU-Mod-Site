@@ -389,7 +389,7 @@ button {
 .fontforge {background-image: url('IMG/logiciel/fontforge.png'); background-size: cover;}
 .html-color-modifier {background-image: url('IMG/logiciel/html-color-modifier.png'); background-size: cover;}
 .hxd {background-image: url('IMG/logiciel/hxd.png'); background-size: cover;}
-.java-to-wiiu-texture-pack-converter {background-image: url('IMG/logiciel/java-to-wiiu-texture-pack-converter.png'); background-size: cover;}
+.java-to-lce-texture-pack-converter {background-image: url('IMG/logiciel/java-to-lce-texture-pack-converter.png'); background-size: cover;}
 .json-to-box-converter {background-image: url('IMG/logiciel/json-to-box-converter.png'); background-size: cover;}
 .mcc-tool-chest {background-image: url('IMG/logiciel/mcc-tool-chest.png'); background-size: cover;}
 .mcedit-2 {background-image: url('IMG/logiciel/mcedit-2.png'); background-size: cover;}
@@ -414,6 +414,7 @@ button {
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 /* image skin pack */
 
+.w2018-memes-v1 {background-image: url('IMG/skin-pack/2018-memes-v1.png'); background-size: cover;}
 .w45625-2019 {background-image: url('IMG/skin-pack/45625w-2019.png'); background-size: cover;}
 .all-dream {background-image: url('IMG/skin-pack/all-dream.png'); background-size: cover;}
 .among-us-skin-pack {background-image: url('IMG/skin-pack/among-us-skin-pack.png'); background-size: cover;}
@@ -449,6 +450,7 @@ button {
 .requestpck-nobledez {background-image: url('IMG/skin-pack/requestpck-nobledez.png'); background-size: cover;}
 .rick-morty {background-image: url('IMG/skin-pack/rick-&-morty.png'); background-size: cover;}
 .skin-pack-of-liviaxel {background-image: url('IMG/skin-pack/skin-pack-of-liviaxel.png'); background-size: cover;}
+.smg4-skin-pack {background-image: url('IMG/skin-pack/smg4-skin-pack.png'); background-size: cover;}
 .srg64-mega-skinpack {background-image: url('IMG/skin-pack/srg64-mega-skinpack.png'); background-size: cover;}
 .steven-universe-updated {background-image: url('IMG/skin-pack/steven-universe-updated.png'); background-size: cover;}
 .tank-skin-pack {background-image: url('IMG/skin-pack/tank-skin-pack.png'); background-size: cover;}
@@ -498,6 +500,7 @@ button {
 
 .amethyst-pack {background-image: url('IMG/texture-pack/amethyst-pack.png'); background-size: cover;}
 .aqua {background-image: url('IMG/texture-pack/aqua.png'); background-size: cover;}
+.ascend {background-image: url('IMG/texture-pack/ascend.png'); background-size: cover;}
 .astral {background-image: url('IMG/texture-pack/astral.png'); background-size: cover;}
 .blue-red-fade {background-image: url('IMG/texture-pack/blue-&-red-fade.png'); background-size: cover;}
 .brillant {background-image: url('IMG/texture-pack/brillant.png'); background-size: cover;}
@@ -513,6 +516,7 @@ button {
 .offensive-hearts-v2 {background-image: url('IMG/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
 .paint-red {background-image: url('IMG/texture-pack/paint-red.png'); background-size: cover;}
 .subzero {background-image: url('IMG/texture-pack/subzero.png'); background-size: cover;}
+.textures-114 {background-image: url('IMG/texture-pack/textures-1.14.png'); background-size: cover;}
 .tonic-pack {background-image: url('IMG/texture-pack/tonic-pack.png'); background-size: cover;}
 .trailer-texture-pack {background-image: url('IMG/texture-pack/trailer-texture-pack.png'); background-size: cover;}
 .tropical-fade {background-image: url('IMG/texture-pack/tropical-fade.png'); background-size: cover;}

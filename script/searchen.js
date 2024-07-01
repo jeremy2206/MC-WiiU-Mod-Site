@@ -1,15 +1,17 @@
 
 const pages = [
 	//123
+	{ title: "2018 Memes V1", content: "This Skin Pack created by Nobledez includes different meme skins from 2018.", url: "skin-pack/list/2018-memes-v1.html", image: "../IMG/skin-pack/2018-memes-v1.png" },
 	{ title: "24/7 SMP", content: "Cette carte crée pour les membres du serveur discord Minecraft Legacy Edition est une survie qui est resté ouvert pendant plusieurs mois", url: "map/list/24-7-smp.html", image: "../IMG/map/24-7-smp.png" },
 	{ title: "45625w-2019", content: "This Skin Pack includes different skins.", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
 	{ title: "All Dream", content: "This Skin Pack created by Azox includes all the colors of the skin dream. [Posted by Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
 	{ title: "Amethyst Pack", content: "This texture pack created by Colbb and converted by jerem2206 is a purple pvp texture pack", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
 	{ title: "Among us Skin Pack", content: "This Skin Pack created by Orika Hero includes all the colors of the Among us crewmate. [Posted by Azox]", url: "skin-pack/list/among-us-skin-pack.html", image: "../IMG/skin-pack/among-us-skin-pack.png" },
-	{ title: "Apps Pack", content: "This Skin Pack created by Nobledez includes application logo skin.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
+	{ title: "Apps Pack", content: "This Skin Pack created by Nobledez includes application logo skin.", url: "skin-pack/list/apps-pack.html", image: "../IMG/skin-pack/apps-pack.png" },
 	{ title: "Aqua", content: "This texture pack created by TeaPlays and converted by a4l is a classic pvp texture pack", url: "texture-pack/list/aqua.html", image: "../IMG/texture-pack/aqua.png" },
 	{ title: "Arcane Practice", content: "This map created by Pengchan and modified by Frutox is a PvP map with several maps and different kits [Published by Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
+	{ title: "Ascend", content: "This texture pack created by Yuruze and converted by Jerem2206 is a classic pvp texture pack", url: "texture-pack/list/ascend.html", image: "../IMG/texture-pack/ascend.png" },
 	{ title: "Astral", content: "This texture pack created by NotronDan and converted by a4l is a classic pvp texture pack", url: "texture-pack/list/astral.html", image: "../IMG/texture-pack/astral.png" },
 	//B
 	{ title: "Basic Lobby", content: "Just the current minecraft console mini games lobby.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
@@ -19,7 +21,7 @@ const pages = [
     { title: "BlockBench", content: "This software is a tool that makes it easier to create Custom Skins.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
 	{ title: "Blue & Red Fade", content: "This texture pack created by Xenox and converted by jerem2206 is a pvp texture pack with a gradient color between red and blue.", url: "texture-pack/list/blue-&-red-fade.html", image: "../IMG/texture-pack/blue-&-red-fade.png" },
 	{ title: "BO2 Boat", content: "This map is a map of the game Call of Duty Black Ops 2 in Minecraft.", url: "map/list/bo2-boat.html", image: "../IMG/map/bo2-boat.png" },
-	{ title: "BrainFFA V2 FY", content: "This map made by Jerem2206 is a classic BrainFFA map made for furysium members.", url: "map/list/brainffa-fy-v2.html", image: "../IMG/map/brainffa-v2-fy.png" },
+	{ title: "BrainFFA V2 FY", content: "This map made by Jerem2206 is a classic BrainFFA map made for furysium members.", url: "map/list/brainffa-fy-v2.html", image: "../IMG/map/brainffa-fy-v2.png" },
 	{ title: "Brendans Models Skin Pack V5", content: "This Skin Pack created by Brendans brings together a few hundred original skins.", url: "skin-pack/list/brendans-models-skin-pack-v5.html", image: "../IMG/skin-pack/brendans-models-skin-pack-v5.png" },
 	{ title: "Brillant", content: "This texture pack created by Brilliant-PVP and converted by jerem2206 is a very colorful texture pack a bit in the style of the plastic pack.", url: "texture-pack/list/rillant.html", image: "../IMG/texture-pack/brillant.png" },
 	//C
@@ -66,7 +68,7 @@ const pages = [
 	//I
 	{ title: "Island Pack Adventure", content: "This pack of maps contains different islands (3) to make his adventures [Converted by Jerem2206].", url: "map/list/island-pack-adventure.html", image: "../IMG/map/island-pack-adventure.png" },
 	//J
-	{ title: "Java to WiiU Texture Pack Converter", content: "This software converts blocks(x16/x32) and items(x16) from texture packs from the Java version to the WiiU version", url: "logiciel/list/java-to-wiiu-texture-pack-converter.html", image: "../IMG/logiciel/java-to-wiiu-texture-pack-converter.png" },
+	{ title: "Java to LCE Texture Pack Converter", content: "This software converts blocks(x16/x32) and items(x16) from texture packs from the Java version to the WiiU version", url: "logiciel/list/java-to-lce-texture-pack-converter.html", image: "../IMG/logiciel/java-to-lce-texture-pack-converter.png" },
 	{ title: "Jerem Event 2021 Map Pack", content: "This map pack created by Jerem2206 contains the maps of the event organized in 2021(2).", url: "map/list/jerem-event-2021-map-pack.html", image: "../IMG/map/jerem-event-2021-map-pack.png" },
 	{ title: "Jerem Texture Pack", content: "This map created by Jerem2206 contains the necessary to test his texture pack and for PvP.", url: "map/list/jerem-texture-pack.html", image: "../IMG/map/jerem-texture-pack.png" },
 	{ title: "Jerem UHC Map Pack", content: "This map pack created by Jerem2206 contains various custom(2) uhc maps.", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
@@ -118,7 +120,7 @@ const pages = [
 	{ title: "PCK Studio", content: "This software to make skin packs and create special skins while being able to export skin packs to its console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Pixelorama", content: "This software allows you to create animated textures.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "This Skin Pack created by Nobledez includes different skins in the portrait theme.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
-	{ title: "PowerFTP", content: "This software allows you to transfer files to your WiiU but for your phone.", url: "logiciel/list/powerftp.html", image: "../IMG/logiciel/ppowerftp.png" },
+	{ title: "PowerFTP", content: "This software allows you to transfer files to your WiiU but for your phone.", url: "logiciel/list/powerftp.html", image: "../IMG/logiciel/powerftp.png" },
 	{ title: "PvP Skin Pack", content: "This Skin Pack created by Jerem2206 includes different simple skins.", url: "skin-pack/list/pvp-skin-pack.html", image: "../IMG/skin-pack/pvp-skin-pack.png" },
 	//Q 
 	{ title: "Qu@ skin pack", content: "This Skin Pack created by Mario Level contains a lot of original skin", url: "skin-pack/list/Qu@-skin-pack.html", image: "../IMG/skin-pack/Qu@-skin-pack.png" },
@@ -131,6 +133,7 @@ const pages = [
 	{ title: "Skin Pack of The LiviAxel", content: "This Skin Pack created by TheSecretPadlock contains over a hundred original skins", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
 	{ title: "Sky Defender 8", content: "This map made by the Andorah team is a Sky Defender map.", url: "map/list/sky-defender-8.html", image: "../IMG/map/sky-defender-8.png" },
 	{ title: "Skyblock", content: "This map made by DanRobzProbz is a complete skyblock map.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
+	{ title: "SMG4 Skin Pack", content: "This Skin Pack created by Micheechri2 and Manu includes different skins from the SMG4 universe.", url: "skin-pack/list/smg4-skin-pack.html", image: "../IMG/skin-pack/smg4-skin-pack.png" },
 	{ title: "Speed UHC", content: "This map is a UHC map of the fast version of the classic UHC [Published by Frutox].", url: "map/list/speed-uhc.html", image: "../IMG/map/speed-uhc.png" },
 	{ title: "Spiral Parkour", content: "This parkour map originally from the Java version is adapted for WiiU by Jerem2206", url: "map/list/spiral-parkour.html", image: "../IMG/map/spiral-parkour.png" },
 	{ title: "SpriteCraft", content: "This software allows you to transform images into schematics.", url: "logiciel/list/spritecraft.html", image: "../IMG/nothing.png" },
@@ -141,6 +144,7 @@ const pages = [
 	//T 
 	{ title: "Tank Skin Pack", content: "This Skin Pack created by Jerem2206 using the tank model from the brendans models skin pack and includes different tank skins in different colors.", url: "skin-pack/list/tank-skin-pack.html", image: "../IMG/skin-pack/tank-skin-pack.png" },-
 	{ title: "Terraria Skins V2", content: "This Skin Pack includes different skins from the Terraria universe.", url: "skin-pack/list/terraria-skins-v2.html", image: "../IMG/skin-pack/terraria-skins-v2.png" },
+	{ title: "Textures 1.14", content: "This texture pack is a texture pack containing the new textures of 1.14.", url: "texture-pack/list/textures-1.14.html", image: "../IMG/texture-pack/textures-1.14.png" },
 	{ title: "The Final Skin Pack", content: "This Skin Pack created by Jerem2206 includes different skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "This Skin Pack includes different skins related to the joy of creation theme.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "This Skin Pack created by TheSecretPadlock includes different special skins.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
@@ -157,8 +161,8 @@ const pages = [
 	{ title: "URuRu Lobby", content: "This lobby created by URuRu which contains a simple modded lobby", url: "lobby/list/ururu-lobby.html", image: "../IMG/lobby/ururu-lobby.png" },
 	{ title: "USB Helper", content: "This software allows you to download wiiu games for yourself and emulate them or put them on your console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
-	{ title: "V48 Tutorial", content: "Simply the v48 update tutorial (according to usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutorial/v48-tutoriel.png" },
-	{ title: "V688 Tutorial", content: "Simply the v688 update tutorial (according to usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutorial/v688-tutoriel.png" },
+	{ title: "V48 Tutorial", content: "Simply the v48 update tutorial (according to usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutoriel/v48-tutoriel.png" },
+	{ title: "V688 Tutorial", content: "Simply the v688 update tutorial (according to usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutoriel/v688-tutoriel.png" },
 	//W
 	{ title: "WiiSportsRESORT", content: "This map is a map based on the Wii Sport map (WiiU).", url: "map/list/wiisportsresort.html", image: "../IMG/map/wiisportsresort.png" },
 	{ title: "WiiU Map Manager", content: "This software allows you to transfer and download maps from your console to your computer and vice versa.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },

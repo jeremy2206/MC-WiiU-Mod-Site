@@ -1,6 +1,7 @@
 
 const pages = [
 	//123
+	{ title: "2018 Memes V1", content: "Ce Skin Pack crée par Nobledez comprends différents skins de memes de 2018.", url: "skin-pack/list/2018-memes-v1.html", image: "../IMG/skin-pack/2018-memes-v1.png" },
 	{ title: "24/7 SMP", content: "Cette carte crée pour les membres du serveur discord Minecraft Legacy Edition est une survie qui est resté ouvert pendant plusieurs mois", url: "map/list/24-7-smp.html", image: "../IMG/map/24-7-smp.png" },
 	{ title: "45625w-2019", content: " Ce Skin Pack comprends différents skins", url: "skin-pack/list/45625w-2019.html", image: "../IMG/skin-pack/45625w-2019.png" },
 	//A
@@ -8,8 +9,9 @@ const pages = [
 	{ title: "Amethyst Pack", content: "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp violet", url: "texture-pack/list/amethyst-pack.html", image: "../IMG/texture-pack/amethyst-pack.png" },
 	{ title: "Among us Skin Pack", content: "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du crewmate de Among us. [Publié par Azox]", url: "skin-pack/list/among-us-skin-pack.html", image: "../IMG/skin-pack/among-us-skin-pack.png" },
 	{ title: "All Dream", content: "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]", url: "skin-pack/list/all-dream.html", image: "../IMG/skin-pack/all-dream.png" },
-	{ title: "Apps Pack", content: "Ce Skin Pack crée par Nobledez comprends skin de logo d'applications.", url: "texture-pack/list/apps-pack.html", image: "../IMG/texture-pack/apps-pack.png" },
+	{ title: "Apps Pack", content: "Ce Skin Pack crée par Nobledez comprends skin de logo d'applications.", url: "skin-pack/list/apps-pack.html", image: "../IMG/skin-pack/apps-pack.png" },
 	{ title: "Arcane Practice", content: "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].", url: "map/list/arcane-practice.html", image: "../IMG/map/arcane-practice.png" },
+	{ title: "Ascend", content: "Ce texture pack crée par Yuruze et converti par Jerem2206 est un texture pack pvp classique", url: "texture-pack/list/ascend.html", image: "../IMG/texture-pack/ascend.png" },
 	{ title: "Astral", content: "Ce texture pack crée par NotronDan et converti par a4l est un texture pack pvp classique", url: "texture-pack/list/astral.html", image: "../IMG/texture-pack/astral.png" },
 	//B
 	{ title: "Basic Lobby", content: "Juste le lobby actuel des mini jeux de minecraft console.", url: "lobby/list/basic-lobby.html", image: "../IMG/lobby/basic-lobby.png" },
@@ -19,7 +21,7 @@ const pages = [
     { title: "BlockBench", content: "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.", url: "logiciel/list/blockbench.html", image: "../IMG/logiciel/blockbench.png" },
 	{ title: "Blue & Red Fade", content: "Ce texture pack crée par Xenox et converti par jerem2206 est un texture pack pvp de couleur dégradé entre le rouge et le bleu .", url: "texture-pack/list/blue-&-red-fade.html", image: "../IMG/texture-pack/blue-&-red-fade.png" },
 	{ title: "BO2 Boat", content: "Cette carte est une carte du jeu Call of Duty Black Ops 2 dans Minecraft.", url: "map/list/bo2-boat.html", image: "../IMG/map/bo2-boat.png" },
-	{ title: "BrainFFA V2 FY", content: "Cette carte faites par Jerem2206 est une carte BrainFFA classique faites pour les membres de la furysium.", url: "map/list/brainffa-fy-v2.html", image: "../IMG/map/brainffa-v2-fy.png" },
+	{ title: "BrainFFA V2 FY", content: "Cette carte faites par Jerem2206 est une carte BrainFFA classique faites pour les membres de la furysium.", url: "map/list/brainffa-fy-v2.html", image: "../IMG/map/brainffa-fy-v2.png" },
 	{ title: "Brendans Models Skin Pack V5", content: "Ce Skin Pack créé par Brendans rassemble quelques centaines de skins originaux.", url: "skin-pack/list/brendans-models-skin-pack-v5.html", image: "../IMG/skin-pack/brendans-models-skin-pack-v5.png" },
 	{ title: "Brillant", content: "Ce texture pack crée par Brilliant-PVP et converti par jerem2206 est un texture pack très coloré un peu dans le style du pack plastic.", url: "texture-pack/list/brillant.html", image: "../IMG/texture-pack/brillant.png" },
 	//C
@@ -66,7 +68,7 @@ const pages = [
 	//I
 	{ title: "Island Pack Adventure", content: "Ce pack de cartes contient différentes îles(3) pour faire ses aventures [Convertie par Jerem2206].", url: "map/list/island-pack-adventure.html", image: "../IMG/map/island-pack-adventure.png" },
 	//J
-	{ title: "Java to WiiU Texture Pack Converter", content: "Ce logiciel permet de convertir les blocs et les items des textures packs de la version Java vers la version WiiU", url: "logiciel/list/java-to-wiiu-texture-pack-converter.html", image: "../IMG/logiciel/java-to-wiiu-texture-pack-converter.png" },
+	{ title: "Java to LCE Texture Pack Converter", content: "Ce logiciel permet de convertir les blocs et les items des textures packs de la version Java vers la version WiiU", url: "logiciel/list/java-to-lce-texture-pack-converter.html", image: "../IMG/logiciel/java-to-lce-texture-pack-converter.png" },
 	{ title: "Jerem Event 2021 Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient les cartes de l'évvènement organisé en 2021(2).", url: "map/list/jerem-event-2021-map-pack.html", image: "../IMG/map/jerem-event-2021-map-pack.png" },
 	{ title: "Jerem Texture Pack", content: "Cette carte crée par Jerem2206 contient le nécéssaire pour tester son texture pack et pour PvP.", url: "map/list/jerem-texture-pack.html", image: "../IMG/map/jerem-texture-pack.png" },
 	{ title: "Jerem UHC Map Pack", content: "Ce pack de cartes crée par Jerem2206 contient des cartes d'uhc divers custom(2).", url: "map/list/jerem-uhc-map-pack.html", image: "../IMG/map/jerem-uhc-map-pack.png" },
@@ -118,7 +120,7 @@ const pages = [
 	{ title: "PCK Studio", content: "Ce logiciel de faire des packs de skin et de crée des skins spéciaux tout en pouvant exporter les packs de skin vers sa console.", url: "logiciel/list/pck-studio.html", image: "../IMG/logiciel/pck-studio.png" },
 	{ title: "Pixelorama", content: "Ce logiciel permet de créer des textures animées.", url: "logiciel/list/pixelorama.html", image: "../IMG/logiciel/pixelorama.png" },
 	{ title: "Portrait Skin Pack", content: "Ce Skin Pack crée par Nobledez comprends différents skins dans le thème portrait.", url: "skin-pack/list/portrait-skin-pack.html", image: "../IMG/skin-pack/portrait-skin-pack.png" },
-	{ title: "PowerFTP", content: "Ce logiciel permet de transférer des fichiers vers sa WiiU mais pour téléphone.", url: "logiciel/list/powerftp.html", image: "../IMG/logiciel/ppowerftp.png" },
+	{ title: "PowerFTP", content: "Ce logiciel permet de transférer des fichiers vers sa WiiU mais pour téléphone.", url: "logiciel/list/powerftp.html", image: "../IMG/logiciel/powerftp.png" },
 	{ title: "PvP Skin Pack", content: "Ce Skin Pack crée par Jerem2206 comprends différents skins simple.", url: "skin-pack/list/pvp-skin-pack.html", image: "../IMG/skin-pack/pvp-skin-pack.png" },
 	//Q 
 	{ title: "Qu@ skin pack", content: "Ce Skin Pack crée par Niveau de Mario contient beaucoup de skin original", url: "skin-pack/list/Qu@-skin-pack.html", image: "../IMG/skin-pack/Qu@-skin-pack.png" },
@@ -131,6 +133,7 @@ const pages = [
 	{ title: "Skin Pack of The LiviAxel", content: "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original", url: "skin-pack/list/skin-pack-of-the-liviaxel.html", image: "../IMG/skin-pack/skin-pack-of-liviaxel.png" },
 	{ title: "Sky Defender 8", content: "Cette carte faites par la team Andorah est une carte de Sky Defender.", url: "map/list/sky-defender-8.html", image: "../IMG/map/sky-defender-8.png" },
 	{ title: "Skyblock", content: "Cette carte faites par DanRobzProbz est une carte skyblock complète.", url: "map/list/skyblock.html", image: "../IMG/map/skyblock.png" },
+	{ title: "SMG4 Skin Pack", content: "Ce Skin Pack crée par Micheechri2 et Manu comprends différents skins de l'univers de SMG4.", url: "skin-pack/list/smg4-skin-pack.html", image: "../IMG/skin-pack/smg4-skin-pack.png" },
 	{ title: "Speed UHC", content: "Cette carte est une carte UHC de la version rapide de l'UHC classique [Publié par Frutox].", url: "map/list/speed-uhc.html", image: "../IMG/map/speed-uhc.png" },
 	{ title: "Spiral Parkour", content: "Cette carte parcour originaire de la version Java est adapté pour WiiU par Jerem2206", url: "map/list/spiral-parkour.html", image: "../IMG/map/spiral-parkour.png" },
 	{ title: "SpriteCraft", content: "Ce logiciel permet de transformer des images en schematique.", url: "logiciel/list/spritecraft.html", image: "../IMG/nothing.png" },
@@ -141,6 +144,7 @@ const pages = [
 	//T 
 	{ title: "Tank Skin Pack", content: "Ce Skin Pack créé par Jerem2206 en utilisant le modèle du tank du pack brendans models skin pack et comprend différents skins de tank dans différentes couleurs.", url: "skin-pack/list/tank-skin-pack.html", image: "../IMG/skin-pack/tank-skin-pack.png" },
 	{ title: "Terraria Skins V2", content: "Ce Skin Pack comprends différents skins de l'univers de Terraria.", url: "skin-pack/list/terraria-skins-v2.html", image: "../IMG/skin-pack/terraria-skins-v2.png" },
+	{ title: "Textures 1.14", content: "Ce texture pack est un texture pack contenant les nouvelles textures de la 1.14.", url: "texture-pack/list/textures-1.14.html", image: "../IMG/texture-pack/textures-1.14.png" },
 	{ title: "The Final Skin Pack", content: "Ce Skin Pack créé par Jerem2206 comprends différents skins.", url: "skin-pack/list/the-final-skin-pack.html", image: "../IMG/skin-pack/the-final-skin-pack.png" },
 	{ title: "The Joy Of Creation Skin Pack", content: "Ce Skin Pack comprends différents skins lié au thème the joy of creation.", url: "skin-pack/list/the-joy-of-creation-skin-pack.html", image: "../IMG/nothing.png" },
 	{ title: "The World Skin Pack", content: "Ce Skin Pack crée par TheSecretPadlock comprends différents skins spéciaux.", url: "skin-pack/list/the-world-skin-pack.html", image: "../IMG/skin-pack/the-world-skin-pack.png" },
@@ -158,7 +162,7 @@ const pages = [
 	{ title: "USB Helper", content: "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.", url: "logiciel/list/usb-helper.html", image: "../IMG/logiciel/usb-helper.png" },
 	//V 
 	{ title: "V48 Tutorial", content: "Simplement le tutoriel de la mise a jour v48 (d'après usb helper)", url: "tutoriel/list/v48-tutorial.html", image: "../IMG/tutoriel/v48-tutorial.png" },
-	{ title: "V688 Tutorial", content: "Simplement le tutoriel de la mise a jour v688 (d'après usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutorial/v688-tutoriel.png" },
+	{ title: "V688 Tutorial", content: "Simplement le tutoriel de la mise a jour v688 (d'après usb helper)", url: "tutoriel/list/v688-tutorial.html", image: "../IMG/tutoriel/v688-tutoriel.png" },
 	//W
 	{ title: "WiiSportsRESORT", content: "Cette carte est une carte reprennant la carte de Wii Sport (WiiU).", url: "map/list/wiisportsresort.html", image: "../IMG/map/wiisportsresort.png" },
 	{ title: "WiiU Map Manager", content: "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.", url: "logiciel/list/wiiu-map-manager.html", image: "../IMG/logiciel/wiiu-map-manager.png" },
