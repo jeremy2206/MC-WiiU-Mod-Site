@@ -1,0 +1,1 @@
+window.location.href = "https://minecraft.jeremestici.wstr.fr/version/wiiu/mc-wiiu-mod-site/index.html";
