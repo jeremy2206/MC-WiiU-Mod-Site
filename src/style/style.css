@@ -1,0 +1,491 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body {
+	font-family: 'Poppins',sans-serif;
+	background-image: url("../img/stone_background.webp");
+    background-size: 64px;
+}
+/* ---------------------------------------- */
+
+header {
+    margin: auto;
+    border: 2px solid black;
+    background-image: url("../img/spruce-plank-background.jpg");
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border-top: none;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+
+.language-switch {
+    margin: 0;
+    padding: 0px 0px;
+    font-size: 0px;
+    cursor: pointer;
+}
+
+.language-switch img {
+    width: 50px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.sidebar-title {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: "Lilita One", sans-serif;
+    font-size: 6em;
+}
+
+header strong{
+    color: rgb(0, 242, 255);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    text-align: center;
+    gap: 30px;
+}
+
+.navbar li {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.navbar li:hover {
+    background-color: #00000043;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.4em;
+}
+
+.navbar a:active {
+    text-shadow: 2px 2px 1px black;
+}
+
+@media (max-width: 1350px) {
+    .navbar {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* ------------------------------------------- */
+
+main {
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid black ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-image: url("../img/spruce-plank-background.jpg");
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.title2 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4em;
+    margin-left: 25px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.textcentrage {
+    text-align: center;
+    background-color: #ffffff58;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-wrap: break-word;
+}
+
+.imgcentrage {
+	display: block;
+	margin: 0 auto;
+	width: 552px;
+	height: 311px;
+	border: 0.3em solid black;
+	border-radius: 10px;
+}
+
+@media (max-width:650px) {
+    .imgcentrage {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.videocentrage {
+	width: 560px;
+	height: 315px;
+	display: block;
+	margin: 0 auto;
+	border: 2.5px solid black;
+	border-radius: 1em;	
+}
+
+.videocentrageshort {
+	width: 360px;
+	height: 645px;
+	border: 2.5px solid black;
+	border-radius: 1em;	
+}
+
+.divvideocentragecentrage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width:700px) {
+    .videocentrage {
+        width: 95%;
+    }
+}
+@media (max-width:500px) {
+    .videocentrageshort {
+        width: 95%;
+    }
+}
+
+.button-download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25vw;
+	min-width: 200px;
+	height: 50px;
+	background-color: #007bff;
+	border-radius: 10px;
+	border: 0.1em solid black;
+	cursor: pointer;
+	margin: 0 auto;
+	text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.button-download span {
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button-download:hover {
+	background-color: #0067d6;
+	border-color: #ffffff;
+}
+
+
+/* --- */
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    width: 15vw;
+    height: 20px;
+    background-image: url(../img/deepslate_bricks_background.webp);
+    background-size:contain;
+    font-weight: bold;
+}
+
+button {
+    padding: 9px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* --- */
+
+.divcentrage {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	border: 5px solid black;
+	border-radius: 30px;	
+	margin-block-start: 20px;
+	margin-block-end: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: #0000001f;
+    overflow: hidden;
+}
+
+.divcentrage h3 {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.divcentrage h4 {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.divcentrage h5 {
+    padding-left: 30px;
+}
+
+.divcentrage p {
+    width: 90%;
+    margin: auto;
+}
+
+.buttontop {
+    width: 200px;
+    height: 200px;
+}
+
+.spanbuttontop {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttoncontenaircontent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: auto; 
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* ------------------------------------------- */
+
+footer {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-image: url("../img/spruce-plank-background.jpg");
+    overflow: hidden;
+    border-top: 1px solid white;
+    border-bottom: none;
+}
+
+.sidebar-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #ffffff58;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer > p {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+@media (max-width: 700px){
+    .sidebar-footer {
+        grid-template-columns: 1fr;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image logiciel */
+
+.binkman {background-image: url('../img/logiciel/binkman.png'); background-size: cover;}
+.blockbench {background-image: url('../img/logiciel/blockbench.png'); background-size: cover;}
+.cemu {background-image: url('../img/logiciel/cemu.png'); background-size: cover;}
+.dragon-unpacker {background-image: url('../img/logiciel/dragon-unpacker.png'); background-size: cover;}
+.fui-editor {background-image: url('../img/logiciel/fui-editor.png'); background-size: cover;}
+.fontforge {background-image: url('../img/logiciel/fontforge.png'); background-size: cover;}
+.html-color-modifier {background-image: url('../img/logiciel/html-color-modifier.png'); background-size: cover;}
+.hxd {background-image: url('../img/logiciel/hxd.png'); background-size: cover;}
+.java-to-lce-texture-pack-converter {background-image: url('../img/logiciel/java-to-lce-texture-pack-converter.png'); background-size: cover;}
+.json-to-box-converter {background-image: url('../img/logiciel/json-to-box-converter.png'); background-size: cover;}
+.mcc-tool-chest {background-image: url('../img/logiciel/mcc-tool-chest.png'); background-size: cover;}
+.mcedit-2 {background-image: url('../img/logiciel/mcedit-2.png'); background-size: cover;}
+.mcse-editor {background-image: url('../img/logiciel/mcse-editor.png'); background-size: cover;}
+.mc-wiiu-id-skin-checker  {background-image: url('../img/logiciel/mc-wiiu-id-skin-checker.png'); background-size: cover;}
+.minecraft-converter {background-image: url('../img/logiciel/minecraft-converter.png'); background-size: cover;}
+.nbt-tag-code-maker {background-image: url('../img/logiciel/nbt-tag-code-maker.png'); background-size: cover;}
+.paintnet {background-image: url('../img/logiciel/paint.net.png'); background-size: cover;}
+.pck-studio {background-image: url('../img/logiciel/pck-studio.png'); background-size: cover;}
+.pixelorama {background-image: url('../img/logiciel/pixelorama.png'); background-size: cover;}
+.powerftp  {background-image: url('../img/logiciel/powerftp.png'); background-size: cover;}
+.universal-minecraft-editor {background-image: url('../img/logiciel/universal-minecraft-editor.png'); background-size: cover;}
+.universal-minecraft-tool {background-image: url('../img/logiciel/universal-minecraft-tool.png'); background-size: cover;}
+.usb-helper {background-image: url('../img/logiciel/usb-helper.png'); background-size: cover;}
+.winscp {background-image: url('../img/logiciel/winscp.png'); background-size: cover;}
+.winrar {background-image: url('../img/logiciel/winrar.png'); background-size: cover;}
+.wiiu-map-manager {background-image: url('../img/logiciel/wiiu-map-manager.png'); background-size: cover;}
+.wiiu-title-boot-editor {background-image: url('../img/logiciel/wiiu-title-boot-editor.png'); background-size: cover;}
+.world-painter {background-image: url('../img/logiciel/world-painter.png'); background-size: cover;}
+.world-machine {background-image: url('../img/logiciel/world-machine.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image skin pack */
+
+.w2018-memes-v1 {background-image: url('../img/skin-pack/2018-memes-v1.png'); background-size: cover;}
+.w45625-2019 {background-image: url('../img/skin-pack/45625w-2019.png'); background-size: cover;}
+.all-dream {background-image: url('../img/skin-pack/all-dream.png'); background-size: cover;}
+.among-us-skin-pack {background-image: url('../img/skin-pack/among-us-skin-pack.png'); background-size: cover;}
+.apps-pack {background-image: url('../img/skin-pack/apps-pack.png'); background-size: cover;}
+.block-skin-pack {background-image: url('../img/skin-pack/block-skin-pack.png'); background-size: cover;}
+.brendans-models-skin-pack-v5 {background-image: url('../img/skin-pack/brendans-models-skin-pack-v5.png'); background-size: cover;}
+.cereal-box-pack {background-image: url('../img/skin-pack/cereal-box-pack.png'); background-size: cover;}
+.chicken-skin-pack {background-image: url('../img/skin-pack/chicken-skin-pack.png'); background-size: cover;}
+.commu-skin-pack {background-image: url('../img/skin-pack/commu-skin-pack.png'); background-size: cover;}
+.ddlcskins {background-image: url('../img/skin-pack/ddlcskins.png'); background-size: cover;}
+.easter {background-image: url('../img/skin-pack/easter.png'); background-size: cover;}
+.enderman-skin-pack {background-image: url('../img/skin-pack/enderman-skin-pack.png'); background-size: cover;}
+.fallguys-skin-pack {background-image: url('../img/skin-pack/fallguys-skin-pack.png'); background-size: cover;}
+.five-nights-at-freddys-nobledez {background-image: url('../img/skin-pack/five-nights-at-freddys-nobledez.png'); background-size: cover;}
+.fnaf-skin-pack {background-image: url('../img/skin-pack/fnaf-skin-pack.png'); background-size: cover;}
+.furysium-skin-pack-v2 {background-image: url('../img/skin-pack/furysium-skin-pack-v2.png'); background-size: cover;}
+.gameallstar {background-image: url('../img/skin-pack/game-all-star-skin-pack.png'); background-size: cover;}
+.gazgoh-custom-models {background-image: url('../img/skin-pack/gazgoh-custom-model.png'); background-size: cover;}
+.hacker-skin-pack {background-image: url('../img/skin-pack/hacker-skin-pack.png'); background-size: cover;}
+.jerems-customs-models-skin-pack {background-image: url('../img/skin-pack/jerems-customs-models-skin-pack.png'); background-size: cover;}
+.jurassic-world-skin-pack {background-image: url('../img/skin-pack/jurassic-world-skin-pack.png'); background-size: cover;}
+.mass-effect-extented {background-image: url('../img/skin-pack/mass-effect-extented.png'); background-size: cover;}
+.mc360-skin-packs-1-6-port {background-image: url('../img/skin-pack/mc360-skin-packs-1-6-port.png'); background-size: cover;}
+.mega-pack {background-image: url('../img/skin-pack/mega-pack.png'); background-size: cover;}
+.minecraft-dungeons {background-image: url('../img/skin-pack/minecraft-dungeons.png'); background-size: cover;}
+.mn-skin-pack {background-image: url('../img/skin-pack/mn-skin-pack.png'); background-size: cover;}
+.mob-skin-pack {background-image: url('../img/skin-pack/mob-skin-pack.png'); background-size: cover;}
+.noob-skin-pack {background-image: url('../img/skin-pack/noob-skin-pack.png'); background-size: cover;}
+.pack-disney {background-image: url('../img/skin-pack/pack-disney.png'); background-size: cover;}
+.portrait-skin-pack {background-image: url('../img/skin-pack/portrait-skin-pack.png'); background-size: cover;}
+.pvp-skin-pack {background-image: url('../img/skin-pack/pvp-skin-pack.png'); background-size: cover;}
+.Qu-skin-pack {background-image: url('../img/skin-pack/Qu@-skin-pack.png'); background-size: cover;}
+.requestpck-nobledez {background-image: url('../img/skin-pack/requestpck-nobledez.png'); background-size: cover;}
+.rick-morty {background-image: url('../img/skin-pack/rick-&-morty.png'); background-size: cover;}
+.skin-pack-of-liviaxel {background-image: url('../img/skin-pack/skin-pack-of-liviaxel.png'); background-size: cover;}
+.smg4-skin-pack {background-image: url('../img/skin-pack/smg4-skin-pack.png'); background-size: cover;}
+.srg64-mega-skinpack {background-image: url('../img/skin-pack/srg64-mega-skinpack.png'); background-size: cover;}
+.steven-universe-updated {background-image: url('../img/skin-pack/steven-universe-updated.png'); background-size: cover;}
+.tank-skin-pack {background-image: url('../img/skin-pack/tank-skin-pack.png'); background-size: cover;}
+.terraria-skins-v2 {background-image: url('../img/skin-pack/terraria-skins-v2.png'); background-size: cover;}
+.the-final-skin-pack {background-image: url('../img/skin-pack/the-final-skin-pack.png'); background-size: cover;}
+.the-world-skin-pack {background-image: url('../img/skin-pack/the-world-skin-pack.png'); background-size: cover;}
+.troll-skin-pack {background-image: url('../img/skin-pack/troll-skin-pack.png'); background-size: cover;}
+.undertale-skin-pack {background-image: url('../img/skin-pack/undertale-skin-pack.jpg'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image carte */
+
+.smp-24-7 {background-image: url('../img/map/24-7-smp.png'); background-size: cover;}
+.arcane-practice {background-image: url('../img/map/arcane-practice.png'); background-size: cover;}
+.bo2-boat {background-image: url('../img/map/bo2-boat.png'); background-size: cover;}
+.brainffa-fy-v2 {background-image: url('../img/map/brainffa-fy-v2.png'); background-size: cover;}
+.capturetheflag {background-image: url('../img/map/capturetheflag.png'); background-size: cover;}
+.core-war {background-image: url('../img/map/core-war.png'); background-size: cover;}
+.eggwars {background-image: url('../img/map/eggwars.png'); background-size: cover;}
+.fallenkingdom {background-image: url('../img/map/fallenkingdom.png'); background-size: cover;}
+.farmland-v3 {background-image: url('../img/map/farmland-v3.png'); background-size: cover;}
+.farmland-v4 {background-image: url('../img/map/farmland-v4.png'); background-size: cover;}
+.fortnite-modded {background-image: url('../img/map/fortnite-modded.png'); background-size: cover;}
+.gtav-in-minecraft {background-image: url('../img/map/gtav-in-minecraft.png'); background-size: cover;}
+.island-pack-adventure {background-image: url('../img/map/island-pack-adventure.png'); background-size: cover;}
+.jerem-event-2021-map-pack {background-image: url('../img/map/jerem-event-2021-map-pack.png'); background-size: cover;}
+.jerem-texture-pack {background-image: url('../img/map/jerem-texture-pack.png'); background-size: cover;}
+.jerem-uhc-map-pack {background-image: url('../img/map/jerem-uhc-map-pack.png'); background-size: cover;}
+.map-aventure {background-image: url('../img/map/map-aventure.png'); background-size: cover;}
+.map-jump {background-image: url('../img/map/map-jump.png'); background-size: cover;}
+.mega-mapa-de-splatoon {background-image: url('../img/map/mega-mapa-de-splatoon.png'); background-size: cover;}
+.mystic-maze {background-image: url('../img/map/mystic-maze.png'); background-size: cover;}
+.pack-map-bedwars {background-image: url('../img/map/pack-map-bedwars.png'); background-size: cover;}
+.pack-map-hide-n-seek {background-image: url('../img/map/pack-map-hide-n-seek.png'); background-size: cover;}
+.pack-map-skywars {background-image: url('../img/map/pack-map-skywars.png'); background-size: cover;}
+.rush-furysium-v2 {background-image: url('../img/map/rush-furysium-v2.png'); background-size: cover;}
+.sky-defender-8 {background-image: url('../img/map/sky-defender-8.png'); background-size: cover;}
+.skyblock {background-image: url('../img/map/skyblock.png'); background-size: cover;}
+.speed-uhc {background-image: url('../img/map/speed-uhc.png'); background-size: cover;}
+.spiral-parkour {background-image: url('../img/map/spiral-parkour.png'); background-size: cover;}
+.tntplus-modded {background-image: url('../img/map/tnt+-modded.png'); background-size: cover;}
+.wiisportsresort {background-image: url('../img/map/wiisportsresort.png'); background-size: cover;}
+.zombie-tower-defence {background-image: url('../img/map/zombie-tower-defence.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image texture pack */
+
+.amethyst-pack {background-image: url('../img/texture-pack/amethyst-pack.png'); background-size: cover;}
+.aqua {background-image: url('../img/texture-pack/aqua.png'); background-size: cover;}
+.ascend {background-image: url('../img/texture-pack/ascend.png'); background-size: cover;}
+.astral {background-image: url('../img/texture-pack/astral.png'); background-size: cover;}
+.blue-red-fade {background-image: url('../img/texture-pack/blue-&-red-fade.png'); background-size: cover;}
+.brillant {background-image: url('../img/texture-pack/brillant.png'); background-size: cover;}
+.dandelion-x {background-image: url('../img/texture-pack/dandelion-x.png'); background-size: cover;}
+.dragon-fruit {background-image: url('../img/texture-pack/dragon-fruit.png'); background-size: cover;}
+.erl-elementary-pvp {background-image: url('../img/texture-pack/elr-elementary-pvp.png'); background-size: cover;}
+.mathox-red-pack {background-image: url('../img/texture-pack/mathox-red-pack.png'); background-size: cover;}
+.hafen {background-image: url('../img/texture-pack/hafen.png'); background-size: cover;}
+.mizunos {background-image: url('../img/texture-pack/mizunos.png'); background-size: cover;}
+.morea {background-image: url('../img/texture-pack/morea.png'); background-size: cover;}
+.nebula {background-image: url('../img/texture-pack/nebula.png'); background-size: cover;}
+.nightrider-purple {background-image: url('../img/texture-pack/nightrider-purple.png'); background-size: cover;}
+.offensive-hearts-v2 {background-image: url('../img/texture-pack/offensive-hearts-v2.png'); background-size: cover;}
+.paint-red {background-image: url('../img/texture-pack/paint-red.png'); background-size: cover;}
+.subzero {background-image: url('../img/texture-pack/subzero.png'); background-size: cover;}
+.textures-114 {background-image: url('../img/texture-pack/textures-1.14.png'); background-size: cover;}
+.tonic-pack {background-image: url('../img/texture-pack/tonic-pack.png'); background-size: cover;}
+.trailer-texture-pack {background-image: url('../img/texture-pack/trailer-texture-pack.png'); background-size: cover;}
+.tropical-fade {background-image: url('../img/texture-pack/tropical-fade.png'); background-size: cover;}
+.ultra {background-image: url('../img/texture-pack/ultra.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image Lobby*/
+
+.basic-lobby {background-image: url('../img/lobby/basic-lobby.png'); background-size: cover;}
+.jerem2206-lobby-v1 {background-image: url('../img/lobby/jerem2206-lobby-v1.png'); background-size: cover;}
+.jerem2206-lobby-v2 {background-image: url('../img/lobby/jerem2206-lobby-v2.png'); background-size: cover;}
+.lobby-fy {background-image: url('../img/lobby/lobby-fy.png'); background-size: cover;}
+.old-lobby {background-image: url('../img/lobby/old-lobby.png'); background-size: cover;}
+.pack-de-mini-jeux-hack {background-image: url('../img/lobby/pack-de-mini-jeux-hack.png'); background-size: cover;}
+.ururu-lobby {background-image: url('../img/lobby/ururu-lobby.png'); background-size: cover;}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image Tutoriel*/
+
+.v48-tutorial {background-image: url('../img/tutoriel/v48-tutorial.png'); background-size: cover;}
+.v688-tutorial {background-image: url('../img/tutoriel/v688-tutorial.png'); background-size: cover;}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* image Map Mini-Jeux*/
+
+.basicarena-mg02-fy-v2 {background-image: url('../img/minigame-map/basicarena-mg02-fy-v2.png'); background-size: cover;}
+.map-pack-5 {background-image: url('../img/minigame-map/map-pack-5.png'); background-size: cover;}

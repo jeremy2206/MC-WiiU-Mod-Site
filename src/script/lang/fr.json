@@ -1,0 +1,682 @@
+{
+    "//comment": "Toute page ------------------------------- Toute page",
+
+    "nav-menu": "MENU",
+    "nav-logiciel": "LOGICIEL",
+    "nav-skin-pack": "SKIN PACK",
+    "nav-carte": "CARTE",
+    "nav-texture-pack": "TEXTURE PACK",
+    "nav-lobby": "LOBBY",
+    "nav-map-tutoriel": "MAP TUTORIEL",
+    "nav-map-mini-jeux": "MAP MINI JEUX",
+    "footer-discord" : "Discord : Jeremestici",
+    "footer-youtube" : "Youtube : Jerem2206",
+    "footer-remarque": "PAS UN SITE WEB MINECRAFT OFFICIEL. NON APPROUVÉ OU ASSOCIÉ À MOJANG OU MICROSOFT ET 4JSTUDIO",
+
+    "list-populaire" : "Populaire",
+    "list-liste" : "Liste",
+    "elt-presentation" : "Présentation",
+    "dl-lien1-mediafire" : "Télécharger (lien1) [Mediafire]",
+    "dl-lien1-mediafire-alt" : "Téléchargement (lien1) [Mediafire]",
+    "dl-lien2-mediafire" : "Télécharger (lien2) [Mediafire]",
+    "dl-lien1-workupload" : "Télécharger (lien1) [WorkUpload]",
+    "dl-lien2-workupload-alt" : "Téléchargement (lien2) [WorkUpload]",
+    "dl-lien2-workupload" : "Télécharger (lien2) [WorkUpload]",
+    "dl-lien1-mega" : "Télécharger (lien1) [Mega]",
+    "dl-lien2-mega" : "Télécharger (lien2) [Mega]",
+    "dl-lien2-mega-alt" : "Téléchargement (lien2) [Mega]",
+    "dl-original-github" : "Télécharger (lien original) [Github]",
+    "dl-modification-original-github" : "Télécharger modification (lien original) [Github]",
+    "dl-original-itch-io" : "Télécharger (lien original) [Itch io]",
+    "dl-lien1-mise-a-jour-mega" : "Mise à jour (lien1) [Mega]",
+    "dl-lien2-mise-a-jour-mediafire" : "Mise à jour (lien2) [Mediafire]",
+    "dl-original-play-google" : "Télécharger (lien original) [Play Google]",
+    "dl-original" : "Télécharger (lien original)",
+    "dl-original-curseforge" : "Télécharger (lien original) [Curseforge]",
+    "dl-original-mc-fr" : "Télécharger (lien original java) [Minecraft France]",
+    "dl-old-lien1-mediafire" : "Ancienne version (lien1) [Mediafire]",
+    "dl-old-lien2-workupload" : "Ancienne version (lien2) [WorkUpload]",
+    "dl-original-youtube" : "Télécharger (lien original) [Youtube]",
+    "dl-original-java-youtube" : "Télécharger (lien original Java) [Youtube]",
+    "dl-original-java-mc-ressource-pack" : "Télécharger (lien original Java) [Minecraft Resourcepacks]",
+    "dl-original-java-planet-minecraft" : "Télécharger (lien original Java) [Planet Minecraft]",
+    "dl-original-java-planet-minecraft-alt" : "Télécharger (lien original Java) [Planetminecraft]",
+    "dl-original-java-pvprp" : "Télécharger (lien original Java) [Pvprp]",
+    "dl-original-java-curseforge" : "Télécharger (lien original Java) [Curseforge]",
+    "dl-original-java-mc-fr" : "Télécharger (lien original Java) [Minecraft France]",
+    "dl-original-java-fr-mc" : "Télécharger (lien original Java) [Fr Minecraft]",
+    "dl-original-java-ressourcepacks" : "Télécharger (lien original Java) [Resourcepacks]",
+    "dl-original-java-textures-pack" : "Télécharger (lien original Java) [Texture packs]",
+
+    "dl-titre" : "Téléchargement",
+    "dl-autres-titre" : "Téléchargement : autres fichiers",
+    "dl-autre-titre" : "Téléchargement : Autre fichier",
+    "dl-autre" : "Autre",
+
+
+
+    "//comment2" : "Menu ------------------------------- Menu",
+
+    "main-title" : "Menu",
+    "main-search-button" : "Rechercher",
+
+    "main-number-title" : "Quelques chiffres :",
+    "main-number-logiciel" : "33 Logiciel",
+    "main-number-skin-pack" : "48 Skin Pack",
+    "main-number-carte" : "32 Carte",
+    "main-number-texture-carte" : "24 Texture Pack",
+    "main-number-lobby" : "7 Lobby",
+    "main-number-map-tutoriel" : "2 Map Tutoriel",
+    "main-number-map-mini-jeux" : "2 Map Mini Jeux",
+    "main-number-date" : "Ce site existe officiellement depuis le 27 avril 2023.",
+    "main-number-coeur" : "Fait avec ❤️ pour regrouper tout au même endroit!",
+    "main-number-probleme" : "Si vous avez un problème ou que vous voulez participer, vous pouvez me contacter sur discord : jeremestici .",
+
+    "main-update-categorie-global" : "Global",
+    "main-update-categorie-update" : "Mise a jour",
+    "main-update-categorie-evenement" : "Evenement",
+    "main-update-modification" : "Modification:",
+    "main-update-modifications" : "Modifications:",
+    "main-update-ajout" : "Ajout:",
+    "main-update-ajouts" : "Ajouts:",
+    "main-update-suppression" : "Suppression:",
+    "main-update-suppressions" : "Suppressions:",
+    "main-update-ajout-provenance" : "Ajout de la provenance des liens de téléchargements",
+    "main-update-creation-page" : "Création de la page",
+    "main-update-modification-page" : "Modification de la page",
+    "main-update-retrait-page" : "Retrait de la page",
+    "main-update-title-31" : "Mise a jour 1608-24 #31",
+    "main-update-title-30" : "Mise a jour 1508-24 #30",
+    "main-update-title-29" : "Mise a jour 1108-24 #29",
+    "main-update-title-28" : "Mise a jour 1008-24 #28",
+    "main-update-title-27" : "Mise a jour 0107-24 #27",
+    "main-update-title-26" : "Mise a jour 0206-24 #26",
+    "main-update-title-25" : "Mise a jour 1905-24 #25",
+    "main-update-title-24" : "Mise a jour 0105-24 #24",
+    "main-update-title-23" : "Mise a jour 0104-24 #23",
+    "main-update-title-22" : "Mise a jour 0103-24 #22",
+    "main-update-22-modification-lien-telechargement" : "Modification du lien 1 et 2 de téléchargement",
+    "main-update-title-21" : "Mise a jour 0102-24 #21",
+    "main-update-21-ajout-tutoriel" : "Ajout de la catégorie Tutoriel",
+    "main-update-title-20" : "Mise a jour 1301-24 #20",
+    "main-update-title-19" : "Mise a jour 0112-23 #19",
+    "main-update-title-18" : "Mise a jour 0211-23 #18",
+    "main-update-18-police" : "Police d'écriture des titres et sous titres",
+    "main-update-18-deco" : "Décoration halloween",
+    "main-update-18-barre-recherche" : "Script barre de recherche",
+    "main-update-title-17" : "Mise a jour 2010-23 #17",
+    "main-update-17-deco" : "Décoration pour la période d'Halloween",
+    "main-update-17-materialize" : "Librairie Materialize",
+    "main-update-17-proportions" : "Proportions de certains éléments",
+    "main-update-17-liste-elt" : "Liste d'élèments",
+    "main-update-17-bouton" : "Boutons de téléchargements",
+    "main-update-17-barre-recherche" : "Barre de recherche",
+    "main-update-title-16" : "Mise a jour 0710-23 #16",
+    "main-update-title-15" : "Mise a jour 0909-23 #15",
+    "main-update-title-14" : "Mise a jour 0808-23 #14",
+    "main-update-14-statistiques" : "Moyen d'avoir des statistiques du site",
+    "main-update-14-deplacement-mise-a-jour" : "Déplacement des mise à jour",
+    "main-update-14-barre-recherche" : "Barre de recherche",
+    "main-update-title-13" : "Mise a jour 0107-23 #13",
+    "main-update-title-12" : "Mise a jour 1706-23 #12",
+    "main-update-12-proportion" : "Proportion de certains éléments",
+    "main-update-12-barre-navigation" : "Barre de navigation",
+    "main-update-title-11" : "Mise a jour 0706-23 #11",
+    "main-update-title-10" : "Mise a jour 0306-23 #10",
+    "main-update-title-9" : "Mise a jour 3105-23 #9",
+    "main-update-9-anglais" : "langue anglaise (en cours d'ajout)",
+    "main-update-9-structure" : "Structure interne du site", 
+    "main-update-title-8" : "Mise a jour 2905-23 #8",
+    "main-update-title-7" : "Mise a jour 2805-23 #7",
+    "main-update-title-6" : "Mise a jour 2705-23 #6",
+    "main-update-6-propotion" : "Modification de la barre de navigation (proportion)",
+    "main-update-title-5" : "Mise a jour 2605-23 #5",
+    "main-update-5-proportion" : "Modification de la barre de navigation (proportion)",
+    "main-update-title-4" : "Mise a jour 2205-23 #4",
+    "main-update-title-3" : "Mise a jour 1505-23 #3",
+    "main-update-title-2" : "Mise a jour 1405-23 #2",
+    "main-update-2-barre-navigation" : "Modification de la barre de navigation",
+    "main-update-2-liste" : "Liste de 4 -> 3",
+    "main-update-2-barre-recherche" : "Logo de la barre de recherche",
+    "main-update-title-1" : "Mise a jour 1305-23 #1",
+
+
+
+    "//comment3" : "Logiciel ------------------------------- Logiciel",
+
+    "logiciel" : "Logiciel",
+    "logiciel-list-warning" : "Certains logiciels ne sont pas les miens.",
+
+    "logiciel-video-logiciel" : "Vidéos sur le logiciel",
+    "logiciel-videos-logiciel" : "Vidéos sur le logiciel",
+    "logiciel-video1-logiciel" : "Vidéo sur le logiciel",
+
+    "logiciel-binkman" : "Binkman",
+    "logiciel-binkman-content" : "Ce logiciel permet de convertir des fichiers dans les 2 sens: Les fichiers .wav en .binka qui est utile pour modifier les musiques de minecraft WiiU.",
+
+    "logiciel-blockbench" : "BlockBench",
+    "logiciel-blockbench-content" : "Ce logiciel est un outil permettant de créer plus facilement ses Skin Custom.",
+    "logiciel-blockbench-dl" : "Télécharger (lien original) [BlockBench]",
+
+    "logiciel-carte-sd" : "Carte SD",
+    "logiciel-carte-sd-content" : "L'ensemble des fichiers de Carte SD de Jerem2206 pour pouvoir modder.",
+    "logiciel-carte-sd-dl-aroma" : "Téléchargement Aroma + Tiramisu",
+    "logiciel-carte-sd-dl-classique" : "Téléchargement Classique",
+
+    "logiciel-cemu" : "Cemu",
+    "logiciel-cemu-content" : "Ce logiciel permet de jouer a des jeux WiiU sur PC.",
+    "logiciel-cemu-dl" : "Télécharger (lien original) [Cemu]",
+
+    "logiciel-discord-to-minecraft-wiiu" : "Discord To Minecraft WiiU",
+    "logiciel-discord-to-minecraft-wiiu-content" : "Ce logiciel permet de voir les messages Discord sur Minecraft WiiU.", 
+
+    "logiciel-dragon-unpacker" : "Dragon UnPACKer",
+    "logiciel-dragon-unpacker-content" : "Ce logiciel permet d'ouvrir des fichiers impossible a ouvrir facilement (comme les .pck des mashup).",
+    "logiciel-dragon-unpacker-dl" : "Télécharger (lien original) [Elberethzone]",
+
+    "logiciel-fontforge" : "FontForge",
+    "logiciel-fontforge-content" : "Ce logiciel permet de modifier et de creer des polices d'écritures.",
+    "logiciel-fontforge-dl" : "Télécharger (lien original) [FontForge]",
+
+    "logiciel-fui-editor" : "FUI Editor",
+    "logiciel-fui-editor-content" : "Ce logiciel permet de changer les textures se trouvant dans les .fui .",
+
+    "logiciel-html-color-modifier" : "HTML Color Modifier",
+    "logiciel-html-color-modifier-content" : "Ce logiciel permet de modifier les .col (les couleurs de l'herbe,eau...).",
+
+    "logiciel-hxd" : "HxD",
+    "logiciel-hxd-content" : "Ce logiciel permet de modifier des fichiers hexadecimaux ou avec.",
+    "logiciel-hxd-dl" : "Télécharger (lien original) [Mh nexus]",
+
+    "logiciel-java-to-lce-texture-pack-converter" : "Java to LCE Texture Pack Converter",
+    "logiciel-java-to-lce-texture-pack-converter-content" : "Ce logiciel permet de convertir les blocs et les items des textures packs de la version Java vers la version WiiU",
+
+    "logiciel-json-to-box-converter" : "JSON To Box Converter",
+    "logiciel-json-to-box-converter-content" : "Ce logiciel permet de convertir les skins de Blockbench vers PCK Studio",
+
+    "logiciel-mcc-tool-chest" : "MCC Tool Chest",
+    "logiciel-mcc-tool-chest-content" : "Ce logiciel permet de modifier des cartes (map) comme universal minecraft editor et de les convertir. Également d'extraire les .arc .",
+    "logiciel-mcc-tool-chest-dl" : "Télécharger (lien original) [MccToolChest]",
+
+    "logiciel-mcedit-2" : "McEdit 2",
+    "logiciel-mcedit-2-content" : "Ce logiciel permet de modifier des cartes (map) de façons approfondies.",
+
+    "logiciel-mcse-editor" : "MCSE Editor",
+    "logiciel-mcse-editor-content" : "Ce logiciel permet de modifier les fichiers de son mcse.",
+
+    "logiciel-mc-wiiu-id-skin-checker" : "MC WiiU ID Skin Checker",
+    "logiciel-mc-wiiu-id-skin-checker-content" : "Ce logiciel permet de vérifier l'id de son skin de son skin pack si il existe deja.",
+
+    "logiciel-minecraft-converter" : "Minecraft Converter",
+    "logiciel-minecraft-converter-content" : "Ce logiciel permet de convertir cartes(map) PS3 XBOX 360 et PC entre elles.",
+
+    "logiciel-minecraft-version-eshop" : "Minecraft WiiU Version EShop",
+    "logiciel-minecraft-version-eshop-content" : "Ce fichiers est Minecraft Version EShop prêt a être installé sur WiiU (version complète pour le modding).",
+
+    "logiciel-nbt-tag-code-maker": "NBT Tag Code Maker",
+    "logiciel-nbt-tag-code-maker-content" : "Ce logiciel permet de modifier l'inventaire créatif de Minecraft.",
+
+    "logiciel-paint.net" : "Paint.net",
+    "logiciel-paint.net-content" : "Ce logiciel permet de modifier et de créer des images.",
+    "logiciel-paint.net-dl" : "Télécharger (lien original) [Getpaint]",
+
+    "logiciel-pck-studio" : "PCK Studio",
+    "logiciel-pck-studio-content" : "Ce logiciel permet de faire des packs de skin et de crée des skins spéciaux tout en pouvant exporter les packs de skin vers sa console.",
+
+    "logiciel-pixelorama" : "Pixelorama",
+    "logiciel-pixelorama-content" : "Ce logiciel permet de créer des textures animées.",
+
+    "logiciel-power-ftp" : "PowerFTP",
+    "logiciel-power-ftp-content" : "Ce logiciel permet de transférer des fichiers vers sa WiiU mais pour téléphone.",
+    "logiciel-power-ftp-dl" : "Télécharger (lien original) [Google Play Store]",
+
+    "logiciel-spritecraft" : "Spritecraft",
+    "logiciel-spritecraft-content" : "Ce logiciel permet de transformer des images en schematique.",
+
+    "logiciel-universal-minecraft-editor" : "Universal Minecraft Editor",
+    "logiciel-universal-minecraft-editor-content" : "Ce logiciel permet de modifier des cartes (map) ainsi que les .nbt .",
+
+    "logiciel-universal-minecraft-tool" : "Universal Minecraft Tool",
+    "logiciel-universal-minecraft-tool-content" : "Ce logiciel permet de modifier/convertir des cartes (map) ainsi que les .nbt. Mias pour accéder a toutes les fonctionalitées il faut payer.",
+    "logiciel-universal-minecraft-tool-dl" : "Télécharger (lien original) [UniversalMinecraftTool]",
+
+    "logiciel-usb-helper" : "USB Helper",
+    "logiciel-usb-helper-content" : "Ce logiciel permet de télécharger des jeux wiiu pour soi et de les émuler ou les mettre sur sa console.",
+    "logiciel-usb-helper-cle" : "Site des clès",
+
+    "logiciel-wiiu-map-manager" : "WiiU Map Manager",
+    "logiciel-wiiu-map-manager-content" : "Ce logiciel permet de transferer et de télécharger des cartes(map) de sa console vers son ordinateur et inversement.",
+
+    "logiciel-wiiu-title-boot-editor" : "WiiU Title Boot Editor",
+    "logiciel-wiiu-title-boot-editor-content" : "Ce logiciel permet de modifier les Title Boot (logo du jeu...) d'un jeu WiiU.",
+
+    "logiciel-winrar" : "WinRAR",
+    "logiciel-winrar-content" : "Ce logiciel permet d'extraire et de compresser des fichiers (.rar).",
+    "logiciel-winrar-dl" : "Télécharger (lien original) [Win rar]",
+
+    "logiciel-winscp" : "WinSCP",
+    "logiciel-winscp-content" : "Ce logiciel permet de se connecter et de modifier des fichiers de sa console.",
+    "logiciel-winscp-dl" : "Télécharger (lien original) [Winscp]",
+
+    "logiciel-world-machine" : "World Machine",
+    "logiciel-world-machine-content" : "Ce logiciel permet de faire des maps customisées de manière avancée.",
+    "logiciel-world-machine-dl" : "Télécharger (lien original) [World Machine]",
+
+    "logiciel-world-painter" : "World Painter",
+    "logiciel-world-painter-content" : "Ce logiciel permet de faire des maps customisées de manière simple.",
+    "logiciel-world-painter-dl" : "Télécharger (lien original) [WorldPainter]",
+    
+
+
+    "//comment4" : "Skin Pack ------------------------------- Skin Pack",
+
+    "skin" : "Skin Pack",
+    "skin-list-warning" : "Certains skin pack ne sont pas les miens.",
+    "skin-video-skin" : "Vidéo sur le skin pack",
+    "skin-videos-skin" : "Vidéos sur le skin pack",
+    
+    "skin-2018-memes-v1" : "2018 Memes V1",
+    "skin-2018-memes-v1-content" : "Ce Skin Pack crée par Nobledez comprends différents skins de memes de 2018.",
+
+    "skin-45625w-2019" : "45625w 2019",
+    "skin-45625w-2019-content" : "Ce Skin Pack comprends différents skins.",
+
+    "skin-all-dream" : "All Dream",
+    "skin-all-dream-content" : "Ce Skin Pack crée par Azox comprends toutes les couleurs du skin dream. [Publié par Azox]",
+
+    "skin-among-us-skin-pack" : "Among us Skin Pack",
+    "skin-among-us-skin-pack-content" : "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du crewmate de Among us. [Publié par Azox]",
+
+    "skin-apps-pack" : "Apps Pack",
+    "skin-apps-pack-content" : "Ce Skin Pack crée par Nobledez comprends skin de logo d'applications.",
+
+    "skin-block-skin-pack" : "Block Skin Pack",
+    "skin-block-skin-pack-content" : "Ce Skin Pack créé par Nobledez rassemble quelques centaines de blocs de minecraft et de certains mods.",
+
+    "skin-brendans-models-skin-pack-v5" : "Brendans Models Skin Pack V5",
+    "skin-brendans-models-skin-pack-v5-content" : "Ce Skin Pack créé par Brendans rassemble quelques centaines de skins originaux.",
+
+    "skin-cereal-box-pack" : "Cereal Box Pack",
+    "skin-cereal-box-pack-content" : "Ce Skin Pack créé par Nobledez est un pack de skin avec des boite de céréales.",
+
+    "skin-chicken-skin-pack" : "Chicken Skin Pack",
+    "skin-chicken-skin-pack-content" : "Ce Skin Pack rassemble comprends des skins de poulets.",
+
+    "skin-commu-skin-pack" : "Commu Skin Pack",
+    "skin-commu-skin-pack-content" : "Ce Skin Pack créé par Jerem2206 rassemble différents skins simple.",
+
+    "skin-creeper-skin-pack" : "Creeper Skin Pack",
+    "skin-creeper-skin-pack-content" : "Ce Skin Pack contient des creeper de différentes couleurs.",
+
+    "skin-ddlcskins" : "DDLCSkins",
+    "skin-ddlcskins-content" : "Ce Skin Pack créé par Nobledez rassemble comprends de l'univers de DDLC.",
+
+    "skin-easter" : "Easter",
+    "skin-easter-content" : "Ce Skin Pack contient des skins de la période de pâques.",
+
+    "skin-enderman-skin-pack": "Enderman Skin Pack",
+    "skin-enderman-skin-pack-content": "Ce Skin Pack créé par Nobledez contient des Enderman de différentes couleurs.",
+
+    "skin-fallguys-skin-pack": "FallGuys Skin Pack",
+    "skin-fallguys-skin-pack-content": "Ce Skin Pack crée par Orika Hero comprends toutes les couleurs du personage de FallGuys. [Publié par Azox]",
+
+    "skin-fnaf-nobledez" : "Five Nights at Freddys - Nobledez",
+    "skin-fnaf-nobledez-content" : "Ce Skin Pack créé par Nobledez rassemble différents skins sur le thème de 'Five Night At Freddy's'.",
+
+    "skin-fnaf-skin-pack" : "FNAF Skin Pack",
+    "skin-fnaf-skin-pack-content" : "Ce Skin Pack créé par TheSecretPadlock rassemble différents skins custom sur le thème de 'Five Night At Freddy's'.",
+
+    "skin-furysium-skin-pack-v2" : "Furysium Skin Pack V2",
+    "skin-furysium-skin-pack-v2-content" : "Ce Skin Pack comprends les skins des membres de la Furysium V2.",
+
+    "skin-gameallstar" : "GameAllStar",
+    "skin-gameallstar-content" : "Ce Skin Pack créé par Nobledez contient différents skins originaux dans l'univers des jeux vidéo.",
+
+    "skin-gazgoh-custom-models" : "Gazgoh Custom Models",
+    "skin-gazgoh-custom-models-content" : "Ce Skin Pack crée par Gazgoh comprends différents skins originaux.",
+
+    "skin-hacker-skin-pack" : "Hacker Skin Pack",
+    "skin-hacker-skin-pack-content" : "Ce Skin Pack créé par Nobledez contient différents skins dans le thème 'hacker'.",
+
+    "skin-hd-portrait-skin-pack" : "HD Portrait Skin Pack",
+    "skin-hd-portrait-skin-pack-content" : "Ce Skin Pack différents skin sous forme de portaits.",
+
+    "skin-jerem's-customs-models-skin-pack" : "Jerem's Customs Models Skin Pack",
+    "skin-jerem's-customs-models-skin-pack-content" : "Ce Skin Pack comprends différents skins spéciaux crée par Jerem2206.",
+
+    "skin-jurassic-world-skin-pack" : "Jurassic World Skin Pack",
+    "skin-jurassic-world-skin-pack-content" : "Ce Skin Pack crée par Nobledez comprends différents skin sous forme d'images de dinosaures lié à Jurassic World.",
+
+    "skin-mass-effect:-extended" : "Mass Effect: Extended",
+    "skin-mass-effect:-extended-content" : "Ce Skin Pack contient des skins suplémentaires que ceux du pack mashup.",
+
+    "skin-mc360-skin-packs-1-6-port" : "MC360 Skin Packs 1-6 Port",
+    "skin-mc360-skin-packs-1-6-port-content" : "Ce Skin Pack crée par Nobledez contient les skin packs de 1 à 6 de la version Xbox360.",
+
+    "skin-mega-pack" : "Mega Pack",
+    "skin-mega-pack-content" : "Ce Skin Pack crée par Nobledez comprends différents skins originaux qui utilise des skins connus.",
+
+    "skin-minecraft-dungeons" : "Minecraft Dungeons",
+    "skin-minecraft-dungeons-content" : "Ce Skin Pack comprends les personnages de joueurs de minecraft dungeons",
+
+    "skin-mn-skin-pack" : "MN Skin Pack",
+    "skin-mn-skin-pack-content" : "Ce Skin Pack comprend les skins de la MN.",
+
+    "skin-noob-skin-pack" : "Noob Skin Pack",
+    "skin-noob-skin-pack-content" : "Ce Skin Pack crée par Spectroz comprends différents skins dans le thème 'noob'.",
+
+    "skin-pack-disney" : "Pack Disney",
+    "skin-pack-disney-content" : "Ce Skin Pack crée par Spectroz comprends différents skins lié a l'univers de Disney.",
+
+    "skin-portrait" : "Portrait Skin Pack",
+    "skin-portrait-content" : "Ce Skin Pack crée par Nobledez comprends différents skins dans le thème 'portrait'.",
+
+    "skin-pvp-skin-pack" : "PvP Skin Pack",
+    "skin-pvp-skin-pack-content" : "Ce Skin Pack crée par Jerem2206 comprends différents skins simple.",
+
+    "skin-qu@-skin-pack" : "Qu@ Skin Pack",
+    "skin-qu@-skin-pack-content" : "Ce Skin Pack crée par Niveau de Mario contient beaucoup de skin original",
+
+    "skin-requestpck" : "ReQuestPCK",
+    "skin-requestpck-content" : "Ce Skin Pack crée par Nobledez comprends différents skins demandé par sa communautée.",
+
+    "skin-rick&-morty" : "Rick & Morty",
+    "skin-rick&-morty-content" : "Ce Skin Pack crée par Nobledez comprends différents skins de l'univers de Rick & Morty.",
+
+    "skin-skin-pack-of-the-liviaxel" : "Skin Pack of The LiviAxel",
+    "skin-skin-pack-of-the-liviaxel-content" : "Ce Skin Pack crée par TheSecretPadlock contient plus d'une centaine de skin original",
+
+    "skin-smg4-skin-pack" : "SMG4 Skin Pack",
+    "skin-smg4-skin-pack-content" : "Ce Skin Pack crée par Micheechri2 et Manu comprends différents skins de l'univers de SMG4.",
+
+    "skin-srg64-mega-skinpack" : "SRG64 Mega SkinPack",
+    "skin-srg64-mega-skinpack-content" : "Ce Skin Pack crée par SRG64 comprends plus de 300 skins dans l'univers de mario principalement.",
+
+    "skin-steven-universe-updated" :  "Steven Universe Updated",
+    "skin-steven-universe-updated-content" : "Ce Skin Pack crée par Nobledez comprends différents lié a 'steven universe'.",
+
+    "skin-super-smash-bros-pack-v2" : "Super Smash Bros Pack V2",
+    "skin-super-smash-bros-pack-v2-content" : "Ce Skin Pack comprends différents skins lié au thème 'super smash bros'.",
+
+    "skin-tank-skin-pack" : "Tank Skin Pack",
+    "skin-tank-skin-pack-content" : "Ce Skin Pack créé par Jerem2206 en utilisant le modèle du tank du pack 'brendans models skin pack' comprend différents skins de tank dans différentes couleurs.",
+
+    "skin-terraria-skins-v2" : "Terraria Skins V2",
+    "skin-terraria-skins-v2-content" : "Ce Skin Pack comprends différents skins de l'univers de Terraria.",
+
+    "skin-the-final-skin-pack" : "The Final Skin Pack",
+    "skin-the-final-skin-pack-content" : "Ce Skin Pack créé par Jerem2206 comprends différents skins.",
+
+    "skin-the-joy-of-creation" : "The Joy Of Creation Skin Pack",
+    "skin-the-joy-of-creation-content" : "Ce Skin Pack comprends différents skins lié au thème 'the joy of creation'.",
+
+    "skin-the-world-skin-pack" : "The World Skin Pack",
+    "skin-the-world-skin-pack-content" : "Ce Skin Pack crée par TheSecretPadlock comprends différents skins spéciaux.",
+
+    "skin-troll-skin-pack" : "Troll Skin Pack",
+    "skin-troll-skin-pack-content" : "Ce Skin Pack créé par Jerem2206 qui comprends différents skins simple dans le thème 'troll'.",
+
+    "skin-undertale-skin-pack-v1" : "Undertale Skin Pack V1",
+    "skin-undertale-skin-pack-v1-content" : "Ce Skin Pack créé par boxed_by_zem0ur est un skin pack d'Undertale avec des skins du jeu [publié par alpine42330].",
+
+
+
+    "//comment5" : "Carte ------------------------------- Carte",
+    "carte" : "Carte", 
+    "carte-list-warning" : "Certaines cartes ne sont pas les miennes.",
+
+    "carte-24/7-smp" : "24/7 SMP",
+    "carte-24/7-smp-content" : "Cette carte crée pour les membres du serveur discord Minecraft Legacy Edition est une survie qui est resté ouvert pendant plusieurs mois",
+
+    "carte-arcane-practice" : "Arcane Practice",
+    "carte-arcane-practice-content" : "Cette carte crée par Pengchan et modifié par Frutox est une carte PvP avec plusieurs cartes et différents kits [Publié par Frutox].",
+
+    "carte-bo2-boat" : "BO2 Boat",
+    "carte-bo2-boat-content" : "Cette carte est une carte du jeu Call of Duty Black Ops 2 dans Minecraft.",
+
+    "carte-brainffa-fy-v2" : "BrainFFA FY V2",
+    "carte-brainffa-fy-v2-alt" : "BrainFFA V2 FY",
+    "carte-brainffa-fy-v2-content" : "Cette carte faites par Jerem2206 est une carte BrainFFA classique faites pour les membres de la furysium.",
+
+    "carte-capture-the-flag" : "Capture the flag",
+    "carte-capture-the-flag-content" : "Cette carte est une carte PvP qui consiste a capturer le drapeau [Publié par Frutox].",
+
+    "carte-core-war" : "Core War",
+    "carte-core-war-content" : "Cette carte crée par Thepyrocrafteur & Uranium_49 sur Java refait par Jerem2206 contient une carte team contre team pour détruire le coeur adverse.",
+
+    "carte-eggwars" : "Eggwars",
+    "carte-eggwars-content" : "Cette carte par pengchan est une carte du mode de jeu d'eggwars [Publié par Frutox].",
+
+    "carte-empty-world" : "Empty World",
+    "carte-empty-world-content" : "Cette carte est juste une carte vide.",
+
+    "carte-fallen-kingdom" : "Fallen Kingdom",
+    "carte-fallen-kingdom-content" : "Cette carte est une carte PvP ou différentes équipes s'affrontent [Publié par Frutox].",
+
+    "carte-farmland-v3" : "FarmLand V3",
+    "carte-farmland-v3-content" : "Cette carte crée par Jerem2206 et avec la participation de MisterV4 est un carte de type farm.",
+
+    "carte-farmland-v4" : "FarmLand V4",
+    "carte-farmland-v4-content" : "Cette carte crée par Jerem2206 avec MisterV4 est un carte de type farm.",
+
+    "carte-fortnite-modded" : "Fortnite Modded",
+    "carte-fortnite-modded-content" : "Cette carte est une carte faisant référence au jeu Fortnite dans Minecraft [Publié par Sehou Game].",
+
+    "carte-gtav-in-minecraft" : "GTAV In Minecraft",
+    "carte-gtav-in-minecraft-content" : "Cette carte est une carte faisant référence au jeu GTAV dans Minecraft [Convertie par Jerem2206].",
+
+    "carte-island-pack-adventure" : "Island Pack Adventure",
+    "carte-island-pack-adventure-content" : "Ce pack de cartes contient différentes îles(3) pour faire ses aventures [Convertie par Jerem2206].",
+
+    "carte-jerem-event-2021-map-pack" : "Jerem Event 2021 Map Pack",
+    "carte-jerem-event-2021-map-pack-content" : "Ce pack de cartes crée par Jerem2206 contient les cartes de l'évvènement organisé en 2021(2).",
+
+    "carte-jerem-texture-pack" : "Jerem Texture Pack",
+    "carte-jerem-texture-pack-content" : "Cette carte crée par Jerem2206 contient le nécéssaire pour tester son texture pack et pour PvP.",
+
+    "carte-jerem-uhc-map-pack" : "Jerem UHC Map Pack",
+    "carte-jerem-uhc-map-pack-content" : "Ce pack de cartes crée par Jerem2206 contient des cartes d'uhc divers custom(2).",
+
+    "carte-map-aventure" : "Map Aventure",
+    "carte-map-aventure-content" : "Cette carte faites par frifri vous propose une carte aventure.",
+
+    "carte-map-jump" : "Map Jump",
+    "carte-map-jump-content" : "Cette carte faites par frifri converti sur WiiU par Jerem2206 vous propose une carte de parcour.",
+
+    "carte-mega-mapa-de-splatoon" : "Mega Mapa de Splatoon",
+    "carte-mega-mapa-de-splatton-alt" : "MegaMapa de Splatoon",
+    "carte-mega-mapa-de-splatoon-content" : "Cette carte rassemble des cartes de Splatoon.",
+
+    "carte-mystic-maze" : "Mystic Maze",
+    "carte-mystic-maze-content" : "Cette carte originaire de la version Java par Reddoz et adapté pour WiiU par Jerem2206",
+    
+    "carte-pack-map-bedwars" : "Pack Map Bedwars",
+    "carte-pack-map-bedwars-content" : "Ce pack de cartes contient des cartes du mode de jeu bedwars(35).",
+
+    "carte-pack-map-hide-n-seek" : "Pack Map Hide N Seek",
+    "carte-pack-map-hide-n-seek-content" : "Ce pack de cartes converti par Jerem2206 contient des cartes du mode de jeu cache cache(3).",
+
+    "carte-pack-map-skywars" : "Pack Map Skywars",
+    "carte-pack-map-skywars-content" : "Ce pack de cartes comporte 4 cartes convertit par Jerem2206 et une faites par Pengchan.",
+
+    "carte-rush-furysium-v2" : "Rush Furysium V2",
+    "carte-rush-furysium-v2-content" : "Cette carte faites par LG_PvP est une carte rush classique faites pour les membres de la furysium.",
+
+    "carte-sky-defender-8" : "Sky Defender 8",
+    "carte-sky-defender-8-content" : "Cette carte faites par la team Andorah est une carte de Sky Defender.",
+
+    "carte-skyblock" : "Skyblock",
+    "carte-skyblock-content" : "Cette carte faites par DanRobzProbz est une carte skyblock complète.",
+
+    "carte-speed-uhc" : "Speed UHC",
+    "carte-speed-uhc-content" : "Cette carte est une carte UHC de la version rapide de l'UHC classique [Publié par Frutox].",
+
+    "carte-spiral-parkour" : "Spiral Parkour",
+    "carte-spiral-parkour-content" : "Cette carte parcour originaire de la version Java est adapté pour WiiU par Jerem2206",
+
+    "carte-tnt+-modded" : "TNT+ Modded",
+    "carte-tnt+-modded-content" : "Cette carte faites par NT Games vous propose différentes tnt modées.",
+
+    "carte-wiisportsressort" : "WiiSportsRESORT",
+    "carte-wiisportsressort-content" : "Cette carte est une carte reprennant la carte de Wii Sport (WiiU).",
+
+    "carte-zombie-tower-defence" : "Zombie Tower Defence",
+    "carte-zombie-tower-defence-content" : "Cette carte est une carte Tower Defence avec des zombie [Publié par Frutox].",
+
+    "carte-pack-map-pvp" : "Pack Map PvP",
+
+
+
+    "//comment6" : "Texture Pack ------------------------------- Texture Pack",
+
+    "texture" : "Texture Pack",
+    "texture-list-warning" : "Certains texture pack ne sont pas les miens.",
+    "texture-video-texture" : "Vidéo sur le texture pack",
+    "texture-videos-texture" : "Vidéos sur le texture pack",
+
+    "texture-amethyst-pack" : "Amethyst Pack",
+    "texture-amethyst-pack-content" : "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp violet",
+
+    "texture-aqua" : "Aqua",
+    "texture-aqua-content" : "Ce texture pack crée par TeaPlays et converti par a4l est un texture pack pvp classique",
+
+    "texture-ascend" : "Ascend",
+    "texture-ascend-content" : "Ce texture pack crée par Yuruze et converti par Jerem2206 est un texture pack pvp classique",
+
+    "texture-astral" : "Astral",
+    "texture-astral-content" : "Ce texture pack crée par NotronDan et converti par a4l est un texture pack pvp classique",
+
+    "texture-blue-&-red-fade" : "Blue & Red Fade",
+    "texture-blue-&-red-fade-content" : "Ce texture pack crée par Xenox et converti par jerem2206 est un texture pack pvp de couleur dégradé entre le rouge et le bleu.",
+
+    "texture-brillant" : "Brillant",
+    "texture-brillant-content" : "Ce texture pack crée par Brilliant-PVP et converti par jerem2206 est un texture pack très coloré un peu dans le style du pack plastic.",
+
+    "texture-dandelion-x" : "Dandelion X",
+    "texture-dandelion-x-content" : "Ce texture pack crée par Steelfeathers & Xerotrinity puis converti par jerem2206 est un texture pack ressemblant au pack médiéval.",
+    
+    "texture-dragon-fruit" : "Dragon Fruit",
+    "texture-dragon-fruit-content" : "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur rose/rouge.",
+
+    "texture-erl-elementary-pvp" : "ELR Elementary PvP",
+    "texture-erl-elementary-pvp-content" : "Ce texture pack converti par el-robinator est simpliste et peut plaire aux joueurs PvP. [Publié par el-robinator]",
+
+    "texture-hafen" : "Hafen",
+    "texture-hafen-content" : "Ce texture pack crée par nongko18 et converti par jerem2206 est un texture pack avec des couleurs très coloré et simpliste",
+
+    "texture-mathox-red-pack" : "Mathox Red Pack",
+    "texture-mathox-red-pack-content" : "Ce texture pack crée par Mathox et converti par jerem2206 est un texture pack pvp uhc rouge",
+
+    "texture-minecraft-default-x16" : "Minecraft Default x16",
+    "texture-minecraft-default-x16-content" : "Ce texture pack est juste le pack de base.",
+
+    "texture-mizuno's-16-craft" : "Mizuno's 16 Craft",
+    "texture-mizuno's-16-craft-content" : "Ce texture pack crée par Mizuno et converti par jerem2206 est un texture pack proche des pack mythologie",
+
+    "texture-morea" : "Morea",
+    "texture-morea-content" : "Ce texture pack crée par juanteh et converti par jerem2206 est un texture pack pvp basic",
+
+    "texture-nebula" : "Nebula",
+    "texture-nebula-content" : "Ce texture pack crée par looshy et converti par jerem2206 est un texture pack pvp basic",
+
+    "texture-nightrider-purple" : "NightRider Purple",
+    "texture-nightrider-purple-content" : "Ce texture pack crée par itsderp est un texture pack pvp violet basic",
+
+    "texture-offensive-hearts-v2": "Offensive Hearts V2",
+    "texture-offensive-hearts-v2-content" : "Ce texture pack crée par Juanteh et converti par jerem2206 est un texture pack pvp rouge basic",
+
+    "texture-paint-red" : "Paint Red",
+    "texture-paint-red-content" : "Ce texture pack crée par AlwaysTwoClutch et converti par a4L est un texture pack pvp rouge",
+
+    "texture-subzero" : "Subzero",
+    "texture-subzero-content" : "Ce texture pack crée par dreamCritting et converti par jerem2206 est un texture pack où tout est glacé",
+
+    "texture-textures-1.14" : "Textures 1.14",
+    "texture-textures-1.14-content" : "Ce texture pack est un texture pack contenant les nouvelles textures de la 1.14.",
+
+    "texture-tonic-pack" : "Tonic Pack",
+    "texture-tonic-pack-content" : "Ce texture pack crée par JabaPacks et converti par jerem2206 est un texture pack pvp basic",
+
+    "texture-trailer-texture-pack" : "Trailer Texture Pack",
+    "texture-trailer-texture-pack-content" : "Ce texture pack crée par RobotPants et converti par jerem2206 est un texture reprennant les textures des trailers de minecraft des animations faites par Element Animation",
+
+    "texture-tropical-fade" : "Tropical Fade",
+    "texture-tropical-fade-content" : "Ce texture pack crée par Colbb et converti par jerem2206 est un texture pack pvp de couleur vert/jaune pour bedwars/skywars.",
+
+    "texture-ultra" : "Ultra",
+    "texture-ultra-content" : "Ce texture pack crée par iSparkton pour xNestorio et converti par jerem2206 est un texture pack pvp de couleur or.",
+
+
+
+    "//comment7" : "Lobby ------------------------------- Lobby",
+
+    "lobby" : "Lobby",
+    "lobby-list-warning" : "Certains lobby ne sont pas les miens.",
+
+    "lobby-basic-lobby" : "Basic Lobby",
+    "lobby-basic-lobby-content" : "Juste le lobby actuel des mini jeux de minecraft console.",
+
+    "lobby-jerem2206-lobby-v1" : "Jerem2206 Lobby V1",
+    "lobby-jerem2206-lobby-v1-content" : "Ce lobby crée par Jerem2206 qui contient un lobby moddé simple",
+
+    "lobby-jerem2206-lobby-v2" : "Jerem2206 Lobby V2",
+    "lobby-jerem2206-lobby-v2-content" : "Ce lobby crée par Jerem2206 qui contient un lobby moddé simple",
+
+    "lobby-lobby-fy" : "Lobby FY",
+    "lobby-lobby-fy-content" : "Ce lobby est le lobby de la Furysium",
+
+    "lobby-old-lobby" : "Old Lobby",
+    "lobby-old-lobby-content" : "Juste l'ancien lobby des mini jeux de minecraft console.",
+
+    "lobby-pack-de-mini-jeux-hack" : "Pack de Mini Jeux Hack",
+    "lobby-pack-de-mini-jeux-hack-content" : "Ce lobby crée par Nt Games et sayZEN qui contient un lobby moddé ainsi que des paramètres pour les différents mini jeux.",
+
+    "lobby-ururu-lobby" : "URuRu Lobby",
+    "lobby-ururu-lobby-content" : "Ce lobby crée par URuRu qui contient un lobby moddé simple",
+
+
+    "//comment8" : "Map Tutoriel ------------------------------- Map Tutoriel",
+
+    "tutoriel" : "Map Tutoriel",
+    "tutoriel-list-warning" : "Certaines maps tutoriels ne sont pas les miennes.",
+
+    "tutoriel-v48-tutorial" : "V48 Tutorial",
+    "tutoriel-v48-tutorial-content" : "Simplement le tutoriel de la mise a jour v48 (d'après usb helper)",
+
+    "tutoriel-v688-tutorial" : "V688 Tutorial",
+    "tutoriel-v688-tutorial-content" : "Simplement le tutoriel de la mise a jour v688 (d'après usb helper)",
+
+
+
+    "//comment9" : "Map Mini Jeux ------------------------------- Map Mini Jeux",
+
+    "mini-jeux" : "Map Mini Jeux",
+    "mini-jeux-list-warning" : "Certaines maps mini jeux ne sont pas les miennes.",
+
+    "mini-jeux-basicarena-mg02-fy-v2" : "BasicArena MG02 FY V2",
+    "mini-jeux-basicarena-mg02-fy-v2-content" : "Cette carte crée par Jerem2206 pour les membres de la Furysium qui contient une légère modification de la carte principale du mode culbute",
+
+    "mini-jeux-map-pack-5" : "Map Pack 5",
+    "mini-jeux-map-pack-5-content" : "Cette carte contient différentes maps pour le mode batailles"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

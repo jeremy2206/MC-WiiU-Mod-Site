@@ -1,32 +1,676 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-M4YPD32G98"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-M4YPD32G98');
-		</script>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="src/style/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		<link rel="icon" type="image/png" href="IMG/logo.png">
-		<title>Index - MOD MC WIIU</title>
+		<link rel="icon" type="image/png" href="src/img/logo.png">
+		<title>Menu - MOD MC WIIU</title>
+		<script src="src/script/searchfr.js"></script>
+		<script src="src/script/language.js"></script>
 	</head>
 	<body>
+		<header>
+			<div id="language-selector">
+				<button class="language-switch" data-lang="en"><img src="src/img/country/english.png" alt="English"></button>
+				<button class="language-switch" data-lang="fr"><img src="src/img/country/francais.png" alt="Français"></button>
+			</div>
+			<h1 class="sidebar-title">MOD MC WII<strong>U</strong></h1>
+			
+			<ul class="navbar">
+				<li><a class="active" href="index.html" data-translate="nav-menu"></a></li>
+				<li><a href="categorie/logiciel/logiciel.html" data-translate="nav-logiciel"></a></li>
+				<li><a href="categorie/skin-pack/skin-pack.html" data-translate="nav-skin-pack"></a></li>
+				<li><a href="categorie/map/map.html" data-translate="nav-carte"></a></li>
+				<li><a href="categorie/texture-pack/texture-pack.html" data-translate="nav-texture-pack"></a></li>
+				<li><a href="categorie/lobby/lobby.html" data-translate="nav-lobby"></a></li>
+				<li><a href="categorie/tutoriel/tutoriel.html" data-translate="nav-map-tutoriel"></a></li>
+				<li><a href="categorie/minigame-map/minigame-map.html" data-translate="nav-map-mini-jeux"></a></li>
+			</ul>
+		</header>
 		
-			<hr>
-				<h1 class="title">Language Selection</h1>
-				<div class="country-selector">
-					<a href="fr/menu.html"><img src="IMG/country/francais.png"></a>
-					<a href="en/menu.html"><img src="IMG/country/english.png"></a>
+		<main>
+				<h1 class="title" data-translate="main-title"></h1>
+			
+			    <div class="center-container">
+						<input type="text" id="searchInput" placeholder="">
 				</div>
-			<hr>
-			<p class="textcentrage"> PAS UN [SITE WEB MINECRAFT OFFICIEL]. NON APPROUVÉ OU ASSOCIÉ À MOJANG OU MICROSOFT (Et 4JStudio) </p>
-			<p class="textcentrage"> NOT AN [OFFICIAL MINECRAFT WEBSITE]. NOT APPROVED OR ASSOCIATED WITH MOJANG OR MICROSOFT (And 4JStudio) </p>
-		
+
+				<div class="center-container">
+						<button id="searchButton" data-translate="main-search-button"></button>
+				</div>
+
+				<div class="results">
+					<ul id="searchResults"></ul>
+				</div>
+	
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-number-title"></h3>
+					<h4 class="" data-translate="main-number-logiciel"></h4></h4>
+					<h4 class="" data-translate="main-number-skin-pack"></h4></h4>
+					<h4 class="" data-translate="main-number-carte"></h4></h4>
+					<h4 class="" data-translate="main-number-texture-carte"></h4></h4>
+					<h4 class="" data-translate="main-number-lobby"></h4></h4>
+					<h4 class="" data-translate="main-number-map-tutoriel"></h4></h4>
+					<h4 class="" data-translate="main-number-map-mini-jeux"></h4></h4>
+				<p style="text-align: center" data-translate="main-number-date"></p></p>
+				<p style="text-align: center" data-translate="main-number-coeur"></p></p>
+				<p style="text-align: center" data-translate="main-number-probleme"></p></p>
+			</section>
+			
+			
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-31"></h3></h3>	
+					<h4 class="" data-translate="texture"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+					<h4 class="" data-translate="tutoriel"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-30"></h3></h3>	
+					<h4 class="" data-translate="carte"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+						<h5 class="" data-translate="main-update-modifications"></h5></h5>
+							<p class="" data-translate="carte-sky-defender-8"></p></p>
+							<p class="" data-translate="carte-zombie-tower-defence"></p></p>
+							<p class="" data-translate="carte-speed-uhc"></p></p>
+					<h4 class="" data-translate="mini-jeux"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+					<h4 class="" data-translate="skin"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-29"></h3></h3>	
+					<h4 class="" data-translate="logiciel"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+						<h5 class="" data-translate="main-update-modification"></h5></h5>
+							<p class="" data-translate="logiciel-hxd"></p></p>
+					<h4 class="" data-translate="lobby"></h4></h4>
+						<h5 class="" data-translate="main-update-ajout-provenance"></h5></h5>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-28"></h3></h3>	
+					<h4 class="" data-translate="logiciel"></h4></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5></h5>
+							<p class="" data-translate="logiciel-mc-wiiu-id-skin-checker"></p></p>
+							<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-27"></h3></h3>	
+					<h4 class="" data-translate="logiciel"></h4></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5></h5>
+							<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p></p>
+							<p class="" data-translate="logiciel-power-ftp"></p></p>
+					<h4 class="" data-translate="skin"></h4></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5></h5>
+							<p class="" data-translate="skin-2018-memes-v1"></p>
+							<p class="" data-translate="skin-smg4-skin-pack"></p>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="skin-apps-pack"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="carte-brainffa-fy-v2"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-ascend"></p>
+							<p class="" data-translate="texture-textures-1.14"></p>
+					<h4 class="" data-translate="tutoriel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="tutoriel-v48-tutorial"></p>
+							<p class="" data-translate="tutoriel-v688-tutorial"></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-26"></h3>	
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-sky-defender-8"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-chicken-skin-pack"></p>
+							<p class="" data-translate="skin-ddlcskins"></p>
+							<p class="" data-translate="skin-furysium-skin-pack-v2"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="texture-nightrider-purple"></p>
+					<h4 class="" data-translate="mini-jeux"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="mini-jeux-map-pack-5"></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-25"></h3>	
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-wiisportsressort"></p>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="carte-24/7-smp"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-fnaf-nobledez"></p>
+							<p class="" data-translate="skin-pack-disney"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="texture-astral"></p>
+					<h4 class="" data-translate="lobby"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="lobby-ururu-lobby"></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-24"></h3>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-carte-sd"></p>
+						<h5 class="" data-translate="main-update-modification"></h5>
+						<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p>
+					<h4 class="" data-translate="lobby"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="lobby-ururu-lobby"></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-23"></h3>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-universal-minecraft-tool"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-easter"></p>	
+							<p class="" data-translate="skin-mn-skin-pack"></p>	
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="carte-brainffa-fy-v2"></p>	
+							<p class="" data-translate="carte-farmland-v4"></p>	
+					<h4 class="" data-translate="lobby"></h4>		
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="lobby-jerem2206-lobby-v2"></p>	
+							<p class="" data-translate="lobby-lobby-fy"></p>	
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-22"></h3>	
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-22-modification-lien-telechargement"></h5>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-json-to-box-converter"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-mass-effect:-extended"></p>	
+							<p class="" data-translate="skin-mc360-skin-packs-1-6-port"></p>	
+						<h5 class="" data-translate="main-update-modification"></h5>	
+							<p class="" data-translate="skin-jerem's-customs-models-skin-pack"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-rush-furysium-v2"></p>	
+					<h4 class="" data-translate="lobby"></h4>		
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="lobby-jerem2206-lobby-v1"></p>	
+					<h4 class="" data-translate="tutoriel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="tutoriel-v688-tutorial"></p>	
+					<h4 class="" data-translate="mini-jeux"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="mini-jeux-basicarena-mg02-fy-v2"></p>	
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-21"></h3>	
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-21-ajout-tutoriel"></h5>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="logiciel-carte-sd"></p>
+							<p class="" data-translate="logiciel-power-ftp"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-cereal-box-pack"></p>	
+							<p class="" data-translate="skin-undertale-skin-pack-v1"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>	
+							<p class="" data-translate="skin-jerem's-customs-models-skin-pack"></p>
+							<p class="" data-translate="skin-rick&-morty"></p>
+							<p class="" data-translate="skin-apps-pack"></p>
+							<p class="" data-translate="skin-terraria-skins-v2"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="carte-24/7-smp"></p>	
+							<p class="" data-translate="carte-mega-mapa-de-splatoon"></p>		
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="texture-trailer-texture-pack"></p>	
+					<h4 class="" data-translate="lobby"></h4>		
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="lobby-pack-de-mini-jeux-hack"></p>	
+					<h4 class="" data-translate="tutoriel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="tutoriel-v48-tutorial"></p>	
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-20"></h3>	
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="carte-pack-map-skywars"></p>	
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-pack-map-bedwars"></p>		
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-45625w-2019"></p>	
+							<p class="" data-translate="skin-jerem's-customs-models-skin-pack"></p>	
+							<p class="" data-translate="skin-rick&-morty"></p>
+							<p class="" data-translate="skin-terraria-skins-v2"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="texture-trailer-texture-pack"></p>	
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-19"></h3>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p>	
+							<p class="" data-translate="logiciel-mc-wiiu-id-skin-checker"></p>	
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-apps-pack"></p>	
+							<p class="" data-translate="skin-gazgoh-custom-models"></p>	
+							<p class="" data-translate="skin-minecraft-dungeons"></p>	
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="skin-srg64-mega-skinpack"></p>	
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-aqua"></p>	
+							<p class="" data-translate="texture-mathox-red-pack"></p>	
+							<p class="" data-translate="texture-paint-red"></p>	
+					<h4 class="" data-translate="lobby"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="lobby-basic-lobby"></p>	
+							<p class="" data-translate="lobby-old-lobby"></p>	
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-18"></h3>	
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-18-police"> </p>	
+						<h5 class="" data-translate="main-update-suppression"></h5>	
+							<p class="" data-translate="main-update-18-deco"></p>	
+					<h4 class="" data-translate="main-title"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+						<p class="" data-translate="main-update-18-barre-recherche"></p>	
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+						<p class="" data-translate="skin-tank-skin-pack"></p>	
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-blue-&-red-fade"></p>	
+							<p class="" data-translate="texture-dragon-fruit"></p>	
+							<p class="" data-translate="texture-tropical-fade"></p>	
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="texture-erl-elementary-pvp"></p>	
+					<h4 class="" data-translate="main-update-categorie-evenement"></h4>
+						<h5 class="" data-translate="main-update-retrait-page"></h5>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-17"></h3>	
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="main-update-17-deco"></p>	
+							<p class="" data-translate="main-update-17-materialize"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>	
+							<p class="" data-translate="main-update-17-proportions"></p>	
+							<p class="" data-translate="main-update-17-liste-elt"></p>	
+							<p class="" data-translate="main-update-17-bouton"></p>		
+					<h4 class="" data-translate="main-title"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+						<p class="" data-translate="main-update-17-barre-recherche"></p>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+						<p class="" data-translate="logiciel-pixelorama"></p>	
+					<h4 class="" data-translate="carte"></h4>
+					<p class="" data-translate="carte-eggwars"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="texture-amethyst-pack"></p>	
+							<p class="" data-translate="texture-brillant"></p>	
+							<p class="" data-translate="texture-dandelion-x"></p>	
+							<p class="" data-translate="texture-erl-elementary-pvp"></p>	
+							<p class="" data-translate="texture-hafen"></p>
+							<p class="" data-translate="texture-mizuno's-16-craft"></p>
+							<p class="" data-translate="texture-morea"></p>
+							<p class="" data-translate="texture-offensive-hearts-v2"></p>
+							<p class="" data-translate="texture-subzero"></p>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-16"></h3>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-pixelorama"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p>	
+							<p class="" data-translate="logiciel-pck-studio"></p>		
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-brillant"></p>	
+							<p class="" data-translate="texture-dandelion-x"></p>	
+							<p class="" data-translate="texture-minecraft-default-x16"></p>	
+							<p class="" data-translate="texture-ultra"></p>	
+					<h4 class="" data-translate="main-update-categorie-evenement"></h4>
+						<h5 class="" data-translate="main-update-modification-page"></h5>
+			</section>
+
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-15"></h3>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-paint.net"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-pck-studio"></p>	
+							<p class="" data-translate="logiciel-mc-wiiu-id-skin-checker"></p>	
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="skin-fnaf-skin-pack"></p>		
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-empty-world"></p>	
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-14"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="main-update-14-statistiques"></p>
+					<h4 class="" data-translate="main-title"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="main-update-14-deplacement-mise-a-jour"></p>
+							<p class="" data-translate="main-update-14-barre-recherche"></p>	
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="logiciel-java-to-lce-texture-pack-converter"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-mc-wiiu-id-skin-checker"></p>	
+							<p class="" data-translate="logiciel-spritecraft"></p>	
+							<p class="" data-translate="logiciel-mcc-tool-chest"></p>	
+							<p class="" data-translate="logiciel-wiiu-map-manager"></p>	
+							<p class="" data-translate="logiciel-html-color-modifier"></p>
+							<p class="" data-translate="logiciel-mcse-editor"></p>
+							<p class="" data-translate="logiciel-wiiu-title-boot-editor"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="skin-steven-universe-updated"></p>	
+							<p class="" data-translate="skin-super-smash-bros-pack-v2"></p>	
+							<p class="" data-translate="skin-the-final-skin-pack"></p>	
+							<p class="" data-translate="skin-the-world-skin-pack"></p>	
+							<p class="" data-translate="skin-troll-skin-pack"></p>	
+							<p class="" data-translate="skin-brendans-models-skin-pack-v5"></p>	
+							<p class="" data-translate="skin-pvp-skin-pack"></p>	
+							<p class="" data-translate="skin-qu@-skin-pack"></p>	
+							<p class="" data-translate="skin-skin-pack-of-the-liviaxel"></p>	
+							<p class="" data-translate="skin-srg64-mega-skinpack"></p>	
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="carte-farmland-v3"></p>	
+							<p class="" data-translate="carte-mystic-maze"></p>	
+							<p class="" data-translate="carte-spiral-parkour"></p>	
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="carte-core-war"></p>
+							<p class="" data-translate="carte-jerem-texture-pack"></p>
+							<p class="" data-translate="carte-pack-map-skywars"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-morea"></p>
+							<p class="" data-translate="texture-mizuno's-16-craft"></p>
+							<p class="" data-translate="texture-hafen"></p>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="texture-erl-elementary-pvp"></p>
+					<h4 class="" data-translate="main-update-categorie-update"></h4>
+						<h5 class="" data-translate="main-update-retrait-page"></h5>
+					<h4 class="" data-translate="main-update-categorie-evenement"></h4>
+						<h5 class="" data-translate="main-update-modification-page"></h5>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-13"></h3>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="logiciel-discord-to-minecraft-wiiu"></p>
+							<p class="" data-translate="logiciel-mc-wiiu-id-skin-checker"></p>
+							<p class="" data-translate="logiciel-nbt-tag-code-maker"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-all-dream"></p>
+							<p class="" data-translate="skin-among-us-skin-pack"></p>
+							<p class="" data-translate="skin-fallguys-skin-pack"></p>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="texture-amethyst-pack"></p>
+							<p class="" data-translate="texture-nebula"></p>
+							<p class="" data-translate="texture-offensive-hearts-v2"></p>
+							<p class="" data-translate="texture-subzero"></p>
+							<p class="" data-translate="texture-tonic-pack"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-12"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="main-update-12-proportion"></p>
+							<p class="" data-translate="main-update-12-barre-navigation"></p>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="main-update-categorie-evenement"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-11"></h3>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="texture-erl-elementary-pvp"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-10"></h3>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="carte-core-war"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-9"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="main-update-9-anglais"></p>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-9-structure"></p>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-binkman"></p>
+							<p class="" data-translate="logiciel-blockbench"></p>
+							<p class="" data-translate="logiciel-dragon-unpacker"></p>
+							<p class="" data-translate="logiciel-fontforge"></p>
+							<p class="" data-translate="logiciel-html-color-modifier"></p>
+							<p class="" data-translate="logiciel-mcse-editor"></p>
+							<p class="" data-translate="logiciel-pck-studio"></p>
+							<p class="" data-translate="logiciel-wiiu-title-boot-editor"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-modification"></h4>
+							<p class="" data-translate="skin-steven-universe-updated"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-8"></h3>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-blockbench"></p>
+							<p class="" data-translate="logiciel-mcc-tool-chest"></p>
+							<p class="" data-translate="logiciel-pck-studio"></p>
+							<p class="" data-translate="logiciel-universal-minecraft-editor"></p>
+							<p class="" data-translate="logiciel-wiiu-map-manager"></p>
+							<p class="" data-translate="logiciel-winscp"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="carte-bo2-boat"></p>
+							<p class="" data-translate="carte-capture-the-flag"></p>
+							<p class="" data-translate="carte-eggwars"></p>
+							<p class="" data-translate="carte-fallen-kingdom"></p>
+							<p class="" data-translate="carte-fortnite-modded"></p>
+							<p class="" data-translate="carte-tnt+-modded"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-7"></h3>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-fui-editor"></p>
+							<p class="" data-translate="logiciel-hxd"></p>
+							<p class="" data-translate="logiciel-mcc-tool-chest"></p>
+							<p class="" data-translate="logiciel-minecraft-converter"></p>
+							<p class="" data-translate="logiciel-universal-minecraft-editor"></p>
+							<p class="" data-translate="logiciel-usb-helper"></p>
+							<p class="" data-translate="logiciel-world-painter"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-suppression"></h5>
+							<p class="" data-translate="carte-pack-map-pvp"></p>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="carte-gtav-in-minecraft"></p>
+							<p class="" data-translate="carte-island-pack-adventure"></p>
+							<p class="" data-translate="carte-map-aventure"></p>
+							<p class="" data-translate="carte-map-jump"></p>	
+							<p class="" data-translate="carte-tnt+-modded"></p>
+							<p class="" data-translate="carte-pack-map-hide-n-seek"></p>
+							<p class="" data-translate="carte-pack-map-skywars"></p>
+							<p class="" data-translate="carte-skyblock"></p>
+							<p class="" data-translate="carte-speed-uhc"></p>
+							<p class="" data-translate="carte-zombie-tower-defence"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-6"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-6-propotion"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="carte-map-aventure"></p>
+							<p class="" data-translate="carte-map-jump"></p>
+							<p class="" data-translate="carte-tnt+-modded"></p>
+							<p class="" data-translate="carte-pack-map-hide-n-seek"></p>
+							<p class="" data-translate="carte-pack-map-pvp"></p>
+							<p class="" data-translate="carte-pack-map-skywars"></p>
+							<p class="" data-translate="carte-skyblock"></p>
+							<p class="" data-translate="carte-speed-uhc"></p>
+							<p class="" data-translate="carte-zombie-tower-defence"></p>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="carte-arcane-practice"></p>
+							<p class="" data-translate="carte-gtav-in-minecraft"></p>
+							<p class="" data-translate="carte-jerem-event-2021-map-pack"></p>
+							<p class="" data-translate="carte-jerem-texture-pack"></p>
+							<p class="" data-translate="carte-jerem-uhc-map-pack"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-5"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-5-propotion"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-4"></h3>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="logiciel-cemu"></p>
+							<p class="" data-translate="logiciel-minecraft-version-eshop"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="carte-arcane-practice"></p>
+							<p class="" data-translate="carte-bo2-boat"></p>
+							<p class="" data-translate="carte-capture-the-flag"></p>
+							<p class="" data-translate="carte-eggwars"></p>
+							<p class="" data-translate="carte-fallen-kingdom"></p>
+							<p class="" data-translate="carte-fortnite-modded"></p>
+							<p class="" data-translate="carte-gtav-in-minecraft"></p>
+							<p class="" data-translate="carte-island-pack-adventure"></p>
+							<p class="" data-translate="carte-jerem-texture-pack"></p>
+							<p class="" data-translate="carte-jerem-uhc-map-pack"></p>
+							<p class="" data-translate="carte-jerem-event-2021-map-pack"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-3"></h3>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="skin-skin-pack-of-the-liviaxel"></p>
+							<p class="" data-translate="skin-qu@-skin-pack"></p>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="skin-brendans-models-skin-pack-v5"></p>
+							<p class="" data-translate="skin-commu-skin-pack"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-2"></h3>
+					<h4 class="" data-translate="main-update-categorie-global"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-2-barre-navigation"></p>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-2-liste"></p>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="logiciel-blockbench"></p>
+							<p class="" data-translate="logiciel-dragon-unpacker"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="main-update-2-liste"></p>
+					<h4 class="" data-translate="carte"></h4>
+						<h5 class="" data-translate="main-update-creation-page"></h5>
+					<h4 class="" data-translate="texture"></h4>
+						<h5 class="" data-translate="main-update-creation-page"></h5>
+					<h4 class="" data-translate="lobby"></h4>
+						<h5 class="" data-translate="main-update-creation-page"></h5>
+					<h4 class="" data-translate="mini-jeux"></h4>
+						<h5 class="" data-translate="main-update-creation-page"></h5>
+					<h4 class="" data-translate="main-update-categorie-update"></h4>
+						<h5 class="" data-translate="main-update-ajout"></h5>
+							<p class="" data-translate="main-update-2-barre-recherche"></p>
+			</section>
+			
+			<section class="divcentrage">
+				<h3 class="" data-translate="main-update-title-1"></h3>
+					<h4 class="" data-translate="logiciel"></h4>
+						<h5 class="" data-translate="main-update-modifications"></h5>
+							<p class="" data-translate="logiciel-mcc-tool-chest"></p>
+							<p class="" data-translate="logiciel-mcedit-2"></p>
+							<p class="" data-translate="logiciel-usb-helper"></p>
+							<p class="" data-translate="logiciel-winrar"></p>
+							<p class="" data-translate="logiciel-winscp"></p>
+							<p class="" data-translate="logiciel-world-machine"></p>
+							<p class="" data-translate="logiciel-world-painter"></p>
+						<h5 class="" data-translate="main-update-ajouts"></h5>
+							<p class="" data-translate="logiciel-fontforge"></p>
+							<p class="" data-translate="logiciel-hxd"></p>
+							<p class="" data-translate="logiciel-mcse-editor"></p>
+							<p class="" data-translate="logiciel-wiiu-title-boot-editor"></p>
+					<h4 class="" data-translate="skin"></h4>
+						<h5 class="" data-translate="main-update-modification"></h5>
+							<p class="" data-translate="skin-the-world-skin-pack"></p>
+					<h4 class="" data-translate="main-update-categorie-update"></h4>
+						<h5 class="" data-translate="main-update-creation-page"></h5>
+			</section>
+		</main>
+
+		<footer>
+			<div class="sidebar-footer">
+				<p>Discord : Jeremestici</p>
+				<p>Youtube : Jerem2206</p>
+			</div>
+			<p data-translate="footer-remarque"></p>
+		</footer>
 	</body>
 </html>
